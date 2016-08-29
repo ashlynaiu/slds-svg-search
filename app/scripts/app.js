@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc overview
- * @name angularTemplate
+ * @name sldsSVG
  * @description
- * # angularTemplate
+ * # sldsSVG
  *
  * Main module of the application.
  */
 angular
-  .module('angularTemplate', [
+  .module('sldsSVG', [
     'ngAnimate',
     'ngSanitize',
     'ngTouch',

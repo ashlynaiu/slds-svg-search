@@ -1,4 +1,8 @@
-<div class="cream-main-content">
-  <h1>Easy SLDS SVG Search</h1>
-  <p>YASSSSSSS. </p>
+<div class="sldsSVG-mainFrame">
+	<h1>Easy SLDS SVG Search</h1>
+	<div class="sldsSVG-imageContainer">
+		<div class="sldsSVG-image" ng-repeat="svg in svgs">
+				<img src="icons/{{svg.type}}/{{svg.url}}.svg" alt="{{svg.name}}" />
+		</div>
+	</div>
 </div>
