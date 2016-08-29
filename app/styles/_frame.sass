@@ -1,0 +1,33 @@
+/////////////////////////////////////////
+///////Layout Styles for Components/////
+///////////////////////////////////////
+.cream-main-content
+  padding: 30px 20px
+  margin: 0 auto
+
+header
+  text-align: center
+  padding: 25px 0
+  h1
+    font-size: 25px
+    a
+      color: $main-link-color
+      text-decoration: none
+  ul
+    li
+      display: inline
+      padding: 12px
+      margin: 0 10px
+      border-bottom: 2px solid $main-link-color
+      +transition(all 0.3s ease-in-out)
+      &:hover
+        border-bottom: 5px solid $main-link-color
+      a
+        text-decoration: none
+        color: $main-link-color
+        &:hover
+          text-decoration: none
+
+.cream-styles-view-main, .cream-styles-view-media-queries
+  p
+    margin-bottom: 20px

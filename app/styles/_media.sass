@@ -1,0 +1,66 @@
+$break-small: 680px
+$break-medium: 1000px
+$break-large: 1260px
+
+// Supported Size Ranges:
+// * handhelds, except-handhelds
+// * small-screens, except-small-screens, to-small-screens, above-small-screens
+// * medium-screens, except-medium-screens, above-medium-screens
+// * large-screens, except-large-screens
+// Use:
+// @include media(handhelds, large-screens)
+
+@mixin media($sizes...)
+
+	@each $size in $sizes
+		@if $size == handhelds
+			@media only screen and (max-width: $break-small - 1)
+				@content
+
+		@else if $size == except-handhelds
+			@media only screen and (min-width: $break-small)
+				@content
+
+		@else if $size == small-screens
+			@media only screen and (min-width: $break-small) and (max-width: $break-medium - 1)
+				@content
+
+		@else if $size == except-small-screens
+			@media only screen and (max-width: $break-small - 1)
+				@content
+			@media only screen and (min-width: $break-medium)
+				@content
+
+		@else if $size == to-small-screens
+			@media only screen and (max-width: $break-medium - 1)
+				@content
+
+		@else if $size == above-small-screens
+			@media only screen and (min-width: $break-medium)
+				@content
+
+		@else if $size == medium-screens
+			@media only screen and (min-width: $break-medium) and (max-width: $break-large - 1)
+				@content
+
+		@else if $size == except-medium-screens
+			@media only screen and (max-width: $break-medium - 1)
+				@content
+			@media only screen and (min-width: $break-large)
+				@content
+
+		@else if $size == to-medium-screens
+			@media only screen and (max-width: $break-large - 1)
+				@content
+
+		@else if $size == above-medium-screens
+			@media only screen and (min-width: $break-large)
+				@content
+
+		@else if $size == large-screens
+			@media only screen and (min-width: $break-large)
+				@content
+
+		@else if $size == except-large-screens
+			@media only screen and (max-width: $break-large - 1)
+				@content

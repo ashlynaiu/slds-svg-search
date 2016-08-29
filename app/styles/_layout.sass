@@ -1,0 +1,81 @@
+/////////////////
+/////Layout/////
+///////////////
+// .cream-main-frame
+//   color: $text-color-standard
+//   padding-bottom: 60px
+//   display: block
+
+%cream-main-column-container
+  margin: 0 auto
+  @include media(to-small-screens)
+    margin: $desktop-padding
+  +media(except-handhelds)
+    +display-flex
+    +justify-content(space-between)
+
+%cream-main-column
+  text-align: left
+  +media(except-handhelds)
+    width: 46%
+    margin-bottom: 25px
+
+%cream-main-column--small
+  @extend %cream-main-column
+  +media(except-handhelds)
+    width: 28%
+
+%cream-main-column--thirds
+  @extend %cream-main-column
+  +media(except-handhelds)
+    width: 31%
+
+%cream-main-column--large
+  @extend %cream-main-column
+  +media(except-handhelds)
+    width: 68%
+
+.cream-main-content
+  margin: 0 auto
+  @include media(above-small-screens)
+    max-width: $frame-desktop
+    padding: $desktop-padding
+  @include media(to-small-screens)
+    margin: $desktop-padding
+
+.cream-main-content--wide
+  max-width: 1000px
+  margin: 0 auto
+  @include media(to-small-screens)
+    margin: $desktop-padding
+
+///Standard Two Columns////
+.cream-main-content--two-columns
+  @extend %cream-main-column-container
+
+  .cream-main-left-column
+    @extend %cream-main-column
+
+  .cream-main-right-column
+    @extend %cream-main-column
+
+///Standard Three Columns////
+.cream-main-content--three-columns
+  @extend %cream-main-column-container
+
+  .cream-main-left-column
+    @extend %cream-main-column--thirds
+
+  .cream-main-middle-column
+    @extend %cream-main-column--thirds
+
+  .cream-main-right-column
+    @extend %cream-main-column--thirds
+
+///1:3 Ratio Columns////
+.cream-main-content--two-columns
+  .cream-main-column--small
+    @extend %cream-main-column--small
+
+  .cream-main-column--large
+    @extend %cream-main-column--large

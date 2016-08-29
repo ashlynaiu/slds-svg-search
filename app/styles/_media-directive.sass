@@ -1,0 +1,108 @@
+%cream-u-pseudo-icon
+  content: ''
+  background-repeat: no-repeat
+  background-position: center
+
+// this is our base media class
+=cream-u-media-element-props
+  display: table
+  .media-graphic
+    vertical-align: middle
+  .media-content, .media-graphic
+    display: table-cell
+
+=cream-u-cream-u-media--stacked-props
+  text-align: center
+
+%cream-u-media-element
+  +cream-u-media-element-props
+%cream-u-media--stacked
+  +cream-u-cream-u-media--stacked-props
+
+=cream-u-generate-media($breakpoint)
+  @media screen and (max-width: $breakpoint)
+    %cream-u-media-element--mobile-#{$breakpoint}
+      +cream-u-media-element-props
+    %cream-u-media--stacked--mobile-#{$breakpoint}
+      +cream-u-cream-u-media--stacked-props
+  @media screen and (min-width: $breakpoint + 1)
+    %cream-u-media-element--except-mobile-#{$breakpoint}
+      +cream-u-media-element-props
+    %cream-u-media--stacked--except-mobile-#{$breakpoint}
+      +cream-u-cream-u-media--stacked-props
+
+=cream-u-media--stacked($icon, $arrangement)
+  @if $icon
+    &::#{$arrangement}
+      display: inline-block
+
+=cream-u-media--standard($content-alignment, $icon, $arrangement)
+  .media-content
+    vertical-align: $content-alignment
+  @if $icon
+    &::#{$arrangement}
+      display: table-cell
+
+=cream-u-media($content-alignment, $mode, $arrangement, $breakpoint, $icon: false)
+
+  @if $mode == stacked or $mode == decompress
+    @extend %cream-u-media--stacked
+    +cream-u-media--stacked($icon, $arrangement)
+
+  @if $mode == standard
+    @extend %cream-u-media-element
+    +cream-u-media--standard($content-alignment, $icon, $arrangement)
+
+  @if $mode == decompress
+    @media screen and (max-width: $breakpoint)
+      @if $breakpoint
+        @extend %cream-u-media-element--mobile-#{$breakpoint}
+      +cream-u-media--standard($content-alignment, $icon, $arrangement)
+
+  @if $mode == compress
+    @media screen and (max-width: $breakpoint)
+      @if $breakpoint
+        @extend %cream-u-media--stacked--mobile-#{$breakpoint}
+      +cream-u-media--stacked($icon, $arrangement)
+    @media screen and (min-width: $breakpoint + 1)
+      @if $breakpoint
+        @extend %cream-u-media-element--except-mobile-#{$breakpoint}
+      +cream-u-media--standard($content-alignment, $icon, $arrangement)
+
+  @if $icon
+    &::#{$arrangement}
+      @extend #{$icon}
+      @extend %cream-u-pseudo-icon
+
+
+=get-media($name, $icon: false, $selectorMap: ())
+  $get-media-temp-map: map-get($cream-u-media-store, $name) //(middle, standard, false, before)
+  // really just fail-safe setting default values here
+  // sass has no other method for checking existance of a value in a list
+  $content-alignment-temp: if(length($get-media-temp-map) > 0, nth($get-media-temp-map, 1), middle)
+  $mode-temp: if(length($get-media-temp-map) > 1, nth($get-media-temp-map, 2), standard)
+  $arrangement-temp: if(length($get-media-temp-map) > 2, nth($get-media-temp-map, 3), before)
+  $breakpoint-temp: if(length($get-media-temp-map) > 3, nth($get-media-temp-map, 4), false)
+
+  +cream-u-media($content-alignment-temp, $mode-temp, $arrangement-temp, $breakpoint-temp, $icon)
+  @extend %#{$name}
+  // loop through selector map and generate state classes
+  @each $selector, $icon-state in $selectorMap
+    &#{$selector}
+      &::#{nth($get-media-temp-map, 3)}
+        @extend #{$icon}-#{$icon-state}
+
+// sass list to store maps (with embedded lists) of the settings for each list
+$cream-u-media-store: ()
+
+@function cream-u-create-media($name, $props)
+  @return map-merge($cream-u-media-store, ($name: $props))
+
+// mixin that registers the media with all settings, and creates an abstract class for use within get-media
+=create-media($name, $props: ())
+  $cream-u-media-store: cream-u-create-media($name, $props) !global
+  // only way to check for existance of a property in sass
+  @if length($props) > 3
+    +cream-u-generate-media(nth($props, 4)) // register the media directives
+  @at-root %#{$name} // @at-root not needed, although the next version of sass might require it
+    @content
