@@ -12,11 +12,27 @@
 		</div>
 	</div>
 
+	<h3>Standard Icons</h3>
+	<div class="sldsSVG-imageContainer">
+		<div class="sldsSVG-image" ng-repeat="svgStandard in svgStandards | filter:searchText">
+				<img src="icons/{{svgStandard.type}}/{{svgStandard.url}}.svg" alt="{{svgStandard.name}}" class="customIcon-image"/>
+				<p class="customIcon-text">{{svgStandard.name}}</p>
+		</div>
+	</div>
+
 	<h3>Custom Icons</h3>
 	<div class="sldsSVG-imageContainer">
 		<div class="sldsSVG-image" ng-repeat="svgCustom in svgCustoms | filter:searchText">
 				<img src="icons/{{svgCustom.type}}/{{svgCustom.url}}.svg" alt="{{svgCustom.name}}" class="customIcon-image"/>
 				<p class="customIcon-text">{{svgCustom.name}}</p>
+		</div>
+	</div>
+
+	<h3>Doctype Icons</h3>
+	<div class="sldsSVG-imageContainer">
+		<div class="sldsSVG-image" ng-repeat="svgDoctype in svgDoctypes | filter:searchText">
+				<img src="icons/{{svgDoctype.type}}/{{svgDoctype.url}}.svg" alt="{{svgDoctype.name}}" />
+				<p>{{svgDoctype.name}}</p>
 		</div>
 	</div>
 </div>

@@ -20,3 +20,25 @@ angular.module('sldsSVG').factory('svgActions', function($http) {
         }
     };
 });
+
+angular.module('sldsSVG').factory('svgDoctypes', function($http) {
+    return{
+        svgs : function() {
+            return $http({
+                url: '/scripts/json/doctype.json',
+                method: 'GET'
+            });
+        }
+    };
+});
+
+angular.module('sldsSVG').factory('svgStandards', function($http) {
+    return{
+        svgs : function() {
+            return $http({
+                url: '/scripts/json/standard.json',
+                method: 'GET'
+            });
+        }
+    };
+});
