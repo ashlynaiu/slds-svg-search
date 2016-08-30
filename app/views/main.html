@@ -1,4 +1,7 @@
-<div class="sldsSVG-mainFrame">
+<div ng-class="{hide: scroll <= 300}" scroll-position="scroll" class="sldsSVG-showTop" ng-click="gotoTop()">
+	<h4>Scroll to Top</h4>
+</div>
+<div class="sldsSVG-mainFrame" id="top">
 	<h1>Easy SLDS SVG Search</h1>
 	<div class="sldsInput">
 		<input ng-model="searchText" placeholder="Search Icons">
