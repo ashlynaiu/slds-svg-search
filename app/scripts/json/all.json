@@ -1,0 +1,1053 @@
+[
+    {
+        "name": "add contact",
+        "url": "add_contact",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "announcement",
+        "url": "announcement",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "apex",
+        "url": "apex",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "approval",
+        "url": "approval",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "back",
+        "url": "back",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "call",
+        "url": "call",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "canvas",
+        "url": "canvas",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "change owner",
+        "url": "change_owner",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "change record type",
+        "url": "change_record_type",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "check",
+        "url": "check",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "clone",
+        "url": "clone",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "close",
+        "url": "close",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "defer",
+        "url": "defer",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "delete",
+        "url": "delete",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "description",
+        "url": "description",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "dial in",
+        "url": "dial_in",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "download",
+        "url": "download",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "edit groups",
+        "url": "edit_groups",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "edit relationship",
+        "url": "edit_relationship",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "edit",
+        "url": "edit",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "email",
+        "url": "email",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "fallback",
+        "url": "fallback",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "filter",
+        "url": "filter",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "flow",
+        "url": "flow",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "follow",
+        "url": "follow",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "following",
+        "url": "following",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "freeze user",
+        "url": "freeze_user",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "goal",
+        "url": "goal",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "google news",
+        "url": "google_news",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "info",
+        "url": "info",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "join group",
+        "url": "join_group",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "lead convert",
+        "url": "lead_convert",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "leave group",
+        "url": "leave_group",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "log a call",
+        "url": "log_a_call",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "log event",
+        "url": "log_event",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "manage perm sets",
+        "url": "manage_perm_sets",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "map",
+        "url": "map",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "more",
+        "url": "more",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "new account",
+        "url": "new_account",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "new campaign",
+        "url": "new_campaign",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "new case",
+        "url": "new_case",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "new child case",
+        "url": "new_child_case",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "new contact",
+        "url": "new_contact",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "new event",
+        "url": "new_event",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "new group",
+        "url": "new_group",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "new lead",
+        "url": "new_lead",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "new note",
+        "url": "new_note",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "new notebook",
+        "url": "new_notebook",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "new opportunity",
+        "url": "new_opportunity",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "new person account",
+        "url": "new_person_account",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "new task",
+        "url": "new_task",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "new",
+        "url": "new",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "password unlock",
+        "url": "password_unlock",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "preview",
+        "url": "preview",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "priority",
+        "url": "priority",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "question post action",
+        "url": "question_post_action",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "quote",
+        "url": "quote",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "record",
+        "url": "record",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "refresh",
+        "url": "refresh",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "reject",
+        "url": "reject",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "remove",
+        "url": "remove",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "reset password",
+        "url": "reset_password",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "share file",
+        "url": "share_file",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "share link",
+        "url": "share_link",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "share poll",
+        "url": "share_poll",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "share post",
+        "url": "share_post",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "share thanks",
+        "url": "share_thanks",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "share",
+        "url": "share",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "sort",
+        "url": "sort",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "submit for approval",
+        "url": "submit_for_approval",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "update status",
+        "url": "update_status",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "update",
+        "url": "update",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "upload",
+        "url": "upload",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "user activation",
+        "url": "user_activation",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "user",
+        "url": "user",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "web link",
+        "url": "web_link",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "custom1",
+        "url": "custom1",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom2",
+        "url": "custom2",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom3",
+        "url": "custom3",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom4",
+        "url": "custom4",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom5",
+        "url": "custom5",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom6",
+        "url": "custom6",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom7",
+        "url": "custom7",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom8",
+        "url": "custom8",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom9",
+        "url": "custom9",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom10",
+        "url": "custom10",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom11",
+        "url": "custom11",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom12",
+        "url": "custom12",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom13",
+        "url": "custom13",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom14",
+        "url": "custom14",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom15",
+        "url": "custom15",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom16",
+        "url": "custom16",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom17",
+        "url": "custom17",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom18",
+        "url": "custom18",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom19",
+        "url": "custom19",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom20",
+        "url": "custom20",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom21",
+        "url": "custom21",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom22",
+        "url": "custom22",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom23",
+        "url": "custom23",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom24",
+        "url": "custom24",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom25",
+        "url": "custom25",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom26",
+        "url": "custom26",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom27",
+        "url": "custom27",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom28",
+        "url": "custom28",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom29",
+        "url": "custom29",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom30",
+        "url": "custom30",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom31",
+        "url": "custom31",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom32",
+        "url": "custom32",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom33",
+        "url": "custom33",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom34",
+        "url": "custom34",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom35",
+        "url": "custom35",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom36",
+        "url": "custom36",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom37",
+        "url": "custom37",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom38",
+        "url": "custom38",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom39",
+        "url": "custom39",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom40",
+        "url": "custom40",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom41",
+        "url": "custom41",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom42",
+        "url": "custom42",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom43",
+        "url": "custom43",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom44",
+        "url": "custom44",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom45",
+        "url": "custom45",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom46",
+        "url": "custom46",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom47",
+        "url": "custom47",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom48",
+        "url": "custom48",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom49",
+        "url": "custom49",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom50",
+        "url": "custom50",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom51",
+        "url": "custom51",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom52",
+        "url": "custom52",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom53",
+        "url": "custom53",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom54",
+        "url": "custom54",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom55",
+        "url": "custom55",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom56",
+        "url": "custom56",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom57",
+        "url": "custom57",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom58",
+        "url": "custom58",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom59",
+        "url": "custom59",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom60",
+        "url": "custom60",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom61",
+        "url": "custom61",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom62",
+        "url": "custom62",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom63",
+        "url": "custom63",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom64",
+        "url": "custom64",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom65",
+        "url": "custom65",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom66",
+        "url": "custom66",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom67",
+        "url": "custom67",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom68",
+        "url": "custom68",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom69",
+        "url": "custom69",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom70",
+        "url": "custom70",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom71",
+        "url": "custom71",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom72",
+        "url": "custom72",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom73",
+        "url": "custom73",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom74",
+        "url": "custom74",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom75",
+        "url": "custom75",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom76",
+        "url": "custom76",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom77",
+        "url": "custom77",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom78",
+        "url": "custom78",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom80",
+        "url": "custom80",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom81",
+        "url": "custom81",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom82",
+        "url": "custom82",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom83",
+        "url": "custom83",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom84",
+        "url": "custom84",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom85",
+        "url": "custom85",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom86",
+        "url": "custom86",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom87",
+        "url": "custom87",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom88",
+        "url": "custom88",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom89",
+        "url": "custom89",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom90",
+        "url": "custom90",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom91",
+        "url": "custom91",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom92",
+        "url": "custom92",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom93",
+        "url": "custom93",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom94",
+        "url": "custom94",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom95",
+        "url": "custom95",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom96",
+        "url": "custom96",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom97",
+        "url": "custom97",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom98",
+        "url": "custom98",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom99",
+        "url": "custom99",
+        "type": "custom",
+        "keyword": ""
+    },
+    {
+        "name": "custom100",
+        "url": "custom100",
+        "type": "custom",
+        "keyword": ""
+    }
+]
+

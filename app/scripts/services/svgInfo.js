@@ -1,9 +1,9 @@
 'use strict';
 angular.module('sldsSVG').factory('svgInfo', function($http) {
     return{
-        items : function() {
+        svgs : function() {
             return $http({
-                url: '/scripts/json/project.json',
+                url: '/scripts/json/all.js',
                 method: 'GET'
             });
         }

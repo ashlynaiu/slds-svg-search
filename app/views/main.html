@@ -1,8 +1,13 @@
 <div class="sldsSVG-mainFrame">
 	<h1>Easy SLDS SVG Search</h1>
-	<div class="sldsSVG-imageContainer">
-		<div class="sldsSVG-image" ng-repeat="svg in svgs">
+	<div class="sldsInput">
+		<input ng-model="searchText" placeholder="Search Icons">
+	</div>
+
+	<div class="sldsSVG-imageContainer" id="searchTextResults">
+		<div class="sldsSVG-image" ng-repeat="svg in svgs | filter:searchText">
 				<img src="icons/{{svg.type}}/{{svg.url}}.svg" alt="{{svg.name}}" />
+				<p>{{svg.name}}</p>
 		</div>
 	</div>
 </div>
