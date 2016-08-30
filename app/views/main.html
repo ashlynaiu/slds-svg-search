@@ -4,10 +4,19 @@
 		<input ng-model="searchText" placeholder="Search Icons">
 	</div>
 
-	<div class="sldsSVG-imageContainer" id="searchTextResults">
-		<div class="sldsSVG-image" ng-repeat="svg in svgs | filter:searchText">
-				<img src="icons/{{svg.type}}/{{svg.url}}.svg" alt="{{svg.name}}" />
-				<p>{{svg.name}}</p>
+	<h3>Action Icons</h3>
+	<div class="sldsSVG-imageContainer">
+		<div class="sldsSVG-image" ng-repeat="svgAction in svgActions | filter:searchText">
+				<img src="icons/{{svgAction.type}}/{{svgAction.url}}.svg" alt="{{svgAction.name}}" />
+				<p>{{svgAction.name}}</p>
+		</div>
+	</div>
+
+	<h3>Custom Icons</h3>
+	<div class="sldsSVG-imageContainer">
+		<div class="sldsSVG-image" ng-repeat="svgCustom in svgCustoms | filter:searchText">
+				<img src="icons/{{svgCustom.type}}/{{svgCustom.url}}.svg" alt="{{svgCustom.name}}" class="customIcon-image"/>
+				<p class="customIcon-text">{{svgCustom.name}}</p>
 		</div>
 	</div>
 </div>

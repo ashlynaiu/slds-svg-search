@@ -8,11 +8,16 @@
  * Controller of the ashlynTemplate
  */
 angular.module('sldsSVG')
-  .controller('MainCtrl', function ($scope, $state, svgInfo) {
-		$scope.svgs = [];
+  .controller('MainCtrl', function ($scope, $state, svgCustoms, svgActions) {
+		$scope.svgCustoms = [];
+		$scope.svgActions = [];
     $scope.state = $state;
 
-    svgInfo.svgs().success(function(data){
-        $scope.svgs = data;
+    svgCustoms.svgs().success(function(data){
+        $scope.svgCustoms = data;
+    });
+
+    svgActions.svgs().success(function(data){
+        $scope.svgActions = data;
     });
   });

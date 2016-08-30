@@ -1,3 +1,7 @@
+.sldsSVG-mainFrame
+	h3
+		text-align: center
+
 .sldsSVG-imageContainer
 	+display-flex
 	justify-content: center
@@ -14,11 +18,16 @@
 	img
 		margin: 0 auto
 		width: 30px
+		&.customIcon-image
+			width: 45px
+
 	p
-		margin-top: 10px
 		text-align: center
 		font-size: 10px
 		text-transform: capitalize
+
+	p:not(.customIcon-text)
+		margin-top: 10px
 
 	&:hover
 		background-color: #16325c
