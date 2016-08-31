@@ -33,6 +33,7 @@
 	&:hover
 		background-color: #16325c
 		border-radius: 4px
+		transition: all linear .3s
 
 .sldsInput
 	display: flex
@@ -43,16 +44,19 @@
 		border-radius: 4px
 		width: 50%
 
-.hide
-	display: none !important
+.hideAnimation
+	opacity: 0 !important
+	transition: all linear .3s
 
 .sldsSVG-showTop
-	display: block
+	opacity: 1
+	transition: all linear .3s
 	position: fixed
 	bottom: 0
 	width: 100%
 	background-color: #16325c
-	padding: 10px 0 6px 0
+	padding: 10px 0 10px 0
 	cursor: pointer
-	h4
+	p
 		text-align: center
+
