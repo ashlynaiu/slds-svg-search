@@ -7,11 +7,12 @@
  * # MainCtrl
  * Controller of the ashlynTemplate
  */
-angular.module('sldsSVG').controller('MainCtrl', function ($scope, $location, $anchorScroll, svgCustoms, svgActions, svgDoctypes, svgStandards) {
+angular.module('sldsSVG').controller('MainCtrl', function ($scope, $location, $anchorScroll, svgCustoms, svgActions, svgDoctypes, svgStandards, svgUtils) {
 	$scope.svgCustoms = [];
 	$scope.svgActions = [];
 	$scope.svgDoctypes = [];
 	$scope.svgStandards = [];
+	$scope.svgUtils = [];
 	$scope.scroll = 0;
 
 	$scope.gotoTop = function() {
@@ -33,5 +34,9 @@ angular.module('sldsSVG').controller('MainCtrl', function ($scope, $location, $a
 
 	svgStandards.svgs().success(function(data){
 		$scope.svgStandards = data;
+	});
+
+	svgUtils.svgs().success(function(data){
+		$scope.svgUtils = data;
 	});
 });

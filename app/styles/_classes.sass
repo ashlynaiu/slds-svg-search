@@ -45,12 +45,14 @@
 		width: 50%
 
 .hideAnimation
-	opacity: 0 !important
+	opacity: 0
+	transition: all linear .3s
+
+.showAnimation
+	opacity: 1 !important
 	transition: all linear .3s
 
 .sldsSVG-showTop
-	opacity: 1
-	transition: all linear .3s
 	position: fixed
 	bottom: 0
 	width: 100%

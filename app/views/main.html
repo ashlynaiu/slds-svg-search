@@ -1,5 +1,5 @@
-<div ng-class="{hideAnimation: scroll <= 400}" scroll-position="scroll" class="sldsSVG-showTop" ng-click="gotoTop()">
-	<p>Scroll to Top</p>
+<div ng-class="{showAnimation: scroll > 400, hideAnimation: scroll <= 400}" scroll-position="scroll" class="hideAnimation sldsSVG-showTop" ng-click="gotoTop()">
+	<p>Click to scroll to top</p>
 </div>
 <div class="sldsSVG-mainFrame" id="top">
 	<h1>Easy SLDS SVG Search</h1>
@@ -20,6 +20,14 @@
 		<div class="sldsSVG-image" ng-repeat="svgStandard in svgStandards | filter:searchText">
 				<img src="icons/{{svgStandard.type}}/{{svgStandard.url}}.svg" alt="{{svgStandard.name}}" class="customIcon-image"/>
 				<p class="customIcon-text">{{svgStandard.name}}</p>
+		</div>
+	</div>
+
+	<h3>Utility Icons</h3>
+	<div class="sldsSVG-imageContainer">
+		<div class="sldsSVG-image" ng-repeat="svgUtil in svgUtils | filter:searchText">
+				<img src="icons/{{svgUtil.type}}/{{svgUtil.url}}.svg" alt="{{svgUtil.name}}"/>
+				<p>{{svgUtil.name}}</p>
 		</div>
 	</div>
 

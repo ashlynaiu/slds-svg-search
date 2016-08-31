@@ -42,3 +42,14 @@ angular.module('sldsSVG').factory('svgStandards', function($http) {
         }
     };
 });
+
+angular.module('sldsSVG').factory('svgUtils', function($http) {
+    return{
+        svgs : function() {
+            return $http({
+                url: '/scripts/json/utility.json',
+                method: 'GET'
+            });
+        }
+    };
+});
