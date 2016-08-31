@@ -6,6 +6,7 @@
 	</ul>
 </header>
 <ui-view></ui-view>
-<!-- <footer>
-  <h2>Angular Template</h2>
-</footer> -->
+<footer>
+  <button ui-sref="about" ng-if="$state.current.name != 'about'">Learn More</button>
+  <button ui-sref="about" ng-if="$state.current.name != 'home'">Return to Home</button>
+</footer>

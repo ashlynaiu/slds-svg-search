@@ -25,8 +25,15 @@ body
 	width: 100
 
 button
-	margin: 0
+	padding: 18px 30px
 	cursor: pointer
+	border-radius: 4px
+	background-color: #fff
+	color: $background-color
+	font-size: 16px
+	&:hover
+		@include transform(scale(.98))
+		transition: all linear .2s
 
 h1
 	font-size: 50px
@@ -61,7 +68,7 @@ a
 		outline-color: none
 		font-size: 18px
 p
-	font-size: 18px
-	line-height: 28px
+	font-size: 16px
+	line-height: 24px
 
 

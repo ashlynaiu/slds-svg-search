@@ -23,6 +23,7 @@ angular
       .state ('frame', {
         abstract: true,
         url: '/',
+        controller: 'FrameCtrl',
         templateUrl: 'views/frame.html'
       })
       .state ('navigation', {
@@ -34,6 +35,12 @@ angular
         url: '',
         parent: 'frame',
         templateUrl: 'views/main.html',
+        controller: 'MainCtrl'
+      })
+      .state('about', {
+        url: '',
+        parent: 'frame',
+        templateUrl: 'views/about.html',
         controller: 'MainCtrl'
       });
   }).run(function($rootScope){
