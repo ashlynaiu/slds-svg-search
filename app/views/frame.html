@@ -1,12 +1,7 @@
 <header>
-	<!--Use ui-sref=""-->
-	<ul>
-		<!-- <li><a>Nav 1</a></li>
-		<li><a>Nav 2</a></li> -->
-	</ul>
+<nav>
+	<a ui-sref="home">Icons</a>
+	<a ui-sref="about">About</a>
+</nav>
 </header>
 <ui-view></ui-view>
-<footer>
-  <button ui-sref="about" ng-if="$state.current.name != 'about'">Learn More</button>
-  <button ui-sref="about" ng-if="$state.current.name != 'home'">Return to Home</button>
-</footer>

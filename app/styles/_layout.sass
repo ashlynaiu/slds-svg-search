@@ -1,9 +1,31 @@
 /////////////////
 /////Layout/////
 ///////////////
+%sldsSVG-mainFrame
+	margin: 0 auto
+	max-width: 960px
+	padding: 60px 0 10px 0
+	h1
+		text-align: center
+
 .sldsSVG-mainFrame
-  margin: 0 auto
-  max-width: 960px
-  padding: 60px 0 10px 0
-  h1
-    text-align: center
+	@extend %sldsSVG-mainFrame
+	&--about
+		@extend %sldsSVG-mainFrame
+		max-width: 700px
+		p
+			margin-bottom: 12px
+			line-height: 28px
+/////////////////
+/////Footer/////
+///////////////
+nav
+	display: flex
+	justify-content: center
+	background-color: rgba(255, 255, 255, 0.2)
+	a
+		margin: 20px
+		font-weight: 300
+		text-decoration: none
+		&:hover
+			text-decoration: underline
