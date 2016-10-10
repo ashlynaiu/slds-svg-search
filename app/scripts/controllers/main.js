@@ -15,6 +15,7 @@ angular.module('sldsSVG').controller('MainCtrl', function ($scope, $location, $a
 	$scope.svgUtils = [];
 	$scope.scroll = 0;
 	$scope.state = $state;
+	$scope.startedSearch = true;
 
 	$scope.gotoTop = function() {
 		$location.hash('top');

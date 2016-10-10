@@ -177,7 +177,7 @@
         "name": "clock",
         "url": "clock",
         "type": "utility",
-        "keyword": ""
+        "keyword": "alarm, reminder, warning"
     },
     {
         "name": "close",
@@ -201,7 +201,7 @@
         "name": "connected apps",
         "url": "connected_apps",
         "type": "utility",
-        "keyword": ""
+        "keyword": "lightning, bolt, thunder"
     },
     {
         "name": "contract alt",
@@ -255,7 +255,7 @@
         "name": "dayview",
         "url": "dayview",
         "type": "utility",
-        "keyword": ""
+        "keyword": "calendar, notification, schedule"
     },
     {
         "name": "delete",
@@ -393,7 +393,7 @@
         "name": "frozen",
         "url": "frozen",
         "type": "utility",
-        "keyword": ""
+        "keyword": "freeze, stop, winter, outdoors"
     },
     {
         "name": "groups",
@@ -585,7 +585,7 @@
         "name": "move",
         "url": "move",
         "type": "utility",
-        "keyword": ""
+        "keyword": "navigation"
     },
     {
         "name": "muted",
@@ -693,7 +693,7 @@
         "name": "palette",
         "url": "palette",
         "type": "utility",
-        "keyword": ""
+        "keyword": "color picker"
     },
     {
         "name": "paste",
@@ -840,25 +840,25 @@
         "keyword": ""
     },
     {
-        "name": "richtextbulletedlist",
+        "name": "rich text bulleted list",
         "url": "richtextbulletedlist",
         "type": "utility",
         "keyword": ""
     },
     {
-        "name": "richtextindent",
+        "name": "rich text indent",
         "url": "richtextindent",
         "type": "utility",
         "keyword": ""
     },
     {
-        "name": "richtextoutdent",
+        "name": "rich text outdent",
         "url": "richtextoutdent",
         "type": "utility",
         "keyword": ""
     },
     {
-        "name": "richtextnumberedlist",
+        "name": "rich text numbered list",
         "url": "richtextnumberedlist",
         "type": "utility",
         "keyword": ""
@@ -975,7 +975,7 @@
         "name": "spinner",
         "url": "spinner",
         "type": "utility",
-        "keyword": ""
+        "keyword": "loader"
     },
     {
         "name": "standard objects",
@@ -1077,7 +1077,7 @@
         "name": "topic",
         "url": "topic",
         "type": "utility",
-        "keyword": ""
+        "keyword": "compass, navigation"
     },
     {
         "name": "touch action",
@@ -1089,7 +1089,7 @@
         "name": "trail",
         "url": "trail",
         "type": "utility",
-        "keyword": ""
+        "keyword": "travel, outdoor"
     },
     {
         "name": "undelete",
@@ -1173,7 +1173,7 @@
         "name": "warning",
         "url": "warning",
         "type": "utility",
-        "keyword": ""
+        "keyword": "stop, notification"
     },
     {
         "name": "world",
