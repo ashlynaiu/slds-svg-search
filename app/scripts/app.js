@@ -39,10 +39,9 @@ angular
         controller: 'MainCtrl'
       })
       .state('about', {
-        url: '',
+        url: 'about',
         parent: 'frame',
-        templateUrl: 'views/about.html',
-        controller: 'MainCtrl'
+        templateUrl: 'views/about.html'
       });
   }).run(function($rootScope){
   $rootScope.$on('$stateChangeSuccess', function() {
