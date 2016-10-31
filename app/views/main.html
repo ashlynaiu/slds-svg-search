@@ -16,7 +16,19 @@
 		<input ng-model="searchText" placeholder="Search Icons">
 	</div>
 
-	<div id="action">
+	<!-- TODO: Write script to do this -->
+	<div class="sldsSVG-noResults" ng-show="
+		(svgActions | filter:searchText).length === 0 &&
+		(svgStandards | filter:searchText).length === 0 &&
+		(svgUtils | filter:searchText).length === 0 &&
+		(svgCustoms | filter:searchText).length === 0 &&
+		(svgDoctypes | filter:searchText).length === 0
+		"
+	>
+		<h4>No results</h4>
+	</div>
+
+	<div id="action" ng-hide="(svgActions | filter:searchText).length === 0">
 		<h3>Action Icons</h3>
 	</div>
 	<div class="sldsSVG-imageContainer">
@@ -26,7 +38,7 @@
 		</div>
 	</div>
 
-	<div id="standard">
+	<div id="standard" ng-hide="(svgStandards | filter:searchText).length === 0">
 		<h3>Standard Icons</h3>
 	</div>
 	<div class="sldsSVG-imageContainer">
@@ -36,7 +48,7 @@
 		</div>
 	</div>
 
-	<div id="utility">
+	<div id="utility" ng-hide="(svgUtils | filter:searchText).length === 0">
 		<h3>Utility Icons</h3>
 	</div>
 	<div class="sldsSVG-imageContainer">
@@ -46,7 +58,7 @@
 		</div>
 	</div>
 
-	<div id="custom">
+	<div id="custom" ng-hide="(svgCustoms | filter:searchText).length === 0">
 		<h3>Custom Icons</h3>
 	</div>
 	<div class="sldsSVG-imageContainer">
@@ -56,7 +68,7 @@
 		</div>
 	</div>
 
-	<div id="doctype">
+	<div id="doctype" ng-hide="(svgDoctypes | filter:searchText).length === 0">
 		<h3>Doctype Icons</h3>
 	</div>
 	<div class="sldsSVG-imageContainer">

@@ -22,6 +22,12 @@ angular.module('sldsSVG').controller('MainCtrl', function ($scope, $location, $a
 		$anchorScroll();
 	};
 
+	// $scope.hideTitle = function(typeLength) {
+	// 	if (typeLength.length === 0) {
+	// 		return true;
+	// 	}
+	// };
+
 	svgCustoms.svgs().success(function(data){
 		$scope.svgCustoms = data;
 	});
