@@ -33,13 +33,13 @@
         "name": "arrowdown",
         "url": "arrowdown",
         "type": "utility",
-        "keyword": ""
+        "keyword": "arrow, down, return, go back"
     },
     {
         "name": "arrowup",
         "url": "arrowup",
         "type": "utility",
-        "keyword": ""
+        "keyword": "arrow, up, return, go back"
     },
     {
         "name": "attach",
@@ -144,28 +144,28 @@
         "keyword": ""
     },
     {
-        "name": "chevrondown",
+        "name": "chevro ndown",
         "url": "chevrondown",
         "type": "utility",
-        "keyword": "chevron"
+        "keyword": "chevron, arrow, down"
     },
     {
-        "name": "chevronleft",
+        "name": "chevron left",
         "url": "chevronleft",
         "type": "utility",
-        "keyword": "chevron"
+        "keyword": "chevron, arrow, left"
     },
     {
-        "name": "chevronright",
+        "name": "chevron right",
         "url": "chevronright",
         "type": "utility",
-        "keyword": "chevron"
+        "keyword": "chevron, arrow, right"
     },
     {
-        "name": "chevronup",
+        "name": "chevron up",
         "url": "chevronup",
         "type": "utility",
-        "keyword": "chevron"
+        "keyword": "chevron, arrow, up"
     },
     {
         "name": "clear",
@@ -291,7 +291,7 @@
         "name": "down",
         "url": "down",
         "type": "utility",
-        "keyword": ""
+        "keyword": "arrow, dropdown"
     },
     {
         "name": "download",
