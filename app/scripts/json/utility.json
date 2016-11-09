@@ -33,7 +33,7 @@
         "name": "arrowdown",
         "url": "arrowdown",
         "type": "utility",
-        "keyword": "arrow, down, return, go back"
+        "keyword": "arrow, down, return, go back, dropdown, drop down"
     },
     {
         "name": "arrowup",
@@ -144,10 +144,10 @@
         "keyword": ""
     },
     {
-        "name": "chevro ndown",
+        "name": "chevron down",
         "url": "chevrondown",
         "type": "utility",
-        "keyword": "chevron, arrow, down"
+        "keyword": "chevron, arrow, down, dropdown"
     },
     {
         "name": "chevron left",
@@ -291,7 +291,7 @@
         "name": "down",
         "url": "down",
         "type": "utility",
-        "keyword": "arrow, dropdown"
+        "keyword": "arrow, drop down, dropdown"
     },
     {
         "name": "download",
