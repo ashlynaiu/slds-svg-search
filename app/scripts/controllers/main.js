@@ -8,25 +8,21 @@
  * Controller of the ashlynTemplate
  */
 angular.module('sldsSVG').controller('MainCtrl', function ($scope, $location, $anchorScroll, svgCustoms, svgActions, svgDoctypes, svgStandards, svgUtils, $state) {
+	//Create icon scopes
 	$scope.svgCustoms = [];
 	$scope.svgActions = [];
 	$scope.svgDoctypes = [];
 	$scope.svgStandards = [];
 	$scope.svgUtils = [];
-	$scope.scroll = 0;
-	$scope.state = $state;
-	$scope.startedSearch = true;
 
+	$scope.state = $state;
+
+	//Allow scroll to top
+	$scope.scroll = 0;
 	$scope.gotoTop = function() {
 		$location.hash('top');
 		$anchorScroll();
 	};
-
-	// $scope.hideTitle = function(typeLength) {
-	// 	if (typeLength.length === 0) {
-	// 		return true;
-	// 	}
-	// };
 
 	svgCustoms.svgs().success(function(data){
 		$scope.svgCustoms = data;
