@@ -57,7 +57,7 @@
         "name": "check",
         "url": "check",
         "type": "action",
-        "keyword": ""
+        "keyword": "save, complete"
     },
     {
         "name": "clone",
@@ -69,7 +69,7 @@
         "name": "close",
         "url": "close",
         "type": "action",
-        "keyword": ""
+        "keyword": "dismiss"
     },
     {
         "name": "defer",
@@ -423,7 +423,7 @@
         "name": "update status",
         "url": "update_status",
         "type": "action",
-        "keyword": ""
+        "keyword": "save"
     },
     {
         "name": "update",

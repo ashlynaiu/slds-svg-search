@@ -135,7 +135,7 @@
         "name": "check",
         "url": "check",
         "type": "utility",
-        "keyword": ""
+        "keyword": "save, complete"
     },
     {
         "name": "checkin",
@@ -177,13 +177,13 @@
         "name": "clock",
         "url": "clock",
         "type": "utility",
-        "keyword": "alarm, reminder, warning"
+        "keyword": "alarm, reminder, warning, timer, delay"
     },
     {
         "name": "close",
         "url": "close",
         "type": "utility",
-        "keyword": ""
+        "keyword": "dismiss"
     },
     {
         "name": "comments",
