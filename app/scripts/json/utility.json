@@ -879,13 +879,13 @@
         "name": "rotate",
         "url": "rotate",
         "type": "utility",
-        "keyword": ""
+        "keyword": "turn"
     },
     {
         "name": "rows",
         "url": "rows",
         "type": "utility",
-        "keyword": ""
+        "keyword": "hamburger, menu, collapse"
     },
     {
         "name": "salesforce1",
