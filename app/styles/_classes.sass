@@ -85,15 +85,25 @@
 //////////////////////////
 /////Jump to buttons/////
 ////////////////////////
-.sldsJumpTo
+%sldsJumpTo
 	width: 660px
 	margin: 0 auto
-	margin-bottom: 40px
+	padding-bottom: 40px
 	display: flex
 	justify-content: space-between
 
+.sldsJumpTo--show
+	@extend %sldsJumpTo
 	button
 		opacity: .8
+		&:hover
+			opacity: 1
+
+.sldsJumpTo--hide
+	@extend %sldsJumpTo
+	a
+		margin: 0 auto
+		opacity: .7
 		&:hover
 			opacity: 1
 

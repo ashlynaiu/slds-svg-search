@@ -15,6 +15,11 @@ angular.module('sldsSVG').controller('MainCtrl', function ($scope, $location, $a
 	$scope.svgStandards = [];
 	$scope.svgUtils = [];
 
+	$scope.categories = false;
+	$scope.showCategories = function() {
+		$scope.categories = true;
+	};
+
 	$scope.state = $state;
 
 	//Allow scroll to top

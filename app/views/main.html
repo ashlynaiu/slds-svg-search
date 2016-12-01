@@ -2,15 +2,19 @@
 	<p>Return to search</p>
 </div>
 <div class="sldsSVG-mainFrame" id="top">
-	<h1>SLDS SVG Search</h1>
-	<div class="sldsJumpTo">
-		<a href="#" scroll-to="action"><button>Action</button></a>
-		<a href="#" scroll-to="standard"><button>Standard</button></a>
-		<a href="#" scroll-to="utility"><button>Utility</button></a>
-		<a href="#" scroll-to="custom"><button>Custom</button></a>
-		<a href="#" scroll-to="doctype"><button>Doctype</button></a>
+
+	<div class="sldsJumpTo--hide" ng-if="!categories">
+		<a href="javascript:void(0)" ng-click="showCategories()">Show Categories</a>
+	</div>
+	<div class="sldsJumpTo--show" ng-if="categories">
+		<a href="javascript:void(0)" scroll-to="action"><button>Action</button></a>
+		<a href="javascript:void(0)" scroll-to="standard"><button>Standard</button></a>
+		<a href="javascript:void(0)" scroll-to="utility"><button>Utility</button></a>
+		<a href="javascript:void(0)" scroll-to="custom"><button>Custom</button></a>
+		<a href="javascript:void(0)" scroll-to="doctype"><button>Doctype</button></a>
 	</div>
 
+	<h1>SLDS SVG Search</h1>
 
 	<div class="sldsInput">
 		<input ng-model="searchText" placeholder="Search Icons">
