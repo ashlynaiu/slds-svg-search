@@ -207,7 +207,7 @@
         "name": "log event",
         "url": "log_event",
         "type": "action",
-        "keyword": ""
+        "keyword": "calendar, new event, change meeting"
     },
     {
         "name": "manage perm sets",
@@ -261,7 +261,7 @@
         "name": "new event",
         "url": "new_event",
         "type": "action",
-        "keyword": ""
+        "keyword": "calendar, day, month, year"
     },
     {
         "name": "new group",

@@ -231,7 +231,7 @@
         "name": "event",
         "url": "event",
         "type": "standard",
-        "keyword": ""
+        "keyword": "calendar, day, month, year"
     },
     {
         "name": "feed",

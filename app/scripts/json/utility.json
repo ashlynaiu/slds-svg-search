@@ -333,13 +333,13 @@
         "name": "error",
         "url": "error",
         "type": "utility",
-        "keyword": ""
+        "keyword": "warning, problem, issue"
     },
     {
         "name": "event",
         "url": "event",
         "type": "utility",
-        "keyword": ""
+        "keyword": "calendar, day, month, year"
     },
     {
         "name": "expand alt",
