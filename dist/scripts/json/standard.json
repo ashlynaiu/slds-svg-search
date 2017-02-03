@@ -6,6 +6,12 @@
         "keyword": ""
     },
     {
+        "name": "address",
+        "url": "address",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
         "name": "announcement",
         "url": "announcement",
         "type": "standard",
@@ -54,6 +60,12 @@
         "keyword": ""
     },
     {
+        "name": "assigned resource",
+        "url": "assigned_resource",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
         "name": "avatar loading",
         "url": "avatar_loading",
         "type": "standard",
@@ -98,6 +110,12 @@
     {
         "name": "canvas",
         "url": "canvas",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
+        "name": "carousel",
+        "url": "carousel",
         "type": "standard",
         "keyword": ""
     },
@@ -164,6 +182,12 @@
     {
         "name": "contract",
         "url": "contract",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
+        "name": "custom notification",
+        "url": "custom_notification",
         "type": "standard",
         "keyword": ""
     },
@@ -264,6 +288,12 @@
         "keyword": ""
     },
     {
+        "name": "forecasts",
+        "url": "forecasts",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
         "name": "generic loading",
         "url": "generic_loading",
         "type": "standard",
@@ -324,6 +354,12 @@
         "keyword": ""
     },
     {
+        "name": "location",
+        "url": "location",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
         "name": "log a call",
         "url": "log_a_call",
         "type": "standard",
@@ -332,6 +368,12 @@
     {
         "name": "marketing actions",
         "url": "marketing_actions",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
+        "name": "merge",
+        "url": "merge",
         "type": "standard",
         "keyword": ""
     },
@@ -350,6 +392,12 @@
     {
         "name": "note",
         "url": "note",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
+        "name": "operating hours",
+        "url": "operating_hours",
         "type": "standard",
         "keyword": ""
     },
@@ -426,6 +474,36 @@
         "keyword": ""
     },
     {
+        "name": "product consumed",
+        "url": "product_consumed",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
+        "name": "product item transaction",
+        "url": "product_item_transaction",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
+        "name": "product item",
+        "url": "product_item",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
+        "name": "product required",
+        "url": "product_required",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
+        "name": "product transfer",
+        "url": "product_transfer",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
         "name": "question best",
         "url": "question_best",
         "type": "standard",
@@ -462,8 +540,44 @@
         "keyword": ""
     },
     {
+        "name": "relationship",
+        "url": "relationship",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
         "name": "report",
         "url": "report",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
+        "name": "report",
+        "url": "report",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
+        "name": "resource absence",
+        "url": "resource_absence",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
+        "name": "resource capacity",
+        "url": "resource_capacity",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
+        "name": "resource preference",
+        "url": "resource_preference",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
+        "name": "resource skill",
+        "url": "resource_skill",
         "type": "standard",
         "keyword": ""
     },
@@ -474,14 +588,68 @@
         "keyword": ""
     },
     {
+        "name": "sales path",
+        "url": "sales_path",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
         "name": "scan card",
         "url": "scan_card",
         "type": "standard",
         "keyword": ""
     },
     {
+        "name": "service appointment",
+        "url": "service_appointment",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
+        "name": "service contract",
+        "url": "service_contract",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
+        "name": "service report",
+        "url": "service_report",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
+        "name": "service resource",
+        "url": "service_resource",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
+        "name": "service territory member",
+        "url": "service_territory_member",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
+        "name": "service territory",
+        "url": "service_territory",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
         "name": "skill entity",
         "url": "skill_entity",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
+        "name": "skill requirement",
+        "url": "skill_requirement",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
+        "name": "skill",
+        "url": "skill",
         "type": "standard",
         "keyword": ""
     },
@@ -518,6 +686,12 @@
     {
         "name": "team member",
         "url": "team_member",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
+        "name": "timeslot",
+        "url": "timeslot",
         "type": "standard",
         "keyword": ""
     },
@@ -566,6 +740,12 @@
     {
         "name": "work order",
         "url": "work_order",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
+        "name": "work type",
+        "url": "work_type",
         "type": "standard",
         "keyword": ""
     }

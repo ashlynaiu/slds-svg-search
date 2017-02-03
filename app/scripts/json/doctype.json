@@ -54,6 +54,12 @@
         "keyword": ""
     },
     {
+        "name": "folder",
+        "url": "folder",
+        "type": "doctype",
+        "keyword": ""
+    },
+    {
         "name": "gdocs",
         "url": "gdocs",
         "type": "doctype",

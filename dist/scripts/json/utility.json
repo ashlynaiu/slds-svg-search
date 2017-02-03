@@ -6,6 +6,18 @@
         "keyword": ""
     },
     {
+        "name": "apex",
+        "url": "apex",
+        "type": "utility",
+        "keyword": ""
+    },
+    {
+        "name": "approval",
+        "url": "approval",
+        "type": "utility",
+        "keyword": ""
+    },
+    {
         "name": "adduser",
         "url": "adduser",
         "type": "utility",
@@ -66,6 +78,12 @@
         "keyword": ""
     },
     {
+        "name": "breadcrumbs",
+        "url": "breadcrumbs",
+        "type": "utility",
+        "keyword": ""
+    },
+    {
         "name": "bookmark",
         "url": "bookmark",
         "type": "utility",
@@ -116,6 +134,18 @@
     {
         "name": "center align text",
         "url": "center_align_text",
+        "type": "utility",
+        "keyword": ""
+    },
+    {
+        "name": "change owner",
+        "url": "change_owner",
+        "type": "utility",
+        "keyword": ""
+    },
+    {
+        "name": "change record type",
+        "url": "change_record_type",
         "type": "utility",
         "keyword": ""
     },
@@ -246,6 +276,12 @@
         "keyword": ""
     },
     {
+        "name": "database",
+        "url": "database",
+        "type": "utility",
+        "keyword": ""
+    },
+    {
         "name": "datadotcom",
         "url": "datadotcom",
         "type": "utility",
@@ -278,6 +314,12 @@
     {
         "name": "desktop",
         "url": "desktop",
+        "type": "utility",
+        "keyword": ""
+    },
+    {
+        "name": "dislike",
+        "url": "dislike",
         "type": "utility",
         "keyword": ""
     },
@@ -318,6 +360,12 @@
         "keyword": ""
     },
     {
+        "name": "emoji",
+        "url": "emoji",
+        "type": "utility",
+        "keyword": ""
+    },
+    {
         "name": "end call",
         "url": "end_call",
         "type": "utility",
@@ -354,6 +402,12 @@
         "keyword": ""
     },
     {
+        "name": "fallback",
+        "url": "fallback",
+        "type": "utility",
+        "keyword": ""
+    },
+    {
         "name": "favorite",
         "url": "favorite",
         "type": "utility",
@@ -384,6 +438,12 @@
         "keyword": ""
     },
     {
+        "name": "flow",
+        "url": "flow",
+        "type": "utility",
+        "keyword": ""
+    },
+    {
         "name": "forward",
         "url": "forward",
         "type": "utility",
@@ -394,6 +454,12 @@
         "url": "frozen",
         "type": "utility",
         "keyword": "freeze, stop, winter, outdoors"
+    },
+    {
+        "name": "full width view",
+        "url": "full_width_view",
+        "type": "utility",
+        "keyword": ""
     },
     {
         "name": "groups",
@@ -438,6 +504,12 @@
         "keyword": ""
     },
     {
+        "name": "info alt",
+        "url": "info_alt",
+        "type": "utility",
+        "keyword": ""
+    },
+    {
         "name": "insert tag field",
         "url": "insert_tag_field",
         "type": "utility",
@@ -452,6 +524,18 @@
     {
         "name": "italic",
         "url": "italic",
+        "type": "utility",
+        "keyword": ""
+    },
+    {
+        "name": "jump to bottom",
+        "url": "jump_to_bottom",
+        "type": "utility",
+        "keyword": ""
+    },
+    {
+        "name": "jump to top",
+        "url": "jump_to_top",
         "type": "utility",
         "keyword": ""
     },
@@ -504,6 +588,18 @@
         "keyword": ""
     },
     {
+        "name": "level up",
+        "url": "level_up",
+        "type": "utility",
+        "keyword": ""
+    },
+    {
+        "name": "light bulb",
+        "url": "light_bulb",
+        "type": "utility",
+        "keyword": ""
+    },
+    {
         "name": "like",
         "url": "like",
         "type": "utility",
@@ -552,6 +648,12 @@
         "keyword": ""
     },
     {
+        "name": "mark all as read",
+        "url": "mark_all_as_read",
+        "type": "utility",
+        "keyword": ""
+    },
+    {
         "name": "matrix",
         "url": "matrix",
         "type": "utility",
@@ -596,6 +698,12 @@
     {
         "name": "new window",
         "url": "new_window",
+        "type": "utility",
+        "keyword": ""
+    },
+    {
+        "name": "new direct message",
+        "url": "new_direct_message",
         "type": "utility",
         "keyword": ""
     },
@@ -780,6 +888,18 @@
         "keyword": ""
     },
     {
+        "name": "quotation marks",
+        "url": "quotation_marks",
+        "type": "utility",
+        "keyword": ""
+    },
+    {
+        "name": "record create",
+        "url": "record_create",
+        "type": "utility",
+        "keyword": ""
+    },
+    {
         "name": "record",
         "url": "record",
         "type": "utility",
@@ -828,8 +948,32 @@
         "keyword": ""
     },
     {
+        "name": "reply all",
+        "url": "reply_all",
+        "type": "utility",
+        "keyword": ""
+    },
+    {
         "name": "reset password",
         "url": "reset_password",
+        "type": "utility",
+        "keyword": ""
+    },
+    {
+        "name": "resource absence",
+        "url": "resource_absence",
+        "type": "utility",
+        "keyword": ""
+    },
+    {
+        "name": "resource capacity",
+        "url": "resource_capacity",
+        "type": "utility",
+        "keyword": ""
+    },
+    {
+        "name": "resource territory",
+        "url": "resource_territory",
         "type": "utility",
         "keyword": ""
     },
@@ -920,6 +1064,12 @@
     {
         "name": "share post",
         "url": "share_post",
+        "type": "utility",
+        "keyword": ""
+    },
+    {
+        "name": "share mobile",
+        "url": "share_mobile",
         "type": "utility",
         "keyword": ""
     },
@@ -1020,6 +1170,12 @@
         "keyword": ""
     },
     {
+        "name": "sync",
+        "url": "sync",
+        "type": "utility",
+        "keyword": ""
+    },
+    {
         "name": "table",
         "url": "table",
         "type": "utility",
@@ -1068,6 +1224,12 @@
         "keyword": ""
     },
     {
+        "name": "threedots vertical",
+        "url": "threedots_vertical",
+        "type": "utility",
+        "keyword": ""
+    },
+    {
         "name": "tile card list",
         "url": "tile_card_list",
         "type": "utility",
@@ -1090,6 +1252,24 @@
         "url": "trail",
         "type": "utility",
         "keyword": "travel, outdoor"
+    },
+    {
+        "name": "trending",
+        "url": "trending",
+        "type": "utility",
+        "keyword": ""
+    },
+    {
+        "name": "turn off notifications",
+        "url": "turn_off_notifications",
+        "type": "utility",
+        "keyword": ""
+    },
+    {
+        "name": "type tool",
+        "url": "type_tool",
+        "type": "utility",
+        "keyword": ""
     },
     {
         "name": "undelete",
@@ -1174,6 +1354,30 @@
         "url": "warning",
         "type": "utility",
         "keyword": "stop, notification"
+    },
+    {
+        "name": "weekly view",
+        "url": "weeklyview",
+        "type": "utility",
+        "keyword": ""
+    },
+    {
+        "name": "wifi",
+        "url": "wifi",
+        "type": "utility",
+        "keyword": "internet, wireless"
+    },
+    {
+        "name": "work order type",
+        "url": "work_order_type",
+        "type": "utility",
+        "keyword": ""
+    },
+    {
+        "name": "yubi key",
+        "url": "yubi_key",
+        "type": "utility",
+        "keyword": "secure, authentication, two-factor"
     },
     {
         "name": "world",

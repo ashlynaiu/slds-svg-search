@@ -6,6 +6,18 @@
         "keyword": ""
     },
     {
+        "name": "add relationship",
+        "url": "add_relationship",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "remove relationship",
+        "url": "remove_relationship",
+        "type": "action",
+        "keyword": ""
+    },
+    {
         "name": "announcement",
         "url": "announcement",
         "type": "action",
