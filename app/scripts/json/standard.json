@@ -186,14 +186,14 @@
         "keyword": ""
     },
     {
-        "name": "custom notification",
-        "url": "custom_notification",
+        "name": "custom",
+        "url": "custom",
         "type": "standard",
         "keyword": ""
     },
     {
-        "name": "custom",
-        "url": "custom",
+        "name": "custom notification",
+        "url": "custom_notification",
         "type": "standard",
         "keyword": ""
     },
