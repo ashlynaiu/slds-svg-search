@@ -246,6 +246,12 @@
         "keyword": "like, upvote"
     },
     {
+        "name": "entitlement",
+        "url": "entitlement",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
         "name": "environment hub",
         "url": "environment_hub",
         "type": "standard",
@@ -344,6 +350,12 @@
     {
         "name": "lead",
         "url": "lead",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
+        "name": "live chat",
+        "url": "live_chat",
         "type": "standard",
         "keyword": ""
     },

@@ -30,6 +30,12 @@
         "keyword": ""
     },
     {
+        "name": "anchor",
+        "url": "anchor",
+        "type": "utility",
+        "keyword": ""
+    },
+    {
         "name": "answer",
         "url": "answer",
         "type": "utility",
@@ -216,6 +222,12 @@
         "keyword": "dismiss"
     },
     {
+        "name": "collapse all",
+        "url": "collapse_all",
+        "type": "utility",
+        "keyword": ""
+    },
+    {
         "name": "comments",
         "url": "comments",
         "type": "utility",
@@ -388,6 +400,12 @@
         "url": "event",
         "type": "utility",
         "keyword": "calendar, day, month, year"
+    },
+    {
+        "name": "expand_all",
+        "url": "expand_all",
+        "type": "utility",
+        "keyword": ""
     },
     {
         "name": "expand alt",
@@ -750,6 +768,12 @@
         "keyword": ""
     },
     {
+        "name": "omni channel",
+        "url": "omni_channel",
+        "type": "utility",
+        "keyword": ""
+    },
+    {
         "name": "open folder",
         "url": "open_folder",
         "type": "utility",
@@ -890,6 +914,12 @@
     {
         "name": "quotation marks",
         "url": "quotation_marks",
+        "type": "utility",
+        "keyword": ""
+    },
+    {
+        "name": "rating",
+        "url": "rating",
         "type": "utility",
         "keyword": ""
     },
