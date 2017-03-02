@@ -648,6 +648,12 @@
         "keyword": ""
     },
     {
+        "name": "shipment",
+        "url": "shipment",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
         "name": "skill entity",
         "url": "skill_entity",
         "type": "standard",
