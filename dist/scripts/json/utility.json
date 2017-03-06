@@ -1,5 +1,11 @@
 [
     {
+        "name": "ad set",
+        "url": "ad_set",
+        "type": "utility",
+        "keyword": ""
+    },
+    {
         "name": "add",
         "url": "add",
         "type": "utility",
@@ -138,6 +144,12 @@
         "keyword": ""
     },
     {
+        "name": "campaign",
+        "url": "campaign",
+        "type": "utility",
+        "keyword": ""
+    },
+    {
         "name": "center align text",
         "url": "center_align_text",
         "type": "utility",
@@ -202,6 +214,12 @@
         "url": "chevronup",
         "type": "utility",
         "keyword": "chevron, arrow, up"
+    },
+    {
+        "name": "classic interface",
+        "url": "classic_interface",
+        "type": "utility",
+        "keyword": ""
     },
     {
         "name": "clear",
@@ -834,6 +852,12 @@
         "keyword": ""
     },
     {
+        "name": "pause",
+        "url": "pause",
+        "type": "utility",
+        "keyword": ""
+    },
+    {
         "name": "people",
         "url": "people",
         "type": "utility",
@@ -1064,6 +1088,12 @@
     {
         "name": "salesforce1",
         "url": "salesforce1",
+        "type": "utility",
+        "keyword": ""
+    },
+    {
+        "name": "save",
+        "url": "save",
         "type": "utility",
         "keyword": ""
     },
