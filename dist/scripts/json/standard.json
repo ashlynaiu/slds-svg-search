@@ -78,6 +78,12 @@
         "keyword": ""
     },
     {
+        "name": "business hours",
+        "url": "business_hours",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
         "name": "calibration",
         "url": "calibration",
         "type": "standard",
@@ -116,6 +122,12 @@
     {
         "name": "carousel",
         "url": "carousel",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
+        "name": "case milestone",
+        "url": "case_milestone",
         "type": "standard",
         "keyword": ""
     },
@@ -246,8 +258,26 @@
         "keyword": "like, upvote"
     },
     {
+        "name": "entity milestone",
+        "url": "entity_milestone",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
         "name": "entitlement",
         "url": "entitlement",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
+        "name": "entitlement_process",
+        "url": "entitlement_process",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
+        "name": "entitlement template",
+        "url": "entitlement_template",
         "type": "standard",
         "keyword": ""
     },
@@ -378,6 +408,18 @@
         "keyword": ""
     },
     {
+        "name": "maintenance plan",
+        "url": "maintenance_plan",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
+        "name": "maintenance asset",
+        "url": "maintenance_asset",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
         "name": "marketing actions",
         "url": "marketing_actions",
         "type": "standard",
@@ -500,6 +542,18 @@
     {
         "name": "product item",
         "url": "product_item",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
+        "name": "product request",
+        "url": "product_request",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
+        "name": "product request line item",
+        "url": "product_request_line_item",
         "type": "standard",
         "keyword": ""
     },
@@ -636,14 +690,20 @@
         "keyword": ""
     },
     {
-        "name": "service territory member",
-        "url": "service_territory_member",
+        "name": "service territory",
+        "url": "service_territory",
         "type": "standard",
         "keyword": ""
     },
     {
-        "name": "service territory",
-        "url": "service_territory",
+        "name": "service territory location",
+        "url": "service_territory_location",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
+        "name": "service territory member",
+        "url": "service_territory_member",
         "type": "standard",
         "keyword": ""
     },
