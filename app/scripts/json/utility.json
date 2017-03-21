@@ -936,6 +936,12 @@
         "keyword": ""
     },
     {
+        "name": "question mark",
+        "url": "question_mark",
+        "type": "utility",
+        "keyword": ""
+    },
+    {
         "name": "quotation marks",
         "url": "quotation_marks",
         "type": "utility",
@@ -1406,6 +1412,12 @@
     {
         "name": "volume off",
         "url": "volume_off",
+        "type": "utility",
+        "keyword": ""
+    },
+    {
+        "name": "voicemail drop",
+        "url": "voicemail_drop",
         "type": "utility",
         "keyword": ""
     },

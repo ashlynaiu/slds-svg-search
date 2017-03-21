@@ -60,6 +60,12 @@
         "keyword": ""
     },
     {
+        "name": "asset relationships",
+        "url": "asset_relationships",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
         "name": "assigned resource",
         "url": "assigned_resource",
         "type": "standard",
@@ -764,6 +770,18 @@
     {
         "name": "team member",
         "url": "team_member",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
+        "name": "timesheets",
+        "url": "timesheets",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
+        "name": "timesheets entries",
+        "url": "timesheets_entries",
         "type": "standard",
         "keyword": ""
     },

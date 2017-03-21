@@ -7,7 +7,7 @@
  * # MainCtrl
  * Controller of the ashlynTemplate
  */
-angular.module('sldsSVG').controller('MainCtrl', function ($scope, $location, $anchorScroll, svgCustoms, svgActions, svgDoctypes, svgStandards, svgUtils, $state) {
+angular.module('sldsSVG').controller('MainCtrl', function ($scope, $location, $anchorScroll, $state, $http ) {
 	//Create icon scopes
 	$scope.svgCustoms = [];
 	$scope.svgActions = [];
@@ -29,23 +29,28 @@ angular.module('sldsSVG').controller('MainCtrl', function ($scope, $location, $a
 		$anchorScroll();
 	};
 
-	svgCustoms.svgs().success(function(data){
-		$scope.svgCustoms = data;
+	$http.get('/scripts/json/custom.json')
+	.then(function(res){
+			$scope.svgCustoms = res.data;
 	});
 
-	svgActions.svgs().success(function(data){
-		$scope.svgActions = data;
+	$http.get('/scripts/json/action.json')
+	.then(function(res){
+			$scope.svgActions = res.data;
 	});
 
-	svgDoctypes.svgs().success(function(data){
-		$scope.svgDoctypes = data;
+	$http.get('/scripts/json/doctype.json')
+	.then(function(res){
+			$scope.svgDoctypes = res.data;
 	});
 
-	svgStandards.svgs().success(function(data){
-		$scope.svgStandards = data;
+	$http.get('/scripts/json/standard.json')
+	.then(function(res){
+			$scope.svgStandards = res.data;
 	});
 
-	svgUtils.svgs().success(function(data){
-		$scope.svgUtils = data;
+	$http.get('/scripts/json/utility.json')
+	.then(function(res){
+			$scope.svgUtils = res.data;
 	});
 });
