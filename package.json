@@ -10,12 +10,13 @@
     "webpack": "^1.14.0"
   },
   "dependencies": {
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
     "history": "4.2.0",
     "re-base": "2.2.0",
+    "react": "^15.4.2",
     "react-addons-css-transition-group": "15.3.2",
-    "react-router": "4.0.0-alpha.3"
+    "react-dom": "^15.4.2",
+    "react-router": "4.0.0-alpha.3",
+    "react-search-input": "^0.10.4"
   },
   "scripts": {
     "build-css": "node-sass src/ -o src/",

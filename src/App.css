@@ -1,11 +1,195 @@
-.App {
-  text-align: center; }
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-radius: none; }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white; }
+html, body {
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #54698d;
+  color: #FFF; }
 
-.App-intro {
-  font-size: large; }
+input, select, textarea, button, a {
+  outline: none;
+  font-family: inherit;
+  box-sizing: border-box; }
+
+textarea {
+  -webkit-overflow-scrolling: touch; }
+
+body {
+  zoom: 1;
+  position: relative;
+  width: 100; }
+
+button {
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #54698d;
+  font-size: 16px; }
+
+h1 {
+  font-size: 50px;
+  line-height: 52px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  -webkit-font-smoothing: antialiased; }
+
+h2 {
+  font-size: 35px;
+  line-height: 45px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  -webkit-font-smoothing: antialiased; }
+
+h3 {
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  -webkit-font-smoothing: antialiased; }
+
+h4 {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  -webkit-font-smoothing: antialiased; }
+
+a {
+  color: #FFF; }
+  a img {
+    outline-color: none; }
+  a:hover {
+    text-decoration: none; }
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300; }
+
+.sldsSVG-mainFrame, .sldsSVG-mainFrame--about {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 60px 0 10px 0; }
+  .sldsSVG-mainFrame h1, .sldsSVG-mainFrame--about h1 {
+    text-align: center; }
+
+.sldsSVG-mainFrame--about {
+  max-width: 700px; }
+  .sldsSVG-mainFrame--about p {
+    margin-bottom: 12px;
+    line-height: 28px; }
+
+.slds-flexFrame {
+  display: flex; }
+
+footer {
+  width: 100%; }
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.2); }
+  nav a {
+    margin: 20px;
+    font-weight: 300;
+    text-decoration: none; }
+    nav a:hover {
+      text-decoration: underline; }
+
+footer.fixedFooter {
+  position: fixed;
+  bottom: 0; }
+
+.sldsSVG-mainFrame h3 {
+  text-align: center;
+  margin-top: 30px; }
+
+.sldsSVG-imageContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.sldsSVG-image {
+  margin: 10px;
+  padding: 25px 10px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+  .sldsSVG-image img {
+    margin: 0 auto;
+    width: 30px; }
+    .sldsSVG-image img.customIcon-image {
+      width: 45px; }
+  .sldsSVG-image p {
+    font-size: 10px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: capitalize; }
+  .sldsSVG-image p:not(.customIcon-text) {
+    margin-top: 10px; }
+  .sldsSVG-image:hover {
+    background-color: #16325c;
+    border-radius: 4px;
+    transition: all linear .3s; }
+
+.sldsInput {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 80px 0; }
+  .sldsInput input {
+    padding: 12px;
+    border-radius: 4px;
+    width: 660px; }
+  .sldsInput a {
+    align-self: center;
+    margin-left: 30px;
+    opacity: .7;
+    text-decoration: none; }
+    .sldsInput a:hover {
+      opacity: 1; }
+
+.hideAnimation {
+  opacity: 0;
+  transition: all linear .3s; }
+
+.showAnimation {
+  opacity: 1 !important;
+  transition: all linear .3s; }
+
+.sldsSVG-showTop {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #16325c;
+  padding: 10px 0 10px 0;
+  cursor: pointer; }
+  .sldsSVG-showTop p {
+    text-align: center; }
+
+.sldsJumpTo--show, .sldsJumpTo--hide {
+  width: 660px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-between; }
+
+.sldsJumpTo--show button {
+  opacity: .8; }
+  .sldsJumpTo--show button:hover {
+    opacity: 1; }
+
+.sldsJumpTo--hide a {
+  margin: 0 auto;
+  opacity: .7; }
+  .sldsJumpTo--hide a:hover {
+    opacity: 1; }
+
+.sldsSVG-noResults h4 {
+  text-align: center;
+  margin-bottom: 30px; }
