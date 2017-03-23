@@ -6,6 +6,18 @@
         "keyword": ""
     },
     {
+        "name": "add file",
+        "url": "add_file",
+        "type": "action",
+        "keyword": ""
+    },
+    {
+        "name": "add photo video",
+        "url": "add_photo_video",
+        "type": "action",
+        "keyword": ""
+    },
+    {
         "name": "add relationship",
         "url": "add_relationship",
         "type": "action",

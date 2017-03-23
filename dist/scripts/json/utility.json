@@ -678,6 +678,12 @@
         "keyword": ""
     },
     {
+        "name": "macros",
+        "url": "macros",
+        "type": "utility",
+        "keyword": ""
+    },
+    {
         "name": "magicwand",
         "url": "magicwand",
         "type": "utility",
