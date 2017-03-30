@@ -60,8 +60,8 @@
         "keyword": ""
     },
     {
-        "name": "asset relationships",
-        "url": "asset_relationships",
+        "name": "asset relationship",
+        "url": "asset_relationship",
         "type": "standard",
         "keyword": ""
     },
@@ -780,14 +780,14 @@
         "keyword": ""
     },
     {
-        "name": "timesheets",
-        "url": "timesheets",
+        "name": "timesheet",
+        "url": "timesheet",
         "type": "standard",
         "keyword": ""
     },
     {
-        "name": "timesheets entries",
-        "url": "timesheets_entries",
+        "name": "timesheets entry",
+        "url": "timesheets_entry",
         "type": "standard",
         "keyword": ""
     },
