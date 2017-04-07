@@ -303,7 +303,7 @@
         "name": "event",
         "url": "event",
         "type": "standard",
-        "keyword": "calendar, day, month, year"
+        "keyword": "calendar, day, month, year, meeting"
     },
     {
         "name": "feed",
