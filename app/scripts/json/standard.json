@@ -396,6 +396,12 @@
         "keyword": ""
     },
     {
+        "name": "lead insights",
+        "url": "lead_insights",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
         "name": "live chat",
         "url": "live_chat",
         "type": "standard",
@@ -590,6 +596,12 @@
     {
         "name": "question feed",
         "url": "question_feed",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
+        "name": "quip",
+        "url": "quip",
         "type": "standard",
         "keyword": ""
     },

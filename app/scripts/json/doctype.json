@@ -144,6 +144,12 @@
         "keyword": ""
     },
     {
+        "name": "quip doc",
+        "url": "quip_doc",
+        "type": "doctype",
+        "keyword": ""
+    },
+    {
         "name": "rtf",
         "url": "rtf",
         "type": "doctype",
