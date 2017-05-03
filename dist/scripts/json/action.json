@@ -285,7 +285,7 @@
         "name": "new event",
         "url": "new_event",
         "type": "action",
-        "keyword": "calendar, day, month, year"
+        "keyword": "calendar, day, month, year, meeting"
     },
     {
         "name": "new group",

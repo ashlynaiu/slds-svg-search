@@ -303,7 +303,7 @@
         "name": "event",
         "url": "event",
         "type": "standard",
-        "keyword": "calendar, day, month, year"
+        "keyword": "calendar, day, month, year, meeting"
     },
     {
         "name": "feed",
@@ -392,6 +392,12 @@
     {
         "name": "lead",
         "url": "lead",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
+        "name": "lead insights",
+        "url": "lead_insights",
         "type": "standard",
         "keyword": ""
     },
@@ -590,6 +596,12 @@
     {
         "name": "question feed",
         "url": "question_feed",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
+        "name": "quip",
+        "url": "quip",
         "type": "standard",
         "keyword": ""
     },

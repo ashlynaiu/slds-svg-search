@@ -282,6 +282,12 @@
         "keyword": ""
     },
     {
+        "name": "copy to clipboard",
+        "url": "copy_to_clipboard",
+        "type": "utility",
+        "keyword": ""
+    },
+    {
         "name": "crossfilter",
         "url": "crossfilter",
         "type": "utility",
@@ -417,7 +423,7 @@
         "name": "event",
         "url": "event",
         "type": "utility",
-        "keyword": "calendar, day, month, year"
+        "keyword": "calendar, day, month, year, meeting"
     },
     {
         "name": "expand_all",
@@ -560,6 +566,12 @@
     {
         "name": "italic",
         "url": "italic",
+        "type": "utility",
+        "keyword": ""
+    },
+    {
+        "name": "internal share",
+        "url": "internal_share",
         "type": "utility",
         "keyword": ""
     },
