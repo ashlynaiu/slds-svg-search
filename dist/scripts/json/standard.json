@@ -426,6 +426,12 @@
         "keyword": ""
     },
     {
+        "name": "macros",
+        "url": "macros",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
         "name": "maintenance plan",
         "url": "maintenance_plan",
         "type": "standard",
@@ -830,6 +836,12 @@
     {
         "name": "topic",
         "url": "topic",
+        "type": "standard",
+        "keyword": ""
+    },
+    {
+        "name": "topic2",
+        "url": "topic2",
         "type": "standard",
         "keyword": ""
     },

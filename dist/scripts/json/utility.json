@@ -72,6 +72,12 @@
         "keyword": ""
     },
     {
+        "name": "automate",
+        "url": "automate",
+        "type": "utility",
+        "keyword": ""
+    },
+    {
         "name": "back",
         "url": "back",
         "type": "utility",

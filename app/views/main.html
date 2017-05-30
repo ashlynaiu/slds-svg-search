@@ -3,6 +3,14 @@
 </div>
 <div class="sldsSVG-mainFrame" id="top">
 
+	<div class="sldsWarning" ng-if="warning">
+		<div class="sldsWarning-close" ng-click="hideWarning()">
+			<img src="icons/action/close.svg" alt="close warning" />
+		</div>
+		<p>Please use in Safari to utilize drag and drop in sketch.<br />
+		<span>Check out the <a href="https://github.com/ashlynaiu/slds-svg-search/issues/1" target="_blank">submitted git issue</a> if you'd like to track this bug.</span>
+	</div>
+
 	<div class="sldsJumpTo--hide" ng-if="!categories">
 		<a href="javascript:void(0)" ng-click="showCategories()">Show Categories</a>
 	</div>
