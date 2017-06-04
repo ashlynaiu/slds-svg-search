@@ -1,0 +1,113 @@
+@import common.sass
+
+/////////////////////////
+/////Imagine Layout/////
+///////////////////////
+
+.sldsSVG-imageContainer
+	display: flex
+	justify-content: center
+	flex-wrap: wrap
+
+.sldsSVG-image
+	margin: 10px
+	padding: 25px 10px
+	width: 100px
+	display: flex
+	justify-content: center
+	flex-direction: column
+
+	img
+		margin: 0 auto
+		width: 30px
+		&.customIcon-image
+			width: 45px
+
+	p
+		font-size: 10px
+		line-height: 16px
+		text-align: center
+		text-transform: capitalize
+
+	p:not(.customIcon-text)
+		margin-top: 10px
+
+	&:hover
+		background-color: $dark-blue
+		border-radius: 4px
+		transition: all linear .3s
+
+/////////////////
+/////Search/////
+///////////////
+
+.sldsInput
+	display: flex
+	justify-content: center
+	margin: 20px 0 80px 0
+	input
+		padding: 12px
+		border-radius: 4px
+		width: 660px
+	a
+		align-self: center
+		margin-left: 30px
+		opacity: .7
+		text-decoration: none
+		&:hover
+			opacity: 1
+
+/////////////////////////////
+/////Jump to top anchor/////
+///////////////////////////
+
+.hideAnimation
+	opacity: 0
+	transition: all linear .3s
+
+.showAnimation
+	opacity: 1 !important
+	transition: all linear .3s
+
+.sldsSVG-showTop
+	position: fixed
+	top: 0
+	width: 100%
+	background-color: $dark-blue
+	padding: 10px 0 10px 0
+	cursor: pointer
+	p
+		text-align: center
+
+//////////////////////////
+/////Jump to buttons/////
+////////////////////////
+%sldsJumpTo
+	width: 660px
+	margin: 0 auto
+	padding-bottom: 40px
+	display: flex
+	justify-content: space-between
+
+.sldsJumpTo--show
+	@extend %sldsJumpTo
+	button
+		opacity: .8
+		&:hover
+			opacity: 1
+
+.sldsJumpTo--hide
+	@extend %sldsJumpTo
+	a
+		margin: 0 auto
+		opacity: .7
+		&:hover
+			opacity: 1
+
+////////////////
+/////Other/////
+//////////////
+.sldsSVG-noResults
+	h4
+		text-align: center
+		margin-bottom: 30px
