@@ -17,6 +17,7 @@ class App extends Component {
 	componentDidMount(){
 		this.setState({icons: icons})
 	}
+
 	searchIcons(event){
 		let query = event.target.value;
 		let icons = this.state.allIcons.filter((icon) => {

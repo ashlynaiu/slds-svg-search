@@ -6,6 +6,18 @@ export default [
         keyword: ''
     },
     {
+        name: 'add file',
+        url: 'add_file',
+        type: 'action',
+        keyword: ''
+    },
+    {
+        name: 'add photo video',
+        url: 'add_photo_video',
+        type: 'action',
+        keyword: ''
+    },
+    {
         name: 'add relationship',
         url: 'add_relationship',
         type: 'action',
@@ -273,7 +285,7 @@ export default [
         name: 'new event',
         url: 'new_event',
         type: 'action',
-        keyword: 'calendar, day, month, year'
+        keyword: 'calendar, day, month, year, meeting'
     },
     {
         name: 'new group',
