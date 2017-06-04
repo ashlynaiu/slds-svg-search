@@ -29,7 +29,7 @@ class App extends Component {
 	render() {
 		return (
 			<div className="sldsSVG-mainFrame">
-				<h1>SLDS Icon Search</h1>
+				<h1>SLDS SVG Search</h1>
 				<div className="sldsInput">
 					<input type="text" onKeyUp={this.searchIcons} placeholder="Search for an icon"/>
 				</div>
