@@ -2,41 +2,44 @@ import React, { Component } from 'react';
 import '../App.css';
 // import IconList from './IconList';
 import IconContainer from './IconContainer';
-import SearchInput, {createFilter} from 'react-search-input';
 import icons from '../models';
-
-const KEYS_TO_FILTERS = ['name', 'keyword', 'type'];
 
 class App extends Component {
 	constructor() {
 		super();
-		this.searchUpdated = this.searchUpdated.bind(this);
+		this.searchIcons = this.searchIcons.bind(this);
 		this.state = {
-			icons: icons,
-			searchTerm: ''
+			allIcons: icons,
+			icons: ''
 		}
 	}
 
-	searchUpdated(term) {
-		this.setState({searchTerm: term})
+	componentDidMount(){
+		this.setState({icons: icons})
+	}
+	searchIcons(event){
+		let query = event.target.value;
+		let icons = this.state.allIcons.filter((icon) => {
+			return icon.name.includes(query) || icon.keyword.includes(query)
+		});
+		return this.setState({icons: icons})
 	}
 
 	render() {
-		const icons = this.state.icons;
-
-		const filteredIcons = icons.filter(createFilter(this.state.searchTerm, KEYS_TO_FILTERS));
-
 		return (
 			<div className="sldsSVG-mainFrame">
 				<h1>SLDS Icon Search</h1>
-				<SearchInput className="sldsInput" onChange={this.searchUpdated} placeholder="Search for an icon"/>
+				<div className="sldsInput">
+					<input type="text" onKeyUp={this.searchIcons} placeholder="Search for an icon"/>
+				</div>
 				<div className="sldsSVG-imageContainer">
-					{filteredIcons.map((icon, index) => {
-						return (
-								<IconContainer key={index} data={icons[index]} />
-						)
-					})}
-					</div>
+					{Object
+						.keys(this.state.icons)
+						.map(key => <IconContainer
+							key={key}
+							data={this.state.icons[key]}/>)
+					}
+				</div>
 			</div>
 		)
 	}
