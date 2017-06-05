@@ -1,5 +1,11 @@
 export default [
     {
+        name: 'standard',
+        url: '',
+        type: 'title',
+        keyword: ''
+    },
+    {
         name: 'account',
         url: 'account',
         type: 'standard',

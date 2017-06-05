@@ -1,6 +1,6 @@
 export default [
     {
-        name: 'Action Icons',
+        name: 'action',
         url: '',
         type: 'title',
         keyword: ''

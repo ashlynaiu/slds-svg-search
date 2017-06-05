@@ -1,6 +1,6 @@
 export default [
     {
-        name: 'Doctype Icons',
+        name: 'doctype',
         url: '',
         type: 'title',
         keyword: ''

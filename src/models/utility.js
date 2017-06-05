@@ -1,5 +1,11 @@
 export default [
     {
+        name: 'utility',
+        url: '',
+        type: 'title',
+        keyword: ''
+    },
+    {
         name: 'Utility Icons',
         url: '',
         type: 'title',

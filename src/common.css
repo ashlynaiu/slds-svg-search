@@ -61,10 +61,12 @@ h4 {
 
 a {
   color: #FFF; }
-  a img {
-    outline-color: none; }
-  a:hover {
-    text-decoration: none; }
+
+a img {
+  outline-color: none; }
+
+a:hover {
+  text-decoration: none; }
 
 p {
   font-size: 16px;
@@ -75,14 +77,16 @@ p {
   margin: 0 auto;
   max-width: 960px;
   padding: 60px 0 10px 0; }
-  .sldsSVG-mainFrame h1, .sldsSVG-mainFrame--about h1 {
-    text-align: center; }
+
+.sldsSVG-mainFrame h1, .sldsSVG-mainFrame--about h1 {
+  text-align: center; }
 
 .sldsSVG-mainFrame--about {
   max-width: 700px; }
-  .sldsSVG-mainFrame--about p {
-    margin-bottom: 12px;
-    line-height: 28px; }
+
+.sldsSVG-mainFrame--about p {
+  margin-bottom: 12px;
+  line-height: 28px; }
 
 footer {
   width: 100%; }
@@ -91,12 +95,14 @@ nav {
   display: flex;
   justify-content: center;
   background-color: rgba(255, 255, 255, 0.2); }
-  nav a {
-    margin: 20px;
-    font-weight: 300;
-    text-decoration: none; }
-    nav a:hover {
-      text-decoration: underline; }
+
+nav a {
+  margin: 20px;
+  font-weight: 300;
+  text-decoration: none; }
+
+nav a:hover {
+  text-decoration: underline; }
 
 footer.fixedFooter {
   position: fixed;
@@ -105,4 +111,5 @@ footer.fixedFooter {
 .sldsSVG-mainFrame h3 {
   text-align: center;
   width: 100%;
-  margin-top: 30px; }
+  margin-top: 30px;
+  text-transform: capitalize; }
