@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../App.css';
 // import IconList from './IconList';
 import IconContainer from './IconContainer';
+import SearchInput from './SearchInput';
 import icons from '../models';
 
 class App extends Component {
@@ -18,8 +19,7 @@ class App extends Component {
 		this.setState({icons: icons})
 	}
 
-	searchIcons(event){
-		let query = event.target.value;
+	searchIcons(query){
 		let icons = this.state.allIcons.filter((icon) => {
 			return icon.name.includes(query) || icon.keyword.includes(query)
 		});
@@ -29,10 +29,8 @@ class App extends Component {
 	render() {
 		return (
 			<div className="sldsSVG-mainFrame">
-				<h1>SLDS Icon Search</h1>
-				<div className="sldsInput">
-					<input type="text" onKeyUp={this.searchIcons} placeholder="Search for an icon"/>
-				</div>
+				<h1>SLDS SVG Search</h1>
+				<SearchInput searchIcons={this.searchIcons} />
 				<div className="sldsSVG-imageContainer">
 					{Object
 						.keys(this.state.icons)

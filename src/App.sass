@@ -37,6 +37,9 @@
 		border-radius: 4px
 		transition: all linear .3s
 
+.sldsSVG-sectionTitle
+	width: 100%
+
 /////////////////
 /////Search/////
 ///////////////
@@ -56,58 +59,3 @@
 		text-decoration: none
 		&:hover
 			opacity: 1
-
-/////////////////////////////
-/////Jump to top anchor/////
-///////////////////////////
-
-.hideAnimation
-	opacity: 0
-	transition: all linear .3s
-
-.showAnimation
-	opacity: 1 !important
-	transition: all linear .3s
-
-.sldsSVG-showTop
-	position: fixed
-	top: 0
-	width: 100%
-	background-color: $dark-blue
-	padding: 10px 0 10px 0
-	cursor: pointer
-	p
-		text-align: center
-
-//////////////////////////
-/////Jump to buttons/////
-////////////////////////
-%sldsJumpTo
-	width: 660px
-	margin: 0 auto
-	padding-bottom: 40px
-	display: flex
-	justify-content: space-between
-
-.sldsJumpTo--show
-	@extend %sldsJumpTo
-	button
-		opacity: .8
-		&:hover
-			opacity: 1
-
-.sldsJumpTo--hide
-	@extend %sldsJumpTo
-	a
-		margin: 0 auto
-		opacity: .7
-		&:hover
-			opacity: 1
-
-////////////////
-/////Other/////
-//////////////
-.sldsSVG-noResults
-	h4
-		text-align: center
-		margin-bottom: 30px
