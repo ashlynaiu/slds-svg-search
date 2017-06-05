@@ -1,5 +1,11 @@
 export default [
     {
+        name: 'Utility Icons',
+        url: '',
+        type: 'title',
+        keyword: ''
+    },
+    {
         name: 'ad set',
         url: 'ad_set',
         type: 'utility',

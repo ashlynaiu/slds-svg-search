@@ -1,5 +1,11 @@
 export default [
     {
+        name: 'Action Icons',
+        url: '',
+        type: 'title',
+        keyword: ''
+    },
+    {
         name: 'add contact',
         url: 'add_contact',
         type: 'action',

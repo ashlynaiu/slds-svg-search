@@ -1,5 +1,11 @@
 export default [
     {
+        name: 'Custom Icons',
+        url: '',
+        type: 'title',
+        keyword: ''
+    },
+    {
         name: 'custom1',
         url: 'custom1',
         type: 'custom',

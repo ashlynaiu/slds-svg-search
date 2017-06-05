@@ -1,5 +1,11 @@
 export default [
     {
+        name: 'Doctype Icons',
+        url: '',
+        type: 'title',
+        keyword: ''
+    },
+    {
         name: 'ai',
         url: 'ai',
         type: 'doctype',
