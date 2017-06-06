@@ -5,18 +5,21 @@ class IconList extends Component {
 	render() {
 		const { data } = this.props;
 
-		//Dynamic Image Sizing Class
+		//Dynamic Classes
 		let imageClass = () => {
-			if (data.type === 'custom' || data.type === 'standard') {
-				return 'customIcon-image'
+			let list = ['custom', 'utility', 'standard', 'action', 'doctype']
+			for (let k = 0; k < list.length; k++) {
+				if (data.type === list[k]) {
+					return 'sldsSVG-image--' + list[k]
+				}
 			}
 		}
 
 		//Icon Markup
 		let renderIcon = () => {
 			return (
-				<div className="sldsSVG-image">
-					<img src={require(`../icons/${data.type}/${data.url}.svg`)} alt={data.name} className={imageClass()} />
+				<div className={imageClass()}>
+					<img src={require(`../icons/${data.type}/${data.url}.svg`)} alt={data.name} />
 					<p>{data.name}</p>
 				</div>
 			)

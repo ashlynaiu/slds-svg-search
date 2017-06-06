@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
 
 class SectionLinks extends Component {
-
 	render() {
+		const types = ['custom', 'utility', 'standard', 'action', 'doctype']
 		return (
 			<div className="sldsSectionLinks">
-				<a href="#doctype">Doctype</a>
-				<a href="#custom">Custom</a>
-				<a href="#utility">Utility</a>
-				<a href="#standard">Standard</a>
-				<a href="#custom">Custom</a>
+				{Object
+					.keys(types)
+					.map(key => <a href={`#${types[key]}`} className={`sldsSectionLinks--${types[key]}`}>{types[key]}</a>)
+				}
 			</div>
 		);
 	}

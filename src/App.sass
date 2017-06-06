@@ -1,15 +1,20 @@
 @import common.sass
 
+//////////////////////////////
+/////Iterative Variables/////
+////////////////////////////
+$types: 'custom', 'utility', 'standard', 'action', 'doctype'
+$typeVariable: $custom-color, $utility-color, $standard-color, $action-color, $doctype-color
+
 /////////////////////////
 /////Imagine Layout/////
 ///////////////////////
-
 .sldsSVG-imageContainer
 	display: flex
 	justify-content: center
 	flex-wrap: wrap
 
-.sldsSVG-image
+%sldsSVG-image
 	margin: 10px
 	padding: 25px 10px
 	width: 100px
@@ -20,8 +25,6 @@
 	img
 		margin: 0 auto
 		width: 30px
-		&.customIcon-image
-			width: 45px
 
 	p
 		font-size: 10px
@@ -29,13 +32,24 @@
 		text-align: center
 		text-transform: capitalize
 
-	p:not(.customIcon-text)
-		margin-top: 10px
-
 	&:hover
-		background-color: $dark-blue
 		border-radius: 4px
 		transition: all linear .3s
+
+@for $i from 1 through length($types)
+	.sldsSVG-image--#{nth($types, $i)}
+		@extend %sldsSVG-image
+
+		&:hover
+			background-color: nth($typeVariable, $i)
+
+		@if nth($types, $i) == custom or nth($types, $i) == standard
+			img
+				width: 45px
+
+		@if nth($types, $i) != custom
+			p
+				margin-top: 10px
 
 .sldsSVG-sectionTitle
 	width: 100%
@@ -61,20 +75,26 @@
 	margin: 0 auto
 	display: flex
 
-	a
-		padding: 5px 10px
-		background-color: white
-		font-size: 10px
-		color: black
-		border-radius: 4px
-		opacity: .8
-		text-decoration: none
+%sldsSectionLinksButtons
+	padding: 5px 10px
+	font-size: 11px
+	letter-spacing: 1px;
+	color: $text-color-standard
+	border-radius: 4px
+	opacity: .8
+	text-decoration: none
+	text-transform: uppercase
 
-	a:not(last-child)
-		margin-right: 10px
+	&:not(last-child)
+	margin-right: 10px
 
-	a:hover
+	&:hover
 		text-decoration: underline
+
+@for $k from 1 through length($types)
+	.sldsSectionLinks--#{nth($types, $k)}
+		@extend %sldsSectionLinksButtons
+		background-color: nth($typeVariable, $k)
 
 ////////////////////
 /////Go to Top/////

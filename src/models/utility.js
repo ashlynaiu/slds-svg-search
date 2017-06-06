@@ -6,12 +6,6 @@ export default [
         keyword: ''
     },
     {
-        name: 'Utility Icons',
-        url: '',
-        type: 'title',
-        keyword: ''
-    },
-    {
         name: 'ad set',
         url: 'ad_set',
         type: 'utility',
