@@ -3,12 +3,9 @@ import React, { Component } from 'react';
 class Sticky extends Component {
 	constructor() {
 		super();
-		this.scrollToTop = this.scrollToTop.bind(this);
+		this.scrollToTop = this.scrollToTop.bind(this)
 		this.hideBar = this.hideBar.bind(this)
-		this.state = {
-			showSticky: false,
-			isHide : true
-		}
+		this.state = { isHide : true }
 	}
 
 	hideBar(){
@@ -19,11 +16,11 @@ class Sticky extends Component {
 	}
 
 	componentDidMount(){
-		window.addEventListener('scroll',this.hideBar);
+		window.addEventListener('scroll',this.hideBar)
 	}
 
 	componentWillUnmount(){
-		window.removeEventListener('scroll',this.hideBar);
+		window.removeEventListener('scroll',this.hideBar)
 	}
 
 	scrollToTop(){
@@ -34,7 +31,7 @@ class Sticky extends Component {
 		let classHide = this.state.isHide ? 'hide' : ''
 		return (
 			<div className={`sldsStickyTop ${classHide}`}>
-				<a onClick={this.scrollToTop}>Go to Top</a>
+				<a onClick={this.scrollToTop}>Return to Search</a>
 			</div>
 		);
 	}

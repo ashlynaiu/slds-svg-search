@@ -111,3 +111,33 @@ $typeVariable: $custom-color, $utility-color, $standard-color, $action-color, $d
 
 	&.hide
 		top: -40px
+
+////////////////////////////
+/////Warning Component/////
+//////////////////////////
+.sldsWarning
+	max-width: 700px
+	margin: 0 auto
+	background-color: $dark-blue
+	padding: 20px
+	text-align: center
+	border-radius: 4px
+	line-height: 22px
+	margin-bottom: 30px
+	position: relative
+
+	span
+		font-size: 14px
+
+	&-close
+		position: absolute
+		right: 10px
+		top: 10px
+		cursor: pointer
+
+		img
+			width: 20px
+			height: 20px
+
+	&.hide
+		display: none

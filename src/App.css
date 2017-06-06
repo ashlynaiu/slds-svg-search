@@ -233,3 +233,30 @@ footer.fixedFooter {
 
 .sldsStickyTop.hide {
   top: -40px; }
+
+.sldsWarning {
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: #16325c;
+  padding: 20px;
+  text-align: center;
+  border-radius: 4px;
+  line-height: 22px;
+  margin-bottom: 30px;
+  position: relative; }
+
+.sldsWarning span {
+  font-size: 14px; }
+
+.sldsWarning-close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer; }
+
+.sldsWarning-close img {
+  width: 20px;
+  height: 20px; }
+
+.sldsWarning.hide {
+  display: none; }

@@ -4,6 +4,7 @@ import IconContainer from './IconContainer';
 import SearchInput from './SearchInput';
 import SectionLinks from './SectionLinks';
 import Sticky from './Sticky';
+import WarningBanner from './WarningBanner';
 import icons from '../models';
 
 class App extends Component {
@@ -32,6 +33,7 @@ class App extends Component {
 			<div>
 				<Sticky />
 				<div className="sldsSVG-mainFrame">
+					<WarningBanner />
 					<h1>SLDS SVG Search</h1>
 					<SearchInput searchIcons={this.searchIcons} />
 					<SectionLinks />

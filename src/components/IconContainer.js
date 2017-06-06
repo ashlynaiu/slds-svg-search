@@ -3,7 +3,7 @@ import ScrollableAnchor from 'react-scrollable-anchor';
 
 class IconList extends Component {
 	render() {
-		const { data } = this.props;
+		const { data } = this.props
 
 		//Dynamic Classes
 		let imageClass = () => {
