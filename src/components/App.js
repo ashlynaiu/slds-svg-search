@@ -5,14 +5,16 @@ import SearchInput from './SearchInput';
 import SectionLinks from './SectionLinks';
 import Sticky from './Sticky';
 import WarningBanner from './WarningBanner';
+import Footer from './Footer';
 import icons from '../models';
 
 class App extends Component {
 	constructor() {
 		super();
-		this.searchIcons = this.searchIcons.bind(this);
+		this.searchIcons = this.searchIcons.bind(this)
 		this.state = {
 			allIcons: icons,
+			hideTitle: 'show',
 			icons: ''
 		}
 	}
@@ -25,7 +27,9 @@ class App extends Component {
 		let icons = this.state.allIcons.filter((icon) => {
 			return icon.name.includes(query) || icon.keyword.includes(query)
 		});
-		return this.setState({icons: icons})
+		//Decide if titles should be hidden
+		let isSearching = (icons.length <= 600) ? 'hide' : 'show'
+		return this.setState({icons: icons, hideTitle: isSearching})
 	}
 
 	render() {
@@ -42,10 +46,12 @@ class App extends Component {
 							.keys(this.state.icons)
 							.map(key => <IconContainer
 								key={key}
+								hideTitle={this.state.hideTitle}
 								data={this.state.icons[key]}/>)
 						}
 					</div>
 				</div>
+				<Footer />
 			</div>
 		)
 	}

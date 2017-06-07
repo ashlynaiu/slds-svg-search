@@ -28,9 +28,11 @@ class IconList extends Component {
 		//Title Markup
 		let renderTitle = () => {
 			return (
-				<ScrollableAnchor id={`${data.name}`}>
-					<h3>{data.name} Icons</h3>
-				</ScrollableAnchor>
+				<div className={`sldsSVG-sectionTitle ${this.props.hideTitle}`}>
+					<ScrollableAnchor id={`${data.name}`}>
+						<h3>{data.name} Icons</h3>
+					</ScrollableAnchor>
+				</div>
 			)
 		}
 

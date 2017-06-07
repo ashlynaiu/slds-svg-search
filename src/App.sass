@@ -72,6 +72,7 @@ $typeVariable: $custom-color, $utility-color, $standard-color, $action-color, $d
 //////////////////////
 .sldsSectionLinks
 	width: 660px
+	padding-bottom: 40px
 	margin: 0 auto
 	display: flex
 
@@ -96,6 +97,10 @@ $typeVariable: $custom-color, $utility-color, $standard-color, $action-color, $d
 		@extend %sldsSectionLinksButtons
 		background-color: nth($typeVariable, $k)
 
+.sldsSectionLinks--about
+	@extend %sldsSectionLinksButtons
+	background-color: #fff
+	color: $dark-blue
 ////////////////////
 /////Go to Top/////
 //////////////////
@@ -139,5 +144,11 @@ $typeVariable: $custom-color, $utility-color, $standard-color, $action-color, $d
 			width: 20px
 			height: 20px
 
-	&.hide
-		display: none
+///////////////////////////////////
+/////Universal Hide Component/////
+/////////////////////////////////
+.hide
+	display: none
+
+.show
+	display: block

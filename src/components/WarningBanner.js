@@ -13,7 +13,7 @@ class WarningBanner extends Component {
 
 	render() {
 		return (
-			<div className={`sldsWarning ${this.state.isHide ? 'hide' : ''}`} ng-if="warning">
+			<div className={`sldsWarning ${this.state.isHide ? 'hide' : ''}`}>
 				<div className="sldsWarning-close" onClick={this.hideBanner}>
 					<img src={require(`../icons/action/close.svg`)} alt="close warning" />
 				</div>

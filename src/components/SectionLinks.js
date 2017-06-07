@@ -7,8 +7,9 @@ class SectionLinks extends Component {
 			<div className="sldsSectionLinks">
 				{Object
 					.keys(types)
-					.map(key => <a href={`#${types[key]}`} className={`sldsSectionLinks--${types[key]}`}>{types[key]}</a>)
+					.map(key => <a key={key} href={`#${types[key]}`} className={`sldsSectionLinks--${types[key]}`}>{types[key]}</a>)
 				}
+				<a href="#about" className="sldsSectionLinks--about">About</a>
 			</div>
 		);
 	}
