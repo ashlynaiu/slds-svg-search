@@ -1014,6 +1014,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'reminder',
+        url: 'reminder',
+        type: 'utility',
+        keyword: ''
+    },
+    {
         name: 'remove formatting',
         url: 'remove_formatting',
         type: 'utility',

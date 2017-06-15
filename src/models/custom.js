@@ -153,7 +153,7 @@ export default [
         name: 'custom25',
         url: 'custom25',
         type: 'custom',
-        keyword: 'alarm'
+        keyword: 'alarm, reminder'
     },
     {
         name: 'custom26',

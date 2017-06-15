@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import '../App.css';
 import IconContainer from './IconContainer';
 import SearchInput from './SearchInput';
 import SectionLinks from './SectionLinks';
