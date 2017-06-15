@@ -34,20 +34,22 @@ class App extends Component {
 	render() {
 		return (
 			<div>
-				<Sticky />
-				<div className="sldsSVG-mainFrame">
-					<WarningBanner />
-					<h1>SLDS SVG Search</h1>
-					<SearchInput searchIcons={this.searchIcons} />
-					<SectionLinks />
-					<div className="sldsSVG-imageContainer">
-						{Object
-							.keys(this.state.icons)
-							.map(key => <IconContainer
-								key={key}
-								hideTitle={this.state.hideTitle}
-								data={this.state.icons[key]}/>)
-						}
+				<div className="sldsSVG-background">
+					<Sticky />
+					<div className="sldsSVG-mainFrame">
+						<WarningBanner />
+						<h1>SLDS SVG Search</h1>
+						<SearchInput searchIcons={this.searchIcons} />
+						<SectionLinks />
+						<div className="sldsSVG-imageContainer">
+							{Object
+								.keys(this.state.icons)
+								.map(key => <IconContainer
+									key={key}
+									hideTitle={this.state.hideTitle}
+									data={this.state.icons[key]}/>)
+							}
+						</div>
 					</div>
 				</div>
 				<Footer />
