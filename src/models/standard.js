@@ -216,6 +216,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'contract line item',
+        url: 'contract_line_item',
+        type: 'standard',
+        keyword: ''
+    },
+    {
         name: 'custom',
         url: 'custom',
         type: 'standard',
@@ -710,6 +716,18 @@ export default [
     {
         name: 'service contract',
         url: 'service_contract',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'service crew',
+        url: 'service_crew',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'service crew member',
+        url: 'service_crew_member',
         type: 'standard',
         keyword: ''
     },
