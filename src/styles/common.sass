@@ -1,3 +1,5 @@
+@import media.sass
+
 ////////////////////
 /////Variables/////
 //////////////////
@@ -111,22 +113,38 @@ p
 		text-transform: capitalize
 
 /////////////////
+/////Header/////
+///////////////
+.sldsSVG-header
+	@include media(handhelds)
+		padding: 0 20px
+/////////////////
 /////Footer/////
 ///////////////
 .sldsSVGFooter
 	width: 100%
-	padding: 40px 15px
 	background-color: $dark-blue
+	@include media(except-handhelds)
+		padding: 40px 0
 
 .sldsSVGFooter-mainFrame
 	max-width: 900px
 	margin: 0 auto
-	display: flex
-	justify-content: space-between
 
-	&--column
-		width: 45%
+	@include media(except-handhelds)
+		display: flex
+		justify-content: space-between
 
+		&--column
+			width: 45%
+
+	@include media(handhelds)
+		padding: 28px 20px
+		h3
+			margin-bottom: 10px
 	p
-		margin-bottom: 12px
+		@include media(except-handhelds)
+			margin-bottom: 12px
+		@include media(handhelds)
+			margin-bottom: 25px
 		line-height: 28px

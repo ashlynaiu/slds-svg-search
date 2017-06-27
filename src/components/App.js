@@ -37,10 +37,12 @@ class App extends Component {
 				<div className="sldsSVG-background">
 					<Sticky />
 					<div className="sldsSVG-mainFrame">
-						<WarningBanner />
-						<h1>SLDS SVG Search</h1>
-						<SearchInput searchIcons={this.searchIcons} />
-						<SectionLinks />
+						<div className="sldsSVG-header">
+							<WarningBanner />
+							<h1>SLDS SVG Search</h1>
+							<SearchInput searchIcons={this.searchIcons} />
+							<SectionLinks />
+						</div>
 						<div className="sldsSVG-imageContainer">
 							{Object
 								.keys(this.state.icons)
