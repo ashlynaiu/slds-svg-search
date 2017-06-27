@@ -132,6 +132,12 @@ p {
   .sldsSVGFooter-mainFrame p {
     margin-bottom: 25px; } }
 
+.hide {
+  display: none; }
+
+.show {
+  display: block; }
+
 .sldsSVG-imageContainer {
   display: flex;
   justify-content: center;
@@ -280,9 +286,3 @@ p {
 .sldsWarning-close img {
   width: 20px;
   height: 20px; }
-
-.hide {
-  display: none; }
-
-.show {
-  display: block; }
