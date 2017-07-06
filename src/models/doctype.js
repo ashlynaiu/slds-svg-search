@@ -156,6 +156,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'quip sheet',
+        url: 'quip_sheet',
+        type: 'doctype',
+        keyword: ''
+    },
+    {
         name: 'rtf',
         url: 'rtf',
         type: 'doctype',

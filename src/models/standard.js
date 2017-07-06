@@ -624,6 +624,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'quip sheet',
+        url: 'quip_sheet',
+        type: 'standard',
+        keyword: ''
+    },
+    {
         name: 'quotes',
         url: 'quotes',
         type: 'standard',
