@@ -288,8 +288,8 @@ export default [
         keyword: ''
     },
     {
-        name: 'copy',
-        url: 'copy',
+        name: 'copy object',
+        url: 'copy_object',
         type: 'utility',
         keyword: ''
     },
@@ -914,6 +914,12 @@ export default [
     {
         name: 'picklist',
         url: 'picklist',
+        type: 'utility',
+        keyword: ''
+    },
+    {
+        name: 'pin',
+        url: 'pin',
         type: 'utility',
         keyword: ''
     },

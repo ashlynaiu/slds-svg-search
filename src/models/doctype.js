@@ -102,6 +102,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'library folder',
+        url: 'library_folder',
+        type: 'doctype',
+        keyword: ''
+    },
+    {
         name: 'link',
         url: 'link',
         type: 'doctype',
