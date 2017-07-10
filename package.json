@@ -19,7 +19,7 @@
     "react-scrollable-anchor": "^0.4.2"
   },
   "scripts": {
-    "build-css": "node-sass src/styles/app.sass -o src/styles",
+    "build-css": "node-sass src/styles/ -o src/styles",
     "watch-css": "npm run build-css && node-sass src/ -o src/ --watch --recursive",
     "start-js": "react-scripts start",
     "start": "npm-run-all -p watch-css start-js",
