@@ -212,13 +212,17 @@ p {
   width: 660px; }
 
 .sldsSectionLinks {
-  width: 660px;
-  padding-bottom: 40px;
+  flex-wrap: wrap;
   margin: 0 auto;
   display: flex; }
 
+@media only screen and (min-width: 800px) {
+  .sldsSectionLinks {
+    width: 660px; } }
+
 .sldsSectionLinks--custom, .sldsSectionLinks--utility, .sldsSectionLinks--standard, .sldsSectionLinks--action, .sldsSectionLinks--doctype, .sldsSectionLinks--about {
   padding: 5px 10px;
+  margin-bottom: 20px;
   font-size: 11px;
   letter-spacing: 1px;
   color: #FFF;

@@ -210,6 +210,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'contact list',
+        url: 'contact_list',
+        type: 'standard',
+        keyword: ''
+    },
+    {
         name: 'contract',
         url: 'contract',
         type: 'standard',
@@ -408,6 +414,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'lead list',
+        url: 'lead_list',
+        type: 'standard',
+        keyword: ''
+    },
+    {
         name: 'lead insights',
         url: 'lead_insights',
         type: 'standard',
@@ -422,6 +434,12 @@ export default [
     {
         name: 'link',
         url: 'link',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'list email',
+        url: 'list_email',
         type: 'standard',
         keyword: ''
     },
@@ -486,6 +504,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'omni supervisor',
+        url: 'omni_supervisor',
+        type: 'standard',
+        keyword: ''
+    },
+    {
         name: 'operating hours',
         url: 'operating_hours',
         type: 'standard',
@@ -494,6 +518,12 @@ export default [
     {
         name: 'opportunity',
         url: 'opportunity',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'opportunity splits',
+        url: 'opportunity_splits',
         type: 'standard',
         keyword: ''
     },
@@ -620,6 +650,12 @@ export default [
     {
         name: 'quip',
         url: 'quip',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'quick text',
+        url: 'quick_text',
         type: 'standard',
         keyword: ''
     },
@@ -824,6 +860,12 @@ export default [
     {
         name: 'team member',
         url: 'team_member',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'template',
+        url: 'template',
         type: 'standard',
         keyword: ''
     },

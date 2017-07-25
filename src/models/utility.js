@@ -12,6 +12,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'activity',
+        url: 'activity',
+        type: 'utility',
+        keyword: ''
+    },
+    {
         name: 'add',
         url: 'add',
         type: 'utility',
@@ -48,8 +54,20 @@ export default [
         keyword: ''
     },
     {
+        name: 'animal and nature',
+        url: 'animal_and_nature',
+        type: 'utility',
+        keyword: ''
+    },
+    {
         name: 'answer',
         url: 'answer',
+        type: 'utility',
+        keyword: ''
+    },
+    {
+        name: 'answered twice',
+        url: 'answered_twice',
         type: 'utility',
         keyword: ''
     },
@@ -98,6 +116,12 @@ export default [
     {
         name: 'bold',
         url: 'bold',
+        type: 'utility',
+        keyword: ''
+    },
+    {
+        name: 'block visitor',
+        url: 'block_visitor',
         type: 'utility',
         keyword: ''
     },
@@ -158,6 +182,18 @@ export default [
     {
         name: 'campaign',
         url: 'campaign',
+        type: 'utility',
+        keyword: ''
+    },
+    {
+        name: 'cancel transfer',
+        url: 'cancel_transfer',
+        type: 'utility',
+        keyword: ''
+    },
+    {
+        name: 'cancel file request',
+        url: 'cancel_file_request',
         type: 'utility',
         keyword: ''
     },
@@ -288,8 +324,8 @@ export default [
         keyword: ''
     },
     {
-        name: 'copy object',
-        url: 'copy_object',
+        name: 'copy',
+        url: 'copy',
         type: 'utility',
         keyword: ''
     },
@@ -420,6 +456,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'end chat',
+        url: 'end_chat',
+        type: 'utility',
+        keyword: ''
+    },
+    {
         name: 'erect window',
         url: 'erect_window',
         type: 'utility',
@@ -498,6 +540,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'food and drink',
+        url: 'food_and_drink',
+        type: 'utility',
+        keyword: ''
+    },
+    {
         name: 'forward',
         url: 'forward',
         type: 'utility',
@@ -516,6 +564,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'graph',
+        url: 'graph',
+        type: 'utility',
+        keyword: ''
+    },
+    {
         name: 'groups',
         url: 'groups',
         type: 'utility',
@@ -524,6 +578,12 @@ export default [
     {
         name: 'help',
         url: 'help',
+        type: 'utility',
+        keyword: ''
+    },
+    {
+        name: 'hide',
+        url: 'hide',
         type: 'utility',
         keyword: ''
     },
@@ -702,6 +762,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'lower flag',
+        url: 'lower_flag',
+        type: 'utility',
+        keyword: ''
+    },
+    {
         name: 'macros',
         url: 'macros',
         type: 'utility',
@@ -722,6 +788,12 @@ export default [
     {
         name: 'matrix',
         url: 'matrix',
+        type: 'utility',
+        keyword: ''
+    },
+    {
+        name: 'merge field',
+        url: 'merge_field',
         type: 'utility',
         keyword: ''
     },
@@ -924,6 +996,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'pinned',
+        url: 'pinned',
+        type: 'utility',
+        keyword: ''
+    },
+    {
         name: 'power',
         url: 'power',
         type: 'utility',
@@ -974,6 +1052,12 @@ export default [
     {
         name: 'question mark',
         url: 'question_mark',
+        type: 'utility',
+        keyword: ''
+    },
+    {
+        name: 'quick text',
+        url: 'quick_text',
         type: 'utility',
         keyword: ''
     },
@@ -1170,6 +1254,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'share file',
+        url: 'share_file',
+        type: 'utility',
+        keyword: ''
+    },
+    {
         name: 'share post',
         url: 'share_post',
         type: 'utility',
@@ -1194,6 +1284,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'shopping bag',
+        url: 'shopping_bag',
+        type: 'utility',
+        keyword: ''
+    },
+    {
         name: 'side list',
         url: 'side_list',
         type: 'utility',
@@ -1202,6 +1298,12 @@ export default [
     {
         name: 'signpost',
         url: 'signpost',
+        type: 'utility',
+        keyword: ''
+    },
+    {
+        name: 'smiley and people',
+        url: 'smiley_and_people',
         type: 'utility',
         keyword: ''
     },
@@ -1274,6 +1376,12 @@ export default [
     {
         name: 'switch',
         url: 'switch',
+        type: 'utility',
+        keyword: ''
+    },
+    {
+        name: 'symbols',
+        url: 'symbols',
         type: 'utility',
         keyword: ''
     },
@@ -1358,6 +1466,12 @@ export default [
     {
         name: 'trail',
         url: 'trail',
+        type: 'utility',
+        keyword: 'travel, outdoor'
+    },
+    {
+        name: 'travel and places',
+        url: 'travel_and_places',
         type: 'utility',
         keyword: 'travel, outdoor'
     },

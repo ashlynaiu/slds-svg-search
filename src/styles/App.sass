@@ -71,15 +71,18 @@ $typeVariable: $custom-color, $utility-color, $standard-color, $action-color, $d
 /////Section Links/////
 //////////////////////
 .sldsSectionLinks
-	width: 660px
-	padding-bottom: 40px
+	@include media(except-handhelds)
+		width: 660px
+	@include media(except-handhelds)
+	flex-wrap: wrap
 	margin: 0 auto
 	display: flex
 
 %sldsSectionLinksButtons
 	padding: 5px 10px
+	margin-bottom: 20px
 	font-size: 11px
-	letter-spacing: 1px;
+	letter-spacing: 1px
 	color: $text-color-standard
 	border-radius: 4px
 	opacity: .8
@@ -112,7 +115,7 @@ $typeVariable: $custom-color, $utility-color, $standard-color, $action-color, $d
 	width: 100%
 	padding: 10px 0
 	font-weight: 100
-	transition: all .5s ease 0s;
+	transition: all .5s ease 0s
 
 	&.hide
 		top: -40px
