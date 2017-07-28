@@ -204,12 +204,35 @@ p {
 .sldsInput {
   display: flex;
   justify-content: center;
-  margin: 20px 0 20px 0; }
+  margin: 20px 0 20px 0;
+  position: relative; }
 
 .sldsInput input {
   padding: 12px;
   border-radius: 4px;
   width: 660px; }
+
+.sldsInput a.sldsInput-clear {
+  position: absolute;
+  display: flex;
+  right: 165px;
+  top: 10px;
+  padding: 5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #54698d;
+  opacity: .3; }
+
+.sldsInput a.sldsInput-clear:hover {
+  opacity: .6;
+  transition: all .5s ease 0s; }
+
+.sldsInput a.sldsInput-clear.hide {
+  display: none; }
+
+.sldsInput a.sldsInput-clear img {
+  width: 100%; }
 
 .sldsSectionLinks {
   flex-wrap: wrap;
@@ -254,18 +277,48 @@ p {
   background-color: #fff;
   color: #16325c; }
 
-.sldsStickyTop {
-  position: fixed;
-  top: 0;
-  text-align: center;
-  background-color: #16325c;
-  width: 100%;
-  padding: 10px 0;
-  font-weight: 100;
-  transition: all .5s ease 0s; }
+@media only screen and (max-width: 999px) {
+  .sldsStickyTop {
+    position: fixed;
+    top: 0;
+    text-align: center;
+    background-color: #16325c;
+    width: 100%;
+    padding: 10px 0;
+    font-weight: 100;
+    transition: all .5s ease 0s; }
+  .sldsStickyTop.hide {
+    top: -40px; }
+  .sldsStickyTop img {
+    display: none; } }
 
-.sldsStickyTop.hide {
-  top: -40px; }
+@media only screen and (min-width: 1000px) {
+  .sldsStickyTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    background-color: #16325c;
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    opacity: .8;
+    cursor: pointer; }
+  .sldsStickyTop:hover {
+    transition: all linear .3s;
+    opacity: 1; }
+  .sldsStickyTop a {
+    display: none; }
+  .sldsStickyTop img {
+    width: 100%; } }
+
+.sldsStickyRight {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #16325c;
+  width: 40px;
+  height: 40px; }
 
 .sldsWarning {
   max-width: 700px;

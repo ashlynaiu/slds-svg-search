@@ -62,10 +62,32 @@ $typeVariable: $custom-color, $utility-color, $standard-color, $action-color, $d
 	display: flex
 	justify-content: center
 	margin: 20px 0 20px 0
+	position: relative
 	input
 		padding: 12px
 		border-radius: 4px
 		width: 660px
+
+	a.sldsInput-clear
+		position: absolute
+		display: flex
+		right: 165px
+		top: 10px
+		padding: 5px
+		width: 20px
+		height: 20px
+		border-radius: 50%
+		background-color: $background-color
+		opacity: .3
+
+		&:hover
+			opacity: .6
+			transition: all .5s ease 0s
+
+		&.hide
+			display: none
+		img
+			width: 100%
 
 ////////////////////////
 /////Section Links/////
@@ -73,7 +95,6 @@ $typeVariable: $custom-color, $utility-color, $standard-color, $action-color, $d
 .sldsSectionLinks
 	@include media(except-handhelds)
 		width: 660px
-	@include media(except-handhelds)
 	flex-wrap: wrap
 	margin: 0 auto
 	display: flex
@@ -104,22 +125,56 @@ $typeVariable: $custom-color, $utility-color, $standard-color, $action-color, $d
 	@extend %sldsSectionLinksButtons
 	background-color: #fff
 	color: $dark-blue
+
 ////////////////////
 /////Go to Top/////
 //////////////////
 .sldsStickyTop
+	@include media(to-small-screens)
+		position: fixed
+		top: 0
+		text-align: center
+		background-color: $dark-blue
+		width: 100%
+		padding: 10px 0
+		font-weight: 100
+		transition: all .5s ease 0s
+
+		&.hide
+			top: -40px
+
+		img
+			display: none
+
+	@include media(above-small-screens)
+		position: fixed
+		bottom: 20px
+		right: 20px
+		padding: 10px
+		background-color: $dark-blue
+		width: 30px
+		height: 30px
+		border-radius: 4px
+		opacity: .8
+		cursor: pointer
+
+		&:hover
+			transition: all linear .3s
+			opacity: 1
+
+		a
+			display: none
+
+		img
+			width: 100%
+
+.sldsStickyRight
 	position: fixed
-	top: 0
-	text-align: center
+	bottom: 20px
+	right: 20px
 	background-color: $dark-blue
-	width: 100%
-	padding: 10px 0
-	font-weight: 100
-	transition: all .5s ease 0s
-
-	&.hide
-		top: -40px
-
+	width: 40px
+	height: 40px
 ////////////////////////////
 /////Warning Component/////
 //////////////////////////

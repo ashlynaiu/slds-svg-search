@@ -30,8 +30,9 @@ class Sticky extends Component {
 	render() {
 		let classHide = this.state.isHide ? 'hide' : ''
 		return (
-			<div className={`sldsStickyTop ${classHide}`}>
-				<a onClick={this.scrollToTop}>Return to Search</a>
+			<div className={`sldsStickyTop ${classHide}`} onClick={this.scrollToTop}>
+				<img src={require(`../icons/utility/chevronup.svg`)} alt="Return to Search" />
+				<a>Return to Search</a>
 			</div>
 		);
 	}
