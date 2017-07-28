@@ -15,6 +15,7 @@ class SearchInput extends Component {
 	//Send the query back for icon filtering
 	handleSearch(event) {
 		this.props.searchIcons(event.target.value)
+		//Toggle clear icon
 		if (event.target.value.length > 0) {
 			 return this.setState({hideClear: false})
 		}
@@ -40,7 +41,7 @@ class SearchInput extends Component {
 
 		return (
 			<div className="sldsInput">
-					<a onClick={this.inputClear} className={`sldsInput-clear ${classHide}`} ><img src={require(`../icons/action/close.svg`)} alt="close warning" /></a>
+					<a onClick={this.inputClear} className={`sldsInput-clear ${classHide}`} ><img src={require(`../icons/action/close.svg`)} alt="clear input" /></a>
 					<input type="text" onKeyUp={this.handleSearch} value={this.state.valueAttr} onChange={this.handleChange} placeholder="Search for an icon"/>
 			</div>
 		);
