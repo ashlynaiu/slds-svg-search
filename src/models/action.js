@@ -255,7 +255,7 @@ export default [
         name: 'more',
         url: 'more',
         type: 'action',
-        keyword: ''
+        keyword: 'menu, options'
     },
     {
         name: 'new account',
@@ -357,7 +357,7 @@ export default [
         name: 'priority',
         url: 'priority',
         type: 'action',
-        keyword: ''
+        keyword: 'high'
     },
     {
         name: 'question post action',
@@ -483,6 +483,6 @@ export default [
         name: 'web link',
         url: 'web_link',
         type: 'action',
-        keyword: ''
+        keyword: 'global'
     }
 ]

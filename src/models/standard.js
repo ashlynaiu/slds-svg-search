@@ -63,7 +63,7 @@ export default [
         name: 'article',
         url: 'article',
         type: 'standard',
-        keyword: ''
+        keyword: 'book, knowledge'
     },
     {
         name: 'asset relationship',
@@ -88,6 +88,12 @@ export default [
         url: 'avatar',
         type: 'standard',
         keyword: ''
+    },
+    {
+        name: 'bot',
+        url: 'bot',
+        type: 'standard',
+        keyword: 'chat, ai, intelligence'
     },
     {
         name: 'business hours',
@@ -141,7 +147,7 @@ export default [
         name: 'case milestone',
         url: 'case_milestone',
         type: 'standard',
-        keyword: ''
+        keyword: 'priority'
     },
     {
         name: 'case change status',
@@ -186,7 +192,7 @@ export default [
         keyword: ''
     },
     {
-        name: 'cms',
+        name: 'CMS',
         url: 'cms',
         type: 'standard',
         keyword: ''
@@ -249,7 +255,7 @@ export default [
         name: 'default',
         url: 'default',
         type: 'standard',
-        keyword: ''
+        keyword: 'cloud, salesforce'
     },
     {
         name: 'document',
@@ -288,6 +294,12 @@ export default [
         keyword: 'like, upvote'
     },
     {
+        name: 'entity',
+        url: 'entity',
+        type: 'standard',
+        keyword: ''
+    },
+    {
         name: 'entity milestone',
         url: 'entity_milestone',
         type: 'standard',
@@ -303,7 +315,7 @@ export default [
         name: 'entitlement_process',
         url: 'entitlement_process',
         type: 'standard',
-        keyword: ''
+        keyword: 'flow, map'
     },
     {
         name: 'entitlement template',
@@ -315,7 +327,7 @@ export default [
         name: 'environment hub',
         url: 'environment_hub',
         type: 'standard',
-        keyword: ''
+        keyword: 'connected'
     },
     {
         name: 'event',
@@ -447,7 +459,7 @@ export default [
         name: 'location',
         url: 'location',
         type: 'standard',
-        keyword: ''
+        keyword: 'map, directions'
     },
     {
         name: 'log a call',
@@ -471,7 +483,7 @@ export default [
         name: 'maintenance asset',
         url: 'maintenance_asset',
         type: 'standard',
-        keyword: ''
+        keyword: 'group, folder'
     },
     {
         name: 'marketing actions',
@@ -567,7 +579,7 @@ export default [
         name: 'portal',
         url: 'portal',
         type: 'standard',
-        keyword: ''
+        keyword: 'lock, keyhole, authenticate'
     },
     {
         name: 'post',
@@ -585,13 +597,13 @@ export default [
         name: 'process',
         url: 'process',
         type: 'standard',
-        keyword: ''
+        keyword: 'flow, builder'
     },
     {
         name: 'product',
         url: 'product',
         type: 'standard',
-        keyword: ''
+        keyword: 'price, item'
     },
     {
         name: 'product consumed',
@@ -633,7 +645,7 @@ export default [
         name: 'product transfer',
         url: 'product_transfer',
         type: 'standard',
-        keyword: ''
+        keyword: 'switch, rotate'
     },
     {
         name: 'question best',
@@ -651,7 +663,7 @@ export default [
         name: 'quip',
         url: 'quip',
         type: 'standard',
-        keyword: ''
+        keyword: 'document, report'
     },
     {
         name: 'quick text',
@@ -663,13 +675,13 @@ export default [
         name: 'quip sheet',
         url: 'quip_sheet',
         type: 'standard',
-        keyword: ''
+        keyword: 'spreadsheet, excel'
     },
     {
         name: 'quotes',
         url: 'quotes',
         type: 'standard',
-        keyword: ''
+        keyword: 'price tag'
     },
     {
         name: 'recent',
@@ -741,7 +753,7 @@ export default [
         name: 'sales path',
         url: 'sales_path',
         type: 'standard',
-        keyword: ''
+        keyword: 'opportunity, lead'
     },
     {
         name: 'scan card',
@@ -840,10 +852,10 @@ export default [
         keyword: ''
     },
     {
-        name: 'sossession',
+        name: 'sos session',
         url: 'sossession',
         type: 'standard',
-        keyword: ''
+        keyword: 'help, call center'
     },
     {
         name: 'task',
@@ -903,13 +915,13 @@ export default [
         name: 'today',
         url: 'today',
         type: 'standard',
-        keyword: ''
+        keyword: 'time, clock, due'
     },
     {
         name: 'topic',
         url: 'topic',
         type: 'standard',
-        keyword: ''
+        keyword: 'hashtag, pound'
     },
     {
         name: 'topic2',
@@ -921,7 +933,7 @@ export default [
         name: 'unmatched',
         url: 'unmatched',
         type: 'standard',
-        keyword: ''
+        keyword: 'error, stop, wrong'
     },
     {
         name: 'user',

@@ -15,7 +15,7 @@ export default [
         name: 'activity',
         url: 'activity',
         type: 'utility',
-        keyword: ''
+        keyword: 'ball, outdoors'
     },
     {
         name: 'add',
@@ -57,7 +57,7 @@ export default [
         name: 'animal and nature',
         url: 'animal_and_nature',
         type: 'utility',
-        keyword: ''
+        keyword: 'bear'
     },
     {
         name: 'answer',
@@ -174,6 +174,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'case',
+        url: 'case',
+        type: 'utility',
+        keyword: ''
+    },
+    {
         name: 'cases',
         url: 'cases',
         type: 'utility',
@@ -189,13 +195,13 @@ export default [
         name: 'cancel transfer',
         url: 'cancel_transfer',
         type: 'utility',
-        keyword: ''
+        keyword: 'error, stop'
     },
     {
         name: 'cancel file request',
         url: 'cancel_file_request',
         type: 'utility',
-        keyword: ''
+        keyword: 'cancel, error'
     },
     {
         name: 'center align text',
@@ -207,7 +213,7 @@ export default [
         name: 'change owner',
         url: 'change_owner',
         type: 'utility',
-        keyword: ''
+        keyword: 'user'
     },
     {
         name: 'change record type',
@@ -273,7 +279,7 @@ export default [
         name: 'clear',
         url: 'clear',
         type: 'utility',
-        keyword: ''
+        keyword: 'error, cancel, close'
     },
     {
         name: 'clock',
@@ -339,7 +345,7 @@ export default [
         name: 'crossfilter',
         url: 'crossfilter',
         type: 'utility',
-        keyword: ''
+        keyword: 'link'
     },
     {
         name: 'custom apps',
@@ -447,7 +453,7 @@ export default [
         name: 'emoji',
         url: 'emoji',
         type: 'utility',
-        keyword: ''
+        keyword: 'smile'
     },
     {
         name: 'end call',
@@ -816,7 +822,7 @@ export default [
         keyword: ''
     },
     {
-        name: 'monthlyview',
+        name: 'Monthly View',
         url: 'monthlyview',
         type: 'utility',
         keyword: ''
@@ -915,7 +921,7 @@ export default [
         name: 'overflow',
         url: 'overflow',
         type: 'utility',
-        keyword: ''
+        keyword: 'multi window, view'
     },
     {
         name: 'package org beta',
@@ -939,7 +945,7 @@ export default [
         name: 'page',
         url: 'page',
         type: 'utility',
-        keyword: ''
+        keyword: 'document'
     },
     {
         name: 'palette',
@@ -1005,7 +1011,7 @@ export default [
         name: 'power',
         url: 'power',
         type: 'utility',
-        keyword: ''
+        keyword: 'on'
     },
     {
         name: 'preview',
@@ -1016,6 +1022,12 @@ export default [
     {
         name: 'priority',
         url: 'priority',
+        type: 'utility',
+        keyword: ''
+    },
+    {
+        name: 'privately shared',
+        url: 'privately_shared',
         type: 'utility',
         keyword: ''
     },
@@ -1035,13 +1047,13 @@ export default [
         name: 'puzzle',
         url: 'puzzle',
         type: 'utility',
-        keyword: ''
+        keyword: 'logic, connect'
     },
     {
         name: 'question',
         url: 'question',
         type: 'utility',
-        keyword: ''
+        keyword: 'help'
     },
     {
         name: 'questions and answers',
@@ -1053,13 +1065,13 @@ export default [
         name: 'question mark',
         url: 'question_mark',
         type: 'utility',
-        keyword: ''
+        keyword: 'help'
     },
     {
         name: 'quick text',
         url: 'quick_text',
         type: 'utility',
-        keyword: ''
+        keyword: 'chat'
     },
     {
         name: 'quotation marks',
@@ -1071,7 +1083,7 @@ export default [
         name: 'rating',
         url: 'rating',
         type: 'utility',
-        keyword: ''
+        keyword: 'levels'
     },
     {
         name: 'record create',
@@ -1216,6 +1228,12 @@ export default [
         url: 'rows',
         type: 'utility',
         keyword: 'hamburger, menu, collapse'
+    },
+    {
+        name: 'rules',
+        url: 'rules',
+        type: 'utility',
+        keyword: 'flow'
     },
     {
         name: 'salesforce1',
@@ -1587,7 +1605,7 @@ export default [
         name: 'weekly view',
         url: 'weeklyview',
         type: 'utility',
-        keyword: ''
+        keyword: 'calendar'
     },
     {
         name: 'wifi',
@@ -1611,7 +1629,7 @@ export default [
         name: 'world',
         url: 'world',
         type: 'utility',
-        keyword: ''
+        keyword: 'global'
     },
     {
         name: 'zoomin',
