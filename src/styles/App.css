@@ -309,7 +309,7 @@ p {
   .sldsStickyTop:hover {
     transition: all linear 0.3s;
     opacity: 1; }
-  .sldsStickyTop a {
+  .sldsStickyTop span {
     display: none; }
   .sldsStickyTop img {
     width: 100%; } }

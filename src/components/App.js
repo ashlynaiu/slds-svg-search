@@ -6,6 +6,7 @@ import Sticky from './Sticky';
 import WarningBanner from './WarningBanner';
 import Footer from './Footer';
 import icons from '../models';
+import ScrollableAnchor from 'react-scrollable-anchor';
 
 class App extends Component {
 	constructor() {
@@ -37,12 +38,14 @@ class App extends Component {
 				<div className="sldsSVG-background">
 					<Sticky />
 					<div className="sldsSVG-mainFrame">
-						<div className="sldsSVG-header">
-							<WarningBanner />
-							<h1>SLDS SVG Search</h1>
-							<SearchInput searchIcons={this.searchIcons} />
-							<SectionLinks />
-						</div>
+						<ScrollableAnchor id="header">
+							<div className="sldsSVG-header">
+								<WarningBanner />
+								<h1>SLDS SVG Search</h1>
+								<SearchInput searchIcons={this.searchIcons} />
+								<SectionLinks />
+							</div>
+						</ScrollableAnchor>
 						<div className="sldsSVG-imageContainer">
 							{Object
 								.keys(this.state.icons)
