@@ -14,6 +14,10 @@ $standard-color: #fe8f60
 $action-color: #00c6b7
 $doctype-color: #16325c
 
+$transition_standard: all linear .3s
+$transition_long: all .5s ease 0s
+$header_width: 660px
+$body_width: 900px
 /////////////////
 /////Resets/////
 ///////////////
@@ -116,8 +120,13 @@ p
 /////Header/////
 ///////////////
 .sldsSVG-header
+	@include media(except-handhelds)
+		max-width: $header_width
+		margin: 0 auto
+
 	@include media(handhelds)
 		padding: 0 20px
+
 /////////////////
 /////Footer/////
 ///////////////
@@ -128,7 +137,7 @@ p
 		padding: 40px 0
 
 .sldsSVGFooter-mainFrame
-	max-width: 900px
+	max-width: $body_width
 	margin: 0 auto
 
 	@include media(except-handhelds)
@@ -142,6 +151,7 @@ p
 		padding: 28px 20px
 		h3
 			margin-bottom: 10px
+
 	p
 		@include media(except-handhelds)
 			margin-bottom: 12px

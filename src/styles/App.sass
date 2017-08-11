@@ -34,7 +34,7 @@ $typeVariable: $custom-color, $utility-color, $standard-color, $action-color, $d
 
 	&:hover
 		border-radius: 4px
-		transition: all linear .3s
+		transition: $transition_standard
 
 @for $i from 1 through length($types)
 	.sldsSVG-image--#{nth($types, $i)}
@@ -58,20 +58,19 @@ $typeVariable: $custom-color, $utility-color, $standard-color, $action-color, $d
 /////Search/////
 ///////////////
 .sldsInput
-	display: flex
-	justify-content: center
 	margin: 20px 0 20px 0
 	position: relative
+	width: 100%
 
 	input
 		padding: 12px
 		border-radius: 4px
-		width: 660px
+		width: 100%
 
 	a.sldsInput-clear
 		position: absolute
 		display: flex
-		right: 165px
+		right: 10px
 		top: 10px
 		padding: 5px
 		width: 20px
@@ -82,7 +81,7 @@ $typeVariable: $custom-color, $utility-color, $standard-color, $action-color, $d
 
 		&:hover
 			opacity: .6
-			transition: all .5s ease 0s
+			transition: $transition_long
 
 		&.hide
 			display: none
@@ -94,8 +93,6 @@ $typeVariable: $custom-color, $utility-color, $standard-color, $action-color, $d
 /////Section Links/////
 //////////////////////
 .sldsSectionLinks
-	@include media(except-handhelds)
-		width: 660px
 	flex-wrap: wrap
 	margin: 0 auto
 	display: flex
@@ -107,15 +104,17 @@ $typeVariable: $custom-color, $utility-color, $standard-color, $action-color, $d
 	letter-spacing: 1px
 	color: $text-color-standard
 	border-radius: 4px
-	opacity: .8
+	opacity: 1
 	text-decoration: none
 	text-transform: uppercase
+	transition: $transition_standard
 
 	&:not(last-child)
 	margin-right: 10px
 
 	&:hover
 		text-decoration: underline
+		opacity: .8
 
 @for $k from 1 through length($types)
 	.sldsSectionLinks--#{nth($types, $k)}
@@ -133,16 +132,17 @@ $typeVariable: $custom-color, $utility-color, $standard-color, $action-color, $d
 .sldsStickyTop
 	@include media(to-small-screens)
 		position: fixed
-		top: 0
 		text-align: center
 		background-color: $dark-blue
 		width: 100%
 		padding: 10px 0
 		font-weight: 100
-		transition: all .5s ease 0s
+		//To Do: Need to fix transitions with enter and leave animations
+		transition: transform 5s linear
+		transform: translateY(0)
 
 		&.hide
-			top: -40px
+			transform: translateY(-40px)
 
 		img
 			display: none
@@ -160,7 +160,7 @@ $typeVariable: $custom-color, $utility-color, $standard-color, $action-color, $d
 		cursor: pointer
 
 		&:hover
-			transition: all linear .3s
+			transition: $transition_standard
 			opacity: 1
 
 		a
@@ -181,15 +181,19 @@ $typeVariable: $custom-color, $utility-color, $standard-color, $action-color, $d
 /////Warning Component/////
 //////////////////////////
 .sldsWarning
-	max-width: 700px
 	margin: 0 auto
 	background-color: $dark-blue
-	padding: 20px
 	text-align: center
 	border-radius: 4px
 	line-height: 22px
 	margin-bottom: 30px
 	position: relative
+
+	@include media(handhelds)
+		padding: 30px
+
+	@include media(except-handhelds)
+		padding: 20px
 
 	span
 		font-size: 14px
