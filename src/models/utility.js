@@ -711,7 +711,7 @@ export default [
         name: 'left',
         url: 'left',
         type: 'utility',
-        keyword: ''
+        keyword: 'arrow'
     },
     {
         name: 'level up',
@@ -1215,7 +1215,7 @@ export default [
         name: 'right',
         url: 'right',
         type: 'utility',
-        keyword: ''
+        keyword: 'arrow'
     },
     {
         name: 'rotate',
@@ -1551,7 +1551,7 @@ export default [
         name: 'up',
         url: 'up',
         type: 'utility',
-        keyword: ''
+        keyword: 'arrow'
     },
     {
         name: 'upload',
