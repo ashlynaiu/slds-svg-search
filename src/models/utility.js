@@ -300,6 +300,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'color swatch',
+        url: 'color_swatch',
+        type: 'utility',
+        keyword: ''
+    },
+    {
         name: 'comments',
         url: 'comments',
         type: 'utility',

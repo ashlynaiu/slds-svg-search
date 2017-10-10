@@ -420,6 +420,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'iot orchestrations',
+        url: 'iot_orchestrations',
+        type: 'standard',
+        keyword: ''
+    },
+    {
         name: 'lead',
         url: 'lead',
         type: 'standard',
@@ -494,6 +500,24 @@ export default [
     {
         name: 'merge',
         url: 'merge',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'messaging conversation',
+        url: 'messaging_conversation',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'messaging session',
+        url: 'messaging_session',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'messaging user',
+        url: 'messaging_user',
         type: 'standard',
         keyword: ''
     },
@@ -638,6 +662,18 @@ export default [
     {
         name: 'product required',
         url: 'product_required',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'product return line item',
+        url: 'product_return_line_item',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'product return',
+        url: 'product_return',
         type: 'standard',
         keyword: ''
     },
