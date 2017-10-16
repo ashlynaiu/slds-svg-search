@@ -186,6 +186,30 @@ export default [
         keyword: ''
     },
     {
+        name: 'channel program history',
+        url: 'channel_program_history',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'channel program levels',
+        url: 'channel_program_levels',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'channel program members',
+        url: 'channel_program_members',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'channel programs',
+        url: 'channel_programs',
+        type: 'standard',
+        keyword: ''
+    },
+    {
         name: 'client',
         url: 'client',
         type: 'standard',
@@ -242,6 +266,12 @@ export default [
     {
         name: 'custom notification',
         url: 'custom_notification',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'customers',
+        url: 'customers',
         type: 'standard',
         keyword: ''
     },
@@ -572,6 +602,36 @@ export default [
     {
         name: 'people',
         url: 'people',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'partner fund allocation',
+        url: 'partner_fund_allocation',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'partner fund claim',
+        url: 'partner_fund_claim',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'partner fund request',
+        url: 'partner_fund_request',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'partner marketing budget',
+        url: 'partner_marketing_budget',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'partners',
+        url: 'partners',
         type: 'standard',
         keyword: ''
     },
