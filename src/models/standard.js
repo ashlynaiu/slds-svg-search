@@ -606,6 +606,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'past_chat',
+        url: 'past_chat',
+        type: 'standard',
+        keyword: ''
+    },
+    {
         name: 'partner fund allocation',
         url: 'partner_fund_allocation',
         type: 'standard',
@@ -726,18 +732,6 @@ export default [
         keyword: ''
     },
     {
-        name: 'product return line item',
-        url: 'product_return_line_item',
-        type: 'standard',
-        keyword: ''
-    },
-    {
-        name: 'product return',
-        url: 'product_return',
-        type: 'standard',
-        keyword: ''
-    },
-    {
         name: 'product transfer',
         url: 'product_transfer',
         type: 'standard',
@@ -836,6 +830,18 @@ export default [
     {
         name: 'resource skill',
         url: 'resource_skill',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'return order line item',
+        url: 'return_order_line_item',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'return order',
+        url: 'return_order',
         type: 'standard',
         keyword: ''
     },

@@ -594,6 +594,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'hierarchy',
+        url: 'hierarchy',
+        type: 'utility',
+        keyword: ''
+    },
+    {
         name: 'hide',
         url: 'hide',
         type: 'utility',
@@ -740,6 +746,12 @@ export default [
     {
         name: 'link',
         url: 'link',
+        type: 'utility',
+        keyword: ''
+    },
+    {
+        name: 'listen',
+        url: 'listen',
         type: 'utility',
         keyword: ''
     },
