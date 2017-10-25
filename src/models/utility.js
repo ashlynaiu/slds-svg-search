@@ -414,6 +414,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'desktop console',
+        url: 'desktop_console',
+        type: 'utility',
+        keyword: ''
+    },
+    {
         name: 'dislike',
         url: 'dislike',
         type: 'utility',
@@ -936,6 +942,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'outbound call',
+        url: 'outbound_call',
+        type: 'utility',
+        keyword: 'multi window, view'
+    },
+    {
         name: 'overflow',
         url: 'overflow',
         type: 'utility',
@@ -1268,6 +1280,18 @@ export default [
     {
         name: 'search',
         url: 'search',
+        type: 'utility',
+        keyword: ''
+    },
+    {
+        name: 'sentiment negative',
+        url: 'sentiment_negative',
+        type: 'utility',
+        keyword: ''
+    },
+    {
+        name: 'sentiment neutral',
+        url: 'sentiment_neutral',
         type: 'utility',
         keyword: ''
     },
