@@ -864,6 +864,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'search',
+        url: 'search',
+        type: 'standard',
+        keyword: ''
+    },
+    {
         name: 'service appointment',
         url: 'service_appointment',
         type: 'standard',
@@ -958,6 +964,12 @@ export default [
         url: 'sossession',
         type: 'standard',
         keyword: 'help, call center'
+    },
+    {
+        name: 'survey',
+        url: 'survey',
+        type: 'standard',
+        keyword: ''
     },
     {
         name: 'task',

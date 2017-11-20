@@ -840,13 +840,19 @@ export default [
         keyword: ''
     },
     {
-        name: 'moneybag',
+        name: 'missed call',
+        url: 'missed_call',
+        type: 'utility',
+        keyword: ''
+    },
+    {
+        name: 'money bag',
         url: 'moneybag',
         type: 'utility',
         keyword: ''
     },
     {
-        name: 'Monthly View',
+        name: 'monthly view',
         url: 'monthlyview',
         type: 'utility',
         keyword: ''
@@ -1430,6 +1436,12 @@ export default [
     {
         name: 'summarydetail',
         url: 'summarydetail',
+        type: 'utility',
+        keyword: ''
+    },
+    {
+        name: 'survey',
+        url: 'survey',
         type: 'utility',
         keyword: ''
     },
