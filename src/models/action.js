@@ -444,6 +444,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'script',
+        url: 'script',
+        type: 'action',
+        keyword: ''
+    },
+    {
         name: 'submit for approval',
         url: 'submit_for_approval',
         type: 'action',

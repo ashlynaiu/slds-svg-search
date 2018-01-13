@@ -444,6 +444,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'drag',
+        url: 'drag',
+        type: 'utility',
+        keyword: ''
+    },
+    {
         name: 'edit form',
         url: 'edit_form',
         type: 'utility',
@@ -1044,6 +1050,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'play',
+        url: 'play',
+        type: 'utility',
+        keyword: ''
+    },
+    {
         name: 'power',
         url: 'power',
         type: 'utility',
@@ -1404,6 +1416,18 @@ export default [
         keyword: 'loader'
     },
     {
+        name: 'stage',
+        url: 'stage',
+        type: 'utility',
+        keyword: ''
+    },
+    {
+        name: 'stage collection',
+        url: 'stage_collection',
+        type: 'utility',
+        keyword: ''
+    },
+    {
         name: 'standard objects',
         url: 'standard_objects',
         type: 'utility',
@@ -1556,6 +1580,12 @@ export default [
     {
         name: 'turn off notifications',
         url: 'turn_off_notifications',
+        type: 'utility',
+        keyword: ''
+    },
+    {
+        name: 'type',
+        url: 'type',
         type: 'utility',
         keyword: ''
     },

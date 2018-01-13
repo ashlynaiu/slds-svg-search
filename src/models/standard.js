@@ -12,6 +12,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'action list component',
+        url: 'action_list_component',
+        type: 'standard',
+        keyword: ''
+    },
+    {
         name: 'address',
         url: 'address',
         type: 'standard',
@@ -282,6 +288,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'data integration hub',
+        url: 'data_integration_hub',
+        type: 'standard',
+        keyword: ''
+    },
+    {
         name: 'default',
         url: 'default',
         type: 'standard',
@@ -452,6 +464,12 @@ export default [
     {
         name: 'iot orchestrations',
         url: 'iot_orchestrations',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'knowledge',
+        url: 'knowledge',
         type: 'standard',
         keyword: ''
     },
@@ -962,6 +980,18 @@ export default [
     {
         name: 'sos session',
         url: 'sossession',
+        type: 'standard',
+        keyword: 'help, call center'
+    },
+    {
+        name: 'stage',
+        url: 'stage',
+        type: 'standard',
+        keyword: 'help, call center'
+    },
+    {
+        name: 'stage collection',
+        url: 'stage_collection',
         type: 'standard',
         keyword: 'help, call center'
     },
