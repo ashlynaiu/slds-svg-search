@@ -498,6 +498,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'live chat visitor',
+        url: 'live_chat_visitor',
+        type: 'standard',
+        keyword: ''
+    },
+    {
         name: 'link',
         url: 'link',
         type: 'standard',

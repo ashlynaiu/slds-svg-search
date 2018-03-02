@@ -486,6 +486,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'end messaging session',
+        url: 'end_messaging_session',
+        type: 'utility',
+        keyword: ''
+    },
+    {
         name: 'erect window',
         url: 'erect_window',
         type: 'utility',
@@ -736,6 +742,12 @@ export default [
         url: 'left',
         type: 'utility',
         keyword: 'arrow'
+    },
+    {
+        name: 'level down',
+        url: 'level_down',
+        type: 'utility',
+        keyword: ''
     },
     {
         name: 'level up',
@@ -1554,10 +1566,22 @@ export default [
         keyword: 'compass, navigation'
     },
     {
+        name: 'topic',
+        url: 'topic2',
+        type: 'utility',
+        keyword: 'compass, navigation'
+    },
+    {
         name: 'touch action',
         url: 'touch_action',
         type: 'utility',
         keyword: ''
+    },
+    {
+        name: 'tracker',
+        url: 'tracker',
+        type: 'utility',
+        keyword: 'travel, outdoor'
     },
     {
         name: 'trail',

@@ -6,6 +6,10 @@ class WarningBanner extends Component {
 		this.hideBanner = this.hideBanner.bind(this)
 		this.state = { isHide : false }
 	}
+	componentDidMount(){
+		let isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+		return this.setState({isHide: isSafari})
+	}
 
 	hideBanner(){
 		return this.setState({isHide: true})
