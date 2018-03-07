@@ -798,6 +798,12 @@ export default [
         keyword: 'price tag'
     },
     {
+        name: 'read receipts',
+        url: 'read_receipts',
+        type: 'standard',
+        keyword: ''
+    },
+    {
         name: 'recent',
         url: 'recent',
         type: 'standard',

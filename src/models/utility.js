@@ -420,6 +420,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'dialing',
+        url: 'dialing',
+        type: 'utility',
+        keyword: ''
+    },
+    {
         name: 'dislike',
         url: 'dislike',
         type: 'utility',
@@ -1144,6 +1150,12 @@ export default [
         url: 'rating',
         type: 'utility',
         keyword: 'levels'
+    },
+    {
+        name: 'recurring exception',
+        url: 'recurring_exception',
+        type: 'utility',
+        keyword: ''
     },
     {
         name: 'record create',
