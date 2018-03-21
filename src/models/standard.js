@@ -450,8 +450,26 @@ export default [
         keyword: ''
     },
     {
+        name: 'individual',
+        url: 'individual',
+        type: 'standard',
+        keyword: ''
+    },
+    {
         name: 'insights',
         url: 'insights',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'insurance',
+        url: 'insurance',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'insurance console',
+        url: 'insurance_console',
         type: 'standard',
         keyword: ''
     },
@@ -864,6 +882,18 @@ export default [
         keyword: ''
     },
     {
+        name: 'retail banking',
+        url: 'retail_banking',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'retail banking console',
+        url: 'retail_banking_console',
+        type: 'standard',
+        keyword: ''
+    },
+    {
         name: 'return order line item',
         url: 'return_order_line_item',
         type: 'standard',
@@ -1094,6 +1124,18 @@ export default [
     {
         name: 'user',
         url: 'user',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'wealth management',
+        url: 'wealth_management',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'wealth management console',
+        url: 'wealth_management_console',
         type: 'standard',
         keyword: ''
     },
