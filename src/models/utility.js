@@ -468,6 +468,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'einstein',
+        url: 'einstein',
+        type: 'utility',
+        keyword: ''
+    },
+    {
         name: 'email',
         url: 'email',
         type: 'utility',
@@ -650,6 +656,12 @@ export default [
     {
         name: 'inbox',
         url: 'inbox',
+        type: 'utility',
+        keyword: ''
+    },
+    {
+        name: 'incoming call',
+        url: 'incoming_call',
         type: 'utility',
         keyword: ''
     },

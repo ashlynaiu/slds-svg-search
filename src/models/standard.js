@@ -546,6 +546,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'logging',
+        url: 'logging',
+        type: 'standard',
+        keyword: ''
+    },
+    {
         name: 'macros',
         url: 'macros',
         type: 'standard',
