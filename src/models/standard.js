@@ -252,6 +252,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'contact request',
+        url: 'contact_request',
+        type: 'standard',
+        keyword: ''
+    },
+    {
         name: 'contract',
         url: 'contract',
         type: 'standard',
@@ -786,6 +792,12 @@ export default [
         keyword: 'switch, rotate'
     },
     {
+        name: 'proposition',
+        url: 'proposition',
+        type: 'standard',
+        keyword: ''
+    },
+    {
         name: 'question best',
         url: 'question_best',
         type: 'standard',
@@ -1042,6 +1054,12 @@ export default [
         url: 'stage_collection',
         type: 'standard',
         keyword: 'help, call center'
+    },
+    {
+        name: 'strategy',
+        url: 'strategy',
+        type: 'standard',
+        keyword: ''
     },
     {
         name: 'survey',

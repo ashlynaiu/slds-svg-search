@@ -324,6 +324,12 @@ export default [
         keyword: 'lightning, bolt, thunder'
     },
     {
+        name: 'contact request',
+        url: 'contact_request',
+        type: 'utility',
+        keyword: ''
+    },
+    {
         name: 'contract alt',
         url: 'contract_alt',
         type: 'utility',
