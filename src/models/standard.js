@@ -102,6 +102,12 @@ export default [
         keyword: 'chat, ai, intelligence'
     },
     {
+        name: 'brand',
+        url: 'brand',
+        type: 'standard',
+        keyword: ''
+    },
+    {
         name: 'business hours',
         url: 'business_hours',
         type: 'standard',
@@ -474,10 +480,22 @@ export default [
         keyword: ''
     },
     {
+        name: 'iot context',
+        url: 'iot_context',
+        type: 'standard',
+        keyword: 'connected'
+    },
+    {
         name: 'iot orchestrations',
         url: 'iot_orchestrations',
         type: 'standard',
-        keyword: ''
+        keyword: 'connected'
+    },
+    {
+        name: 'kanban',
+        url: 'kanban',
+        type: 'standard',
+        keyword: 'GUS'
     },
     {
         name: 'knowledge',
@@ -1002,6 +1020,18 @@ export default [
         keyword: ''
     },
     {
+        name: 'sms',
+        url: 'sms',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'snippet',
+        url: 'snippet',
+        type: 'standard',
+        keyword: ''
+    },
+    {
         name: 'social',
         url: 'social',
         type: 'standard',
@@ -1112,6 +1142,12 @@ export default [
     {
         name: 'topic2',
         url: 'topic2',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'trailhead',
+        url: 'trailhead',
         type: 'standard',
         keyword: ''
     },

@@ -462,6 +462,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'drag and drop',
+        url: 'drag_and_drop',
+        type: 'utility',
+        keyword: ''
+    },
+    {
         name: 'edit form',
         url: 'edit_form',
         type: 'utility',
@@ -1104,6 +1110,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'print',
+        url: 'print',
+        type: 'utility',
+        keyword: ''
+    },
+    {
         name: 'priority',
         url: 'priority',
         type: 'utility',
@@ -1586,6 +1598,30 @@ export default [
     {
         name: 'tile card list',
         url: 'tile_card_list',
+        type: 'utility',
+        keyword: ''
+    },
+    {
+        name: 'toggle panel bottom',
+        url: 'toggle_panel_bottom',
+        type: 'utility',
+        keyword: ''
+    },
+    {
+        name: 'toggle panel left',
+        url: 'toggle_panel_left',
+        type: 'utility',
+        keyword: ''
+    },
+    {
+        name: 'toggle panel right',
+        url: 'toggle_panel_right',
+        type: 'utility',
+        keyword: ''
+    },
+    {
+        name: 'toggle panel top',
+        url: 'toggle_panel_top',
         type: 'utility',
         keyword: ''
     },
