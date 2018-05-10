@@ -753,7 +753,7 @@ export default [
         name: 'product',
         url: 'product',
         type: 'standard',
-        keyword: 'price, item'
+        keyword: 'price, item, expressed interest'
     },
     {
         name: 'product consumed',
@@ -921,7 +921,7 @@ export default [
         name: 'reward',
         url: 'reward',
         type: 'standard',
-        keyword: ''
+        keyword: 'referrals made, financial'
     },
     {
         name: 'sales path',
