@@ -288,6 +288,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'customer portal users',
+        url: 'customer_portal_users',
+        type: 'standard',
+        keyword: ''
+    },
+    {
         name: 'customers',
         url: 'customers',
         type: 'standard',
@@ -732,6 +738,18 @@ export default [
         keyword: 'lock, keyhole, authenticate'
     },
     {
+        name: 'portal roles',
+        url: 'portal_roles',
+        type: 'standard',
+        keyword: 'lock, keyhole, authenticate'
+    },
+    {
+        name: 'portal roles and subordinates',
+        url: 'portal_roles_and_subordinates',
+        type: 'standard',
+        keyword: 'lock, keyhole, authenticate'
+    },
+    {
         name: 'post',
         url: 'post',
         type: 'standard',
@@ -812,6 +830,12 @@ export default [
     {
         name: 'question feed',
         url: 'question_feed',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'queue',
+        url: 'queue',
         type: 'standard',
         keyword: ''
     },
@@ -1172,6 +1196,12 @@ export default [
     {
         name: 'work order',
         url: 'work_order',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'work queue',
+        url: 'work_queue',
         type: 'standard',
         keyword: ''
     },

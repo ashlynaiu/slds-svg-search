@@ -702,6 +702,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'inspector panel',
+        url: 'inspector_panel',
+        type: 'utility',
+        keyword: ''
+    },
+    {
         name: 'italic',
         url: 'italic',
         type: 'utility',
@@ -804,6 +810,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'linked',
+        url: 'linked',
+        type: 'utility',
+        keyword: ''
+    },
+    {
         name: 'listen',
         url: 'listen',
         type: 'utility',
@@ -812,6 +824,12 @@ export default [
     {
         name: 'list',
         url: 'list',
+        type: 'utility',
+        keyword: ''
+    },
+    {
+        name: 'live message',
+        url: 'live_message',
         type: 'utility',
         keyword: ''
     },
@@ -1096,6 +1114,18 @@ export default [
         url: 'play',
         type: 'utility',
         keyword: ''
+    },
+    {
+        name: 'podcast webinar',
+        url: 'podcast_webinar',
+        type: 'utility',
+        keyword: 'on'
+    },
+    {
+        name: 'pop in',
+        url: 'pop_in',
+        type: 'utility',
+        keyword: 'on'
     },
     {
         name: 'power',
@@ -1422,6 +1452,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'shortcuts',
+        url: 'shortcuts',
+        type: 'utility',
+        keyword: ''
+    },
+    {
         name: 'side list',
         url: 'side_list',
         type: 'utility',
@@ -1490,6 +1526,12 @@ export default [
     {
         name: 'stop',
         url: 'stop',
+        type: 'utility',
+        keyword: ''
+    },
+    {
+        name: 'strategy',
+        url: 'strategy',
         type: 'utility',
         keyword: ''
     },
@@ -1706,6 +1748,12 @@ export default [
     {
         name: 'undo',
         url: 'undo',
+        type: 'utility',
+        keyword: ''
+    },
+    {
+        name: 'unlinked',
+        url: 'unlinked',
         type: 'utility',
         keyword: ''
     },
