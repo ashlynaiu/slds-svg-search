@@ -12,6 +12,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'adduser',
+        url: 'adduser',
+        type: 'utility',
+        keyword: ''
+    },
+    {
         name: 'activity',
         url: 'activity',
         type: 'utility',
@@ -24,20 +30,26 @@ export default [
         keyword: ''
     },
     {
+        name: 'all',
+        url: 'all',
+        type: 'utility',
+        keyword: ''
+    },
+    {
         name: 'apex',
         url: 'apex',
         type: 'utility',
         keyword: ''
     },
     {
-        name: 'approval',
-        url: 'approval',
+        name: 'apex plugin',
+        url: 'apex_plugin',
         type: 'utility',
         keyword: ''
     },
     {
-        name: 'adduser',
-        url: 'adduser',
+        name: 'approval',
+        url: 'approval',
         type: 'utility',
         keyword: ''
     },
@@ -88,6 +100,12 @@ export default [
         url: 'arrowup',
         type: 'utility',
         keyword: 'arrow, up, return, go back'
+    },
+    {
+        name: 'assignment',
+        url: 'assignment',
+        type: 'utility',
+        keyword: ''
     },
     {
         name: 'attach',
@@ -270,6 +288,12 @@ export default [
         keyword: 'chevron, arrow, up'
     },
     {
+        name: 'choice',
+        url: 'choice',
+        type: 'utility',
+        keyword: 'chevron, arrow, up'
+    },
+    {
         name: 'classic interface',
         url: 'classic_interface',
         type: 'utility',
@@ -296,6 +320,12 @@ export default [
     {
         name: 'collapse all',
         url: 'collapse_all',
+        type: 'utility',
+        keyword: ''
+    },
+    {
+        name: 'collection variable',
+        url: 'collection_variable',
         type: 'utility',
         keyword: ''
     },
@@ -468,6 +498,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'dynamic record choice',
+        url: 'dynamic_record_choice',
+        type: 'utility',
+        keyword: ''
+    },
+    {
         name: 'edit form',
         url: 'edit_form',
         type: 'utility',
@@ -600,6 +636,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'formula',
+        url: 'formula',
+        type: 'utility',
+        keyword: ''
+    },
+    {
         name: 'forward',
         url: 'forward',
         type: 'utility',
@@ -614,6 +656,12 @@ export default [
     {
         name: 'full width view',
         url: 'full_width_view',
+        type: 'utility',
+        keyword: ''
+    },
+    {
+        name: 'global constant',
+        url: 'global_constant',
         type: 'utility',
         keyword: ''
     },
@@ -858,6 +906,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'loop',
+        url: 'loop',
+        type: 'utility',
+        keyword: 'flow'
+    },
+    {
         name: 'lower flag',
         url: 'lower_flag',
         type: 'utility',
@@ -1020,6 +1074,12 @@ export default [
         keyword: 'multi window, view'
     },
     {
+        name: 'outcome',
+        url: 'outcome',
+        type: 'utility',
+        keyword: 'flow'
+    },
+    {
         name: 'overflow',
         url: 'overflow',
         type: 'utility',
@@ -1094,6 +1154,12 @@ export default [
     {
         name: 'picklist',
         url: 'picklist',
+        type: 'utility',
+        keyword: ''
+    },
+    {
+        name: 'picklist choice',
+        url: 'picklist_choice',
         type: 'utility',
         keyword: ''
     },
@@ -1220,6 +1286,24 @@ export default [
     {
         name: 'record create',
         url: 'record_create',
+        type: 'utility',
+        keyword: ''
+    },
+    {
+        name: 'record delete',
+        url: 'record_delete',
+        type: 'utility',
+        keyword: ''
+    },
+    {
+        name: 'record lookup',
+        url: 'record_lookup',
+        type: 'utility',
+        keyword: ''
+    },
+    {
+        name: 'record update',
+        url: 'record_update',
         type: 'utility',
         keyword: ''
     },
@@ -1380,6 +1464,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'screen',
+        url: 'screen',
+        type: 'utility',
+        keyword: ''
+    },
+    {
         name: 'search',
         url: 'search',
         type: 'utility',
@@ -1488,6 +1578,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'sobject collection',
+        url: 'sobject_collection',
+        type: 'utility',
+        keyword: ''
+    },
+    {
         name: 'socialshare',
         url: 'socialshare',
         type: 'utility',
@@ -1520,6 +1616,12 @@ export default [
     {
         name: 'standard objects',
         url: 'standard_objects',
+        type: 'utility',
+        keyword: ''
+    },
+    {
+        name: 'steps',
+        url: 'steps',
         type: 'utility',
         keyword: ''
     },
@@ -1584,6 +1686,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'system and global variable',
+        url: 'system_and_global_variable',
+        type: 'utility',
+        keyword: ''
+    },
+    {
         name: 'table',
         url: 'table',
         type: 'utility',
@@ -1622,6 +1730,12 @@ export default [
     {
         name: 'text color',
         url: 'text_color',
+        type: 'utility',
+        keyword: ''
+    },
+    {
+        name: 'text template',
+        url: 'text_template',
         type: 'utility',
         keyword: ''
     },
@@ -1794,6 +1908,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'variable',
+        url: 'variable',
+        type: 'utility',
+        keyword: ''
+    },
+    {
         name: 'volume high',
         url: 'volume_high',
         type: 'utility',
@@ -1816,6 +1936,12 @@ export default [
         url: 'voicemail_drop',
         type: 'utility',
         keyword: ''
+    },
+    {
+        name: 'waits',
+        url: 'waits',
+        type: 'utility',
+        keyword: 'flow'
     },
     {
         name: 'warning',

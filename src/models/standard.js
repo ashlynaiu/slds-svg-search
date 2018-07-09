@@ -24,6 +24,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'all',
+        url: 'all',
+        type: 'standard',
+        keyword: 'flow'
+    },
+    {
         name: 'announcement',
         url: 'announcement',
         type: 'standard',
@@ -44,6 +50,18 @@ export default [
     {
         name: 'answer public',
         url: 'answer_public',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'apex plugin',
+        url: 'apex_plugin',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'apex',
+        url: 'apex',
         type: 'standard',
         keyword: ''
     },
@@ -74,6 +92,12 @@ export default [
     {
         name: 'asset relationship',
         url: 'asset_relationship',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'assignment',
+        url: 'assignment',
         type: 'standard',
         keyword: ''
     },
@@ -222,6 +246,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'choice',
+        url: 'choice',
+        type: 'standard',
+        keyword: 'flow'
+    },
+    {
         name: 'client',
         url: 'client',
         type: 'standard',
@@ -236,6 +266,18 @@ export default [
     {
         name: 'coaching',
         url: 'coaching',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'collection variable',
+        url: 'collection_variable',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'constant',
+        url: 'constant',
         type: 'standard',
         keyword: ''
     },
@@ -315,7 +357,13 @@ export default [
         name: 'default',
         url: 'default',
         type: 'standard',
-        keyword: 'cloud, salesforce'
+        keyword: 'cloud, salesforce, logo'
+    },
+    {
+        name: 'decision',
+        url: 'decision',
+        type: 'standard',
+        keyword: 'flow'
     },
     {
         name: 'document',
@@ -326,6 +374,12 @@ export default [
     {
         name: 'drafts',
         url: 'drafts',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'dynamic record choice',
+        url: 'dynamic_record_choice',
         type: 'standard',
         keyword: ''
     },
@@ -432,8 +486,20 @@ export default [
         keyword: ''
     },
     {
+        name: 'formula',
+        url: 'formula',
+        type: 'standard',
+        keyword: 'flow, logic'
+    },
+    {
         name: 'generic loading',
         url: 'generic_loading',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'global constant',
+        url: 'global_constant',
         type: 'standard',
         keyword: ''
     },
@@ -570,6 +636,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'loop',
+        url: 'loop',
+        type: 'standard',
+        keyword: 'flow'
+    },
+    {
         name: 'macros',
         url: 'macros',
         type: 'standard',
@@ -666,6 +738,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'outcome',
+        url: 'outcome',
+        type: 'standard',
+        keyword: ''
+    },
+    {
         name: 'people',
         url: 'people',
         type: 'standard',
@@ -722,6 +800,12 @@ export default [
     {
         name: 'photo',
         url: 'photo',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'picklist choice',
+        url: 'picklist_choice',
         type: 'standard',
         keyword: ''
     },
@@ -882,6 +966,30 @@ export default [
         keyword: ''
     },
     {
+        name: 'record create',
+        url: 'record_create',
+        type: 'standard',
+        keyword: 'flow'
+    },
+    {
+        name: 'record delete',
+        url: 'record_delete',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'record lookup',
+        url: 'record_lookup',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'record update',
+        url: 'record_update',
+        type: 'standard',
+        keyword: ''
+    },
+    {
         name: 'related list',
         url: 'related_list',
         type: 'standard',
@@ -956,6 +1064,12 @@ export default [
     {
         name: 'scan card',
         url: 'scan_card',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'screen',
+        url: 'screen',
         type: 'standard',
         keyword: ''
     },
@@ -1062,6 +1176,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'sobject collection',
+        url: 'sobject_collection',
+        type: 'standard',
+        keyword: ''
+    },
+    {
         name: 'solution',
         url: 'solution',
         type: 'standard',
@@ -1086,6 +1206,12 @@ export default [
         keyword: 'help, call center'
     },
     {
+        name: 'steps',
+        url: 'steps',
+        type: 'standard',
+        keyword: 'flow'
+    },
+    {
         name: 'strategy',
         url: 'strategy',
         type: 'standard',
@@ -1096,6 +1222,12 @@ export default [
         url: 'survey',
         type: 'standard',
         keyword: ''
+    },
+    {
+        name: 'system and global variable',
+        url: 'system_and_global_variable',
+        type: 'standard',
+        keyword: 'flow'
     },
     {
         name: 'task',
@@ -1118,6 +1250,12 @@ export default [
     {
         name: 'template',
         url: 'template',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'text template',
+        url: 'text_template',
         type: 'standard',
         keyword: ''
     },
@@ -1186,6 +1324,18 @@ export default [
         url: 'user',
         type: 'standard',
         keyword: ''
+    },
+    {
+        name: 'variable',
+        url: 'variable',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'waits',
+        url: 'waits',
+        type: 'standard',
+        keyword: 'flow'
     },
     {
         name: 'work order item',
