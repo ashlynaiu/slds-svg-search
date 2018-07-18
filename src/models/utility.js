@@ -18,6 +18,18 @@ export default [
         keyword: ''
     },
     {
+        name: 'advanced function',
+        url: 'advanced_function',
+        type: 'utility',
+        keyword: ''
+    },
+    {
+        name: 'advertising',
+        url: 'advertising',
+        type: 'utility',
+        keyword: ''
+    },
+    {
         name: 'activity',
         url: 'activity',
         type: 'utility',
@@ -88,6 +100,12 @@ export default [
         url: 'apps',
         type: 'utility',
         keyword: ''
+    },
+    {
+        name: 'archive',
+        url: 'archive',
+        type: 'utility',
+        keyword: 'arrow, down, return, go back, dropdown, drop down'
     },
     {
         name: 'arrowdown',
@@ -354,6 +372,12 @@ export default [
         keyword: 'lightning, bolt, thunder'
     },
     {
+        name: 'constant',
+        url: 'constant',
+        type: 'utility',
+        keyword: 'formula'
+    },
+    {
         name: 'contact request',
         url: 'contact_request',
         type: 'utility',
@@ -390,6 +414,18 @@ export default [
         keyword: 'link'
     },
     {
+        name: 'currency',
+        url: 'currency',
+        type: 'utility',
+        keyword: ''
+    },
+    {
+        name: 'currency input',
+        url: 'currency_input',
+        type: 'utility',
+        keyword: ''
+    },
+    {
         name: 'custom apps',
         url: 'custom_apps',
         type: 'utility',
@@ -416,6 +452,18 @@ export default [
     {
         name: 'datadotcom',
         url: 'datadotcom',
+        type: 'utility',
+        keyword: ''
+    },
+    {
+        name: 'date input',
+        url: 'date_input',
+        type: 'utility',
+        keyword: ''
+    },
+    {
+        name: 'date time',
+        url: 'date_time',
         type: 'utility',
         keyword: ''
     },
@@ -464,6 +512,18 @@ export default [
     {
         name: 'dislike',
         url: 'dislike',
+        type: 'utility',
+        keyword: ''
+    },
+    {
+        name: 'display rich text',
+        url: 'display_rich_text',
+        type: 'utility',
+        keyword: ''
+    },
+    {
+        name: 'display text',
+        url: 'display_text',
         type: 'utility',
         keyword: ''
     },
@@ -566,6 +626,12 @@ export default [
     {
         name: 'event',
         url: 'event',
+        type: 'utility',
+        keyword: 'calendar, day, month, year, meeting'
+    },
+    {
+        name: 'events',
+        url: 'events',
         type: 'utility',
         keyword: 'calendar, day, month, year, meeting'
     },
@@ -816,6 +882,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'leave conference',
+        url: 'leave_conference',
+        type: 'utility',
+        keyword: ''
+    },
+    {
         name: 'left align text',
         url: 'left_align_text',
         type: 'utility',
@@ -984,6 +1056,18 @@ export default [
         keyword: 'navigation'
     },
     {
+        name: 'multi picklist',
+        url: 'multi_picklist',
+        type: 'utility',
+        keyword: ''
+    },
+    {
+        name: 'multi select checkbox',
+        url: 'multi_select_checkbox',
+        type: 'utility',
+        keyword: ''
+    },
+    {
         name: 'muted',
         url: 'muted',
         type: 'utility',
@@ -1028,6 +1112,12 @@ export default [
     {
         name: 'notification',
         url: 'notification',
+        type: 'utility',
+        keyword: ''
+    },
+    {
+        name: 'number_input',
+        url: 'number_input',
         type: 'utility',
         keyword: ''
     },
@@ -1116,6 +1206,12 @@ export default [
         keyword: 'color picker'
     },
     {
+        name: 'password',
+        url: 'password',
+        type: 'utility',
+        keyword: ''
+    },
+    {
         name: 'paste',
         url: 'paste',
         type: 'utility',
@@ -1154,6 +1250,12 @@ export default [
     {
         name: 'picklist',
         url: 'picklist',
+        type: 'utility',
+        keyword: ''
+    },
+    {
+        name: 'picklist type',
+        url: 'picklist_type',
         type: 'utility',
         keyword: ''
     },
@@ -1272,10 +1374,22 @@ export default [
         keyword: ''
     },
     {
+        name: 'radio button',
+        url: 'radio_button',
+        type: 'utility',
+        keyword: 'levels'
+    },
+    {
         name: 'rating',
         url: 'rating',
         type: 'utility',
         keyword: 'levels'
+    },
+    {
+        name: 'reassign',
+        url: 'reassign',
+        type: 'utility',
+        keyword: ''
     },
     {
         name: 'recurring exception',
@@ -1476,6 +1590,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'send',
+        url: 'send',
+        type: 'utility',
+        keyword: ''
+    },
+    {
         name: 'sentiment negative',
         url: 'sentiment_negative',
         type: 'utility',
@@ -1574,6 +1694,12 @@ export default [
     {
         name: 'snippet',
         url: 'snippet',
+        type: 'utility',
+        keyword: ''
+    },
+    {
+        name: 'sobject',
+        url: 'sobject',
         type: 'utility',
         keyword: ''
     },
@@ -1718,6 +1844,24 @@ export default [
     {
         name: 'task',
         url: 'task',
+        type: 'utility',
+        keyword: ''
+    },
+    {
+        name: 'text',
+        url: 'text',
+        type: 'utility',
+        keyword: ''
+    },
+    {
+        name: 'textarea',
+        url: 'textarea',
+        type: 'utility',
+        keyword: ''
+    },
+    {
+        name: 'textbox',
+        url: 'textbox',
         type: 'utility',
         keyword: ''
     },

@@ -126,6 +126,12 @@ export default [
         keyword: 'chat, ai, intelligence'
     },
     {
+        name: 'bot training',
+        url: 'bot_training',
+        type: 'standard',
+        keyword: 'chat, ai, intelligence'
+    },
+    {
         name: 'brand',
         url: 'brand',
         type: 'standard',
@@ -318,6 +324,18 @@ export default [
         keyword: ''
     },
     {
+        name: 'currency',
+        url: 'currency',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'currency input',
+        url: 'currency_input',
+        type: 'standard',
+        keyword: ''
+    },
+    {
         name: 'custom',
         url: 'custom',
         type: 'standard',
@@ -354,6 +372,18 @@ export default [
         keyword: ''
     },
     {
+        name: 'date input',
+        url: 'date_input',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'date time',
+        url: 'date_time',
+        type: 'standard',
+        keyword: ''
+    },
+    {
         name: 'default',
         url: 'default',
         type: 'standard',
@@ -364,6 +394,18 @@ export default [
         url: 'decision',
         type: 'standard',
         keyword: 'flow'
+    },
+    {
+        name: 'display rich text',
+        url: 'display_rich_text',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'display text',
+        url: 'display_text',
+        type: 'standard',
+        keyword: ''
     },
     {
         name: 'document',
@@ -600,6 +642,18 @@ export default [
         keyword: ''
     },
     {
+        name: 'lightning component',
+        url: 'lightning_component',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'lightning usage',
+        url: 'lightning_usage',
+        type: 'standard',
+        keyword: ''
+    },
+    {
         name: 'live chat visitor',
         url: 'live_chat_visitor',
         type: 'standard',
@@ -696,6 +750,18 @@ export default [
         keyword: ''
     },
     {
+        name: 'multi picklist',
+        url: 'multi_picklist',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'multi select checkbox',
+        url: 'multi_select_checkbox',
+        type: 'standard',
+        keyword: ''
+    },
+    {
         name: 'news',
         url: 'news',
         type: 'standard',
@@ -704,6 +770,12 @@ export default [
     {
         name: 'note',
         url: 'note',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'number input',
+        url: 'number_input',
         type: 'standard',
         keyword: ''
     },
@@ -744,8 +816,8 @@ export default [
         keyword: ''
     },
     {
-        name: 'people',
-        url: 'people',
+        name: 'password',
+        url: 'password',
         type: 'standard',
         keyword: ''
     },
@@ -786,6 +858,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'people',
+        url: 'people',
+        type: 'standard',
+        keyword: ''
+    },
+    {
         name: 'performance',
         url: 'performance',
         type: 'standard',
@@ -806,6 +884,12 @@ export default [
     {
         name: 'picklist choice',
         url: 'picklist_choice',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'picklist type',
+        url: 'picklist_type',
         type: 'standard',
         keyword: ''
     },
@@ -948,6 +1032,12 @@ export default [
         keyword: 'price tag'
     },
     {
+        name: 'radio button',
+        url: 'radio_button',
+        type: 'standard',
+        keyword: ''
+    },
+    {
         name: 'read receipts',
         url: 'read_receipts',
         type: 'standard',
@@ -1086,6 +1176,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'service appointment capacity usage',
+        url: 'service_appointment_capacity_usage',
+        type: 'standard',
+        keyword: ''
+    },
+    {
         name: 'service contract',
         url: 'service_contract',
         type: 'standard',
@@ -1170,14 +1266,20 @@ export default [
         keyword: ''
     },
     {
-        name: 'social',
-        url: 'social',
+        name: 'sobject',
+        url: 'sobject',
         type: 'standard',
         keyword: ''
     },
     {
         name: 'sobject collection',
         url: 'sobject_collection',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'social',
+        url: 'social',
         type: 'standard',
         keyword: ''
     },
@@ -1250,6 +1352,24 @@ export default [
     {
         name: 'template',
         url: 'template',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'text',
+        url: 'text',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'textarea',
+        url: 'textarea',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'textbox',
+        url: 'textbox',
         type: 'standard',
         keyword: ''
     },
@@ -1338,6 +1458,18 @@ export default [
         keyword: 'flow'
     },
     {
+        name: 'work capacity limit',
+        url: 'work_capacity_limit',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'work capacity usage',
+        url: 'work_capacity_usage',
+        type: 'standard',
+        keyword: ''
+    },
+    {
         name: 'work order item',
         url: 'work_order_item',
         type: 'standard',
@@ -1358,6 +1490,12 @@ export default [
     {
         name: 'work type',
         url: 'work_type',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'work type group',
+        url: 'work_type_group',
         type: 'standard',
         keyword: ''
     }
