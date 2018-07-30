@@ -210,6 +210,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'cart',
+        url: 'cart',
+        type: 'utility',
+        keyword: 'order, checkout'
+    },
+    {
         name: 'case',
         url: 'case',
         type: 'utility',
@@ -588,6 +594,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'email open',
+        url: 'email_open',
+        type: 'utility',
+        keyword: ''
+    },
+    {
         name: 'emoji',
         url: 'emoji',
         type: 'utility',
@@ -714,6 +726,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'forward up',
+        url: 'forward_up',
+        type: 'utility',
+        keyword: ''
+    },
+    {
         name: 'frozen',
         url: 'frozen',
         type: 'utility',
@@ -746,6 +764,12 @@ export default [
     {
         name: 'help',
         url: 'help',
+        type: 'utility',
+        keyword: ''
+    },
+    {
+        name: 'help center',
+        url: 'help_center',
         type: 'utility',
         keyword: ''
     },
@@ -1038,10 +1062,16 @@ export default [
         keyword: ''
     },
     {
+        name: 'money',
+        url: 'money',
+        type: 'utility',
+        keyword: 'financial, wealth'
+    },
+    {
         name: 'money bag',
         url: 'moneybag',
         type: 'utility',
-        keyword: ''
+        keyword: 'financial, wealth'
     },
     {
         name: 'monthly view',
