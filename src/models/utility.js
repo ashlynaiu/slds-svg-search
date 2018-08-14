@@ -333,7 +333,7 @@ export default [
         name: 'clock',
         url: 'clock',
         type: 'utility',
-        keyword: 'alarm, reminder, warning, timer, delay'
+        keyword: 'alarm, reminder, warning, timer, delay, snooze'
     },
     {
         name: 'close',

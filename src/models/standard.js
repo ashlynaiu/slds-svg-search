@@ -1413,7 +1413,7 @@ export default [
         name: 'today',
         url: 'today',
         type: 'standard',
-        keyword: 'time, clock, due'
+        keyword: 'time, clock, due, snooze'
     },
     {
         name: 'topic',
