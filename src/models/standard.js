@@ -465,7 +465,7 @@ export default [
         name: 'entitlement',
         url: 'entitlement',
         type: 'standard',
-        keyword: ''
+        keyword: 'action plan'
     },
     {
         name: 'entitlement_process',
