@@ -42,6 +42,18 @@ export default [
         keyword: ''
     },
     {
+      name: 'agent session',
+      url: 'agent_session',
+      type: 'utility',
+      keyword: ''
+    },
+    {
+      name: 'alert',
+      url: 'alert',
+      type: 'utility',
+      keyword: ''
+    },
+    {
         name: 'all',
         url: 'all',
         type: 'utility',
@@ -1398,6 +1410,12 @@ export default [
         keyword: 'chat'
     },
     {
+      name: 'quote',
+      url: 'quote',
+      type: 'utility',
+      keyword: ''
+    },
+    {
         name: 'quotation marks',
         url: 'quotation_marks',
         type: 'utility',
@@ -1540,6 +1558,12 @@ export default [
         url: 'retweet',
         type: 'utility',
         keyword: ''
+    },
+    {
+      name: 'ribbon',
+      url: 'ribbon',
+      type: 'utility',
+      keyword: ''
     },
     {
         name: 'rich text bulleted list',
@@ -1708,6 +1732,12 @@ export default [
         url: 'signpost',
         type: 'utility',
         keyword: ''
+    },
+    {
+      name: 'skip',
+      url: 'skip',
+      type: 'utility',
+      keyword: ''
     },
     {
         name: 'smiley and people',

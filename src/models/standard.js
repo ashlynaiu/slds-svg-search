@@ -24,6 +24,12 @@ export default [
         keyword: ''
     },
     {
+      name: 'agent session',
+      url: 'agent_session',
+      type: 'standard',
+      keyword: ''
+    },
+    {
         name: 'all',
         url: 'all',
         type: 'standard',
@@ -137,6 +143,12 @@ export default [
         type: 'standard',
         keyword: ''
     },
+    {
+      name: 'branch merge',
+      url: 'branch_merge',
+      type: 'standard',
+      keyword: ''
+  },
     {
         name: 'business hours',
         url: 'business_hours',
@@ -510,6 +522,18 @@ export default [
         keyword: ''
     },
     {
+      name: 'filter',
+      url: 'filter',
+      type: 'standard',
+      keyword: ''
+    },
+    {
+      name: 'first non empty',
+      url: 'first_non_empty',
+      type: 'standard',
+      keyword: ''
+    },
+    {
         name: 'flow',
         url: 'flow',
         type: 'standard',
@@ -814,6 +838,12 @@ export default [
         url: 'outcome',
         type: 'standard',
         keyword: ''
+    },
+    {
+      name: 'output',
+      url: 'output',
+      type: 'standard',
+      keyword: ''
     },
     {
         name: 'password',
@@ -1293,7 +1323,13 @@ export default [
         name: 'sos session',
         url: 'sossession',
         type: 'standard',
-        keyword: 'help, call center'
+        keyword: 'help, call center, agent'
+    },
+    {
+      name: 'sort',
+      url: 'sort',
+      type: 'standard',
+      keyword: ''
     },
     {
         name: 'stage',
@@ -1444,6 +1480,12 @@ export default [
         url: 'user',
         type: 'standard',
         keyword: ''
+    },
+    {
+      name: 'user role',
+      url: 'user_role',
+      type: 'standard',
+      keyword: ''
     },
     {
         name: 'variable',
