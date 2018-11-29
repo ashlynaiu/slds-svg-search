@@ -150,6 +150,12 @@ export default [
         keyword: ''
     },
     {
+      name: 'away',
+      url: 'away',
+      type: 'utility',
+      keyword: ''
+    },
+    {
         name: 'back',
         url: 'back',
         type: 'utility',
@@ -1608,10 +1614,16 @@ export default [
         keyword: 'turn'
     },
     {
-        name: 'rows',
-        url: 'rows',
+      name: 'rows',
+      url: 'rows',
+      type: 'utility',
+      keyword: 'hamburger, menu, collapse'
+    },
+    {
+        name: 'routing_offline',
+        url: 'routing_offline',
         type: 'utility',
-        keyword: 'hamburger, menu, collapse'
+        keyword: ''
     },
     {
         name: 'rules',
