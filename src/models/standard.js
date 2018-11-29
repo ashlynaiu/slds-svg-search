@@ -1146,6 +1146,12 @@ export default [
         keyword: 'referrals made, financial'
     },
     {
+      name: 'sales cadence',
+      url: 'sales_cadence',
+      type: 'standard',
+      keyword: ''
+  },
+    {
         name: 'sales path',
         url: 'sales_path',
         type: 'standard',
