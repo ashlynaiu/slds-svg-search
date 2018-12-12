@@ -762,6 +762,12 @@ export default [
         keyword: ''
     },
     {
+      name: 'fulfillment order',
+      url: 'fulfillment_order',
+      type: 'utility',
+      keyword: ''
+    },
+    {
         name: 'global constant',
         url: 'global_constant',
         type: 'utility',
@@ -804,6 +810,12 @@ export default [
         keyword: ''
     },
     {
+      name: 'hide mobile',
+      url: 'hide_mobile',
+      type: 'utility',
+      keyword: ''
+    },
+    {
         name: 'home',
         url: 'home',
         type: 'utility',
@@ -820,6 +832,12 @@ export default [
         url: 'image',
         type: 'utility',
         keyword: ''
+    },
+    {
+      name: 'in app assistant',
+      url: 'in_app_assistant',
+      type: 'utility',
+      keyword: ''
     },
     {
         name: 'inbox',
