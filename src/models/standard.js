@@ -276,6 +276,12 @@ export default [
         keyword: ''
     },
     {
+      name: 'code playground',
+      url: 'code_playground',
+      type: 'standard',
+      keyword: ''
+  },
+    {
         name: 'collection variable',
         url: 'collection_variable',
         type: 'standard',
@@ -894,6 +900,12 @@ export default [
         keyword: ''
     },
     {
+      name: 'planogram',
+      url: 'planogram',
+      type: 'standard',
+      keyword: ''
+  },
+    {
         name: 'poll',
         url: 'poll',
         type: 'standard',
@@ -1456,6 +1468,12 @@ export default [
         url: 'variable',
         type: 'standard',
         keyword: ''
+    },
+    {
+      name: 'visits',
+      url: 'visits',
+      type: 'standard',
+      keyword: ''
     },
     {
         name: 'waits',
