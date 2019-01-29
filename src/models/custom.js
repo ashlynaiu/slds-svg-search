@@ -117,7 +117,7 @@ export default [
         name: 'custom19',
         url: 'custom19',
         type: 'custom',
-        keyword: 'tool, settings'
+        keyword: 'tool, settings, wrench, stage history'
     },
     {
         name: 'custom20',
