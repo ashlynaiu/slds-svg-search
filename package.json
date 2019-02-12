@@ -4,19 +4,19 @@
   "private": true,
   "devDependencies": {
     "concurrently": "3.0.0",
-    "node-sass": "^4.1.1",
+    "node-sass": "^4.11.0",
     "npm-run-all": "^4.0.2",
-    "react-scripts": "0.6.0",
-    "webpack": "^1.14.0"
+    "react-scripts": "^2.1.5"
   },
   "dependencies": {
     "history": "4.2.0",
-    "re-base": "2.2.0",
+    "re-base": "^4.0.0",
     "react": "^15.4.2",
     "react-addons-css-transition-group": "15.3.2",
     "react-dom": "^15.4.2",
     "react-router": "4.0.0-alpha.3",
-    "react-scrollable-anchor": "^0.4.2"
+    "react-scrollable-anchor": "^0.4.2",
+    "webpack": "^4.28.3"
   },
   "scripts": {
     "build-css": "node-sass src/styles/ -o src/styles",
@@ -30,5 +30,11 @@
   },
   "eslintConfig": {
     "extends": "./node_modules/react-scripts/config/eslint.js"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
