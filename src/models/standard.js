@@ -240,6 +240,18 @@ export default [
         keyword: ''
     },
     {
+      name: 'catalog',
+      url: 'catalog',
+      type: 'standard',
+      keyword: ''
+    },
+    {
+      name: 'category',
+      url: 'category',
+      type: 'standard',
+      keyword: ''
+    },
+    {
         name: 'channel program history',
         url: 'channel_program_history',
         type: 'standard',
@@ -618,6 +630,18 @@ export default [
         keyword: ''
     },
     {
+      name: 'instore locations',
+      url: 'instore_locations',
+      type: 'standard',
+      keyword: ''
+    },
+    {
+      name: 'invocable action',
+      url: 'invocable_action',
+      type: 'standard',
+      keyword: ''
+    },
+    {
         name: 'investment account',
         url: 'investment_account',
         type: 'standard',
@@ -665,6 +689,12 @@ export default [
         type: 'standard',
         keyword: ''
     },
+    {
+      name: 'letterhead',
+      url: 'letterhead',
+      type: 'standard',
+      keyword: ''
+  },
     {
         name: 'live chat',
         url: 'live_chat',
@@ -1192,7 +1222,13 @@ export default [
       url: 'sales_cadence',
       type: 'standard',
       keyword: ''
-  },
+    },
+    {
+      name: 'sales cadence target',
+      url: 'sales_cadence_target',
+      type: 'standard',
+      keyword: ''
+    },
     {
         name: 'sales path',
         url: 'sales_path',
@@ -1276,6 +1312,18 @@ export default [
         url: 'service_territory_member',
         type: 'standard',
         keyword: ''
+    },
+    {
+      name: 'shift',
+      url: 'shift',
+      type: 'standard',
+      keyword: ''
+    },
+    {
+      name: 'shift_type',
+      url: 'shift_type',
+      type: 'standard',
+      keyword: ''
     },
     {
         name: 'shipment',
@@ -1366,6 +1414,12 @@ export default [
         url: 'steps',
         type: 'standard',
         keyword: 'flow'
+    },
+    {
+      name: 'store group',
+      url: 'store_group',
+      type: 'standard',
+      keyword: 'flow'
     },
     {
         name: 'strategy',
@@ -1514,6 +1568,18 @@ export default [
     {
       name: 'visits',
       url: 'visits',
+      type: 'standard',
+      keyword: ''
+    },
+    {
+      name: 'visit templates',
+      url: 'visit_templates',
+      type: 'standard',
+      keyword: ''
+    },
+    {
+      name: 'visualforce page',
+      url: 'visualforce_page',
       type: 'standard',
       keyword: ''
     },

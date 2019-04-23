@@ -978,6 +978,12 @@ export default [
         keyword: ''
     },
     {
+      name: 'lightning inspector',
+      url: 'lightning_inspector',
+      type: 'utility',
+      keyword: ''
+    },
+    {
         name: 'like',
         url: 'like',
         type: 'utility',
@@ -1024,6 +1030,18 @@ export default [
         url: 'lock',
         type: 'utility',
         keyword: ''
+    },
+    {
+      name: 'locker service api viewer',
+      url: 'locker_service_api_viewer',
+      type: 'utility',
+      keyword: ''
+    },
+    {
+      name: 'locker service console',
+      url: 'locker_service_console',
+      type: 'utility',
+      keyword: ''
     },
     {
         name: 'log a call',
@@ -1398,6 +1416,18 @@ export default [
         keyword: ''
     },
     {
+      name: 'prompt edit',
+      url: 'prompt_edit',
+      type: 'utility',
+      keyword: ''
+    },
+    {
+      name: 'process',
+      url: 'process',
+      type: 'utility',
+      keyword: ''
+    },
+    {
         name: 'push',
         url: 'push',
         type: 'utility',
@@ -1554,6 +1584,12 @@ export default [
         keyword: ''
     },
     {
+      name: 'report issue',
+      url: 'report_issue',
+      type: 'utility',
+      keyword: ''
+    },
+    {
         name: 'reset password',
         url: 'reset_password',
         type: 'utility',
@@ -1702,6 +1738,12 @@ export default [
         url: 'setup_assistant_guide',
         type: 'utility',
         keyword: ''
+    },
+    {
+      name: 'setup modal',
+      url: 'setup_modal',
+      type: 'utility',
+      keyword: ''
     },
     {
         name: 'setup',
