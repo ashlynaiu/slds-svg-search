@@ -22,7 +22,7 @@ class WarningBanner extends Component {
 					<img src={require(`../icons/action/close.svg`)} alt="close warning" />
 				</div>
 				<p>Please use in Safari to utilize drag and drop in sketch.<br />
-					<span>Check out the <a href="https://github.com/ashlynaiu/slds-svg-search/issues/1" target="_blank">submitted git issue</a> if you'd like to track this bug.</span>
+					<span>Check out the <a href="https://github.com/ashlynaiu/slds-svg-search/issues/1" target="_blank" rel="noopener noreferrer">submitted git issue</a> if you'd like to track this bug.</span>
 				</p>
 			</div>
 		);

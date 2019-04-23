@@ -41,7 +41,7 @@ class SearchInput extends Component {
 
 		return (
 			<div className="sldsInput">
-					<a onClick={this.inputClear} className={`sldsInput-clear ${classHide}`} ><img src={require(`../icons/action/close.svg`)} alt="clear input" /></a>
+					<button onClick={this.inputClear} className={`sldsInput-clear ${classHide}`} ><img src={require(`../icons/action/close.svg`)} alt="clear input" /></button>
 					<input type="text" onKeyUp={this.handleSearch} value={this.state.valueAttr} onChange={this.handleChange} placeholder="Search for an icon"/>
 			</div>
 		);
