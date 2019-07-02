@@ -1,20 +1,23 @@
 import React from 'react';
-import { render } from 'react-dom';
-import { BrowserRouter, Match, Miss } from 'react-router';
+import ReactDOM from 'react-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import App from './components/App';
 import './styles/App.css';
-import NotFound from './components/NotFound';
+import * as serviceWorker from './serviceWorker';
 
 const Root = () => {
   return (
-    <BrowserRouter>
+    <Router>
       <div>
-        <Match exactly pattern="/" component={App} />
-        <Miss component={NotFound} />
+        <Route exactly pattern="/" component={App} />
       </div>
-    </BrowserRouter>
+    </Router>
   )
 }
 
-render(<Root/>, document.querySelector('#root'));
+export default Root;
+
+ReactDOM.render(<App />, document.getElementById('root'));
+
+serviceWorker.unregister();
