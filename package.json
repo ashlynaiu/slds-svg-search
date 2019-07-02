@@ -2,6 +2,7 @@
   "name": "slds-svg-search",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "devDependencies": {
     "npm-run-all": "^4.1.3"
   },
