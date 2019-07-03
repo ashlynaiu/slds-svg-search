@@ -60,6 +60,12 @@ export default [
         keyword: ''
     },
     {
+      name: 'bug',
+      url: 'bug',
+      type: 'action',
+      keyword: 'error'
+    },
+    {
         name: 'call',
         url: 'call',
         type: 'action',

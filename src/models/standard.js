@@ -148,12 +148,24 @@ export default [
       url: 'branch_merge',
       type: 'standard',
       keyword: ''
-  },
+    },
     {
         name: 'business hours',
         url: 'business_hours',
         type: 'standard',
         keyword: ''
+    },
+    {
+      name: 'buyer account',
+      url: 'buyer_account',
+      type: 'standard',
+      keyword: ''
+    },
+    {
+      name: 'buyer group',
+      url: 'buyer_group',
+      type: 'standard',
+      keyword: ''
     },
     {
         name: 'calibration',
@@ -384,6 +396,12 @@ export default [
         keyword: ''
     },
     {
+      name: 'customer 360',
+      url: 'customer_360',
+      type: 'standard',
+      keyword: ''
+    },
+    {
         name: 'customers',
         url: 'customers',
         type: 'standard',
@@ -426,6 +444,12 @@ export default [
         keyword: 'flow'
     },
     {
+      name: 'delegated account',
+      url: 'delegated_account',
+      type: 'standard',
+      keyword: 'flow'
+    },
+    {
         name: 'display rich text',
         url: 'display_rich_text',
         type: 'standard',
@@ -454,6 +478,12 @@ export default [
         url: 'dynamic_record_choice',
         type: 'standard',
         keyword: ''
+    },
+    {
+      name: 'education',
+      url: 'education',
+      type: 'standard',
+      keyword: ''
     },
     {
         name: 'email chatter',
@@ -498,6 +528,12 @@ export default [
         keyword: 'action plan'
     },
     {
+      name: 'entitlement policy',
+      url: 'entitlement_policy',
+      type: 'standard',
+      keyword: 'flow, map'
+    },
+    {
         name: 'entitlement_process',
         url: 'entitlement_process',
         type: 'standard',
@@ -520,6 +556,12 @@ export default [
         url: 'event',
         type: 'standard',
         keyword: 'calendar, day, month, year, meeting'
+    },
+    {
+      name: 'events',
+      url: 'events',
+      type: 'standard',
+      keyword: 'calendar, day, month, year, meeting'
     },
     {
         name: 'feed',
@@ -576,6 +618,12 @@ export default [
         keyword: 'flow, logic'
     },
     {
+      name: 'fulfillment order',
+      url: 'fulfillment_order',
+      type: 'standard',
+      keyword: 'flow, logic'
+    },
+    {
         name: 'generic loading',
         url: 'generic_loading',
         type: 'standard',
@@ -606,8 +654,14 @@ export default [
         keyword: ''
     },
     {
-        name: 'home',
-        url: 'home',
+      name: 'home',
+      url: 'home',
+      type: 'standard',
+      keyword: ''
+    },
+    {
+        name: 'high velocity sales',
+        url: 'high_velocity_sales',
         type: 'standard',
         keyword: ''
     },
@@ -658,6 +712,12 @@ export default [
         url: 'iot_orchestrations',
         type: 'standard',
         keyword: 'connected'
+    },
+    {
+      name: 'job profile',
+      url: 'job_profile',
+      type: 'standard',
+      keyword: 'connected'
     },
     {
         name: 'kanban',
@@ -858,10 +918,22 @@ export default [
         keyword: ''
     },
     {
+      name: 'opportunity contact role',
+      url: 'opportunity_contact_role',
+      type: 'standard',
+      keyword: ''
+    },
+    {
         name: 'opportunity splits',
         url: 'opportunity_splits',
         type: 'standard',
         keyword: ''
+    },
+    {
+      name: 'order item',
+      url: 'order_item',
+      type: 'standard',
+      keyword: ''
     },
     {
         name: 'orders',
@@ -1152,6 +1224,12 @@ export default [
         keyword: ''
     },
     {
+      name: 'recycle bin',
+      url: 'recycle_bin',
+      type: 'standard',
+      keyword: ''
+    },
+    {
         name: 'related list',
         url: 'related_list',
         type: 'standard',
@@ -1226,6 +1304,12 @@ export default [
     {
       name: 'sales cadence target',
       url: 'sales_cadence_target',
+      type: 'standard',
+      keyword: ''
+    },
+    {
+      name: 'sales channel',
+      url: 'sales_channel',
       type: 'standard',
       keyword: ''
     },
@@ -1362,6 +1446,12 @@ export default [
         keyword: ''
     },
     {
+      name: 'snippets',
+      url: 'snippets',
+      type: 'standard',
+      keyword: ''
+    },
+    {
         name: 'sobject',
         url: 'sobject',
         type: 'standard',
@@ -1414,6 +1504,12 @@ export default [
         url: 'steps',
         type: 'standard',
         keyword: 'flow'
+    },
+    {
+      name: 'store',
+      url: 'store',
+      type: 'standard',
+      keyword: 'flow'
     },
     {
       name: 'store group',

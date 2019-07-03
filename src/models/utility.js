@@ -390,6 +390,12 @@ export default [
         keyword: ''
     },
     {
+      name: 'component customization',
+      url: 'component_customization',
+      type: 'utility',
+      keyword: ''
+    },
+    {
         name: 'connected apps',
         url: 'connected_apps',
         type: 'utility',
@@ -600,6 +606,12 @@ export default [
         keyword: ''
     },
     {
+      name: 'education',
+      url: 'education',
+      type: 'utility',
+      keyword: ''
+    },
+    {
         name: 'einstein',
         url: 'einstein',
         type: 'utility',
@@ -732,6 +744,12 @@ export default [
         keyword: ''
     },
     {
+      name: 'form factor support',
+      url: 'form_factor_support',
+      type: 'utility',
+      keyword: ''
+    },
+    {
         name: 'formula',
         url: 'formula',
         type: 'utility',
@@ -812,6 +830,12 @@ export default [
     {
       name: 'hide mobile',
       url: 'hide_mobile',
+      type: 'utility',
+      keyword: ''
+    },
+    {
+      name: 'high velocity sales',
+      url: 'high_velocity_sales',
       type: 'utility',
       keyword: ''
     },
@@ -1464,6 +1488,12 @@ export default [
         keyword: 'chat'
     },
     {
+      name: 'quip',
+      url: 'quip',
+      type: 'utility',
+      keyword: 'chat'
+    },
+    {
       name: 'quote',
       url: 'quote',
       type: 'utility',
@@ -1528,6 +1558,18 @@ export default [
         url: 'record',
         type: 'utility',
         keyword: ''
+    },
+    {
+      name: 'recycle bin empty',
+      url: 'recycle_bin_empty',
+      type: 'utility',
+      keyword: ''
+    },
+    {
+      name: 'recycle bin full',
+      url: 'recycle_bin_full',
+      type: 'utility',
+      keyword: ''
     },
     {
         name: 'redo',
@@ -1779,7 +1821,13 @@ export default [
         name: 'shield',
         url: 'shield',
         type: 'utility',
-        keyword: ''
+        keyword: 'protection, privacy'
+    },
+    {
+      name: 'shift ui',
+      url: 'shift_ui',
+      type: 'utility',
+      keyword: 'component, customization'
     },
     {
         name: 'shopping bag',
@@ -1888,6 +1936,12 @@ export default [
         url: 'stop',
         type: 'utility',
         keyword: ''
+    },
+    {
+      name: 'store',
+      url: 'store',
+      type: 'utility',
+      keyword: ''
     },
     {
         name: 'strategy',
