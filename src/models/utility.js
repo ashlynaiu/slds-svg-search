@@ -528,6 +528,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'desktop and phone',
+        url: 'desktop_and_phone',
+        type: 'utility',
+        keyword: ''
+    },
+    {
         name: 'desktop console',
         url: 'desktop_console',
         type: 'utility',
@@ -742,12 +748,6 @@ export default [
         url: 'food_and_drink',
         type: 'utility',
         keyword: ''
-    },
-    {
-      name: 'form factor support',
-      url: 'form_factor_support',
-      type: 'utility',
-      keyword: ''
     },
     {
         name: 'formula',

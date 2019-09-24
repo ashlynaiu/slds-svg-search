@@ -72,6 +72,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'app',
+        url: 'app',
+        type: 'standard',
+        keyword: ''
+    },
+    {
         name: 'approval',
         url: 'approval',
         type: 'standard',
@@ -288,6 +294,12 @@ export default [
         keyword: ''
     },
     {
+        name: 'chart',
+        url: 'chart',
+        type: 'standard',
+        keyword: ''
+    },
+    {
         name: 'choice',
         url: 'choice',
         type: 'standard',
@@ -414,8 +426,20 @@ export default [
         keyword: ''
     },
     {
+        name: 'dashboard ea',
+        url: 'dashboard_ea',
+        type: 'standard',
+        keyword: ''
+    },
+    {
         name: 'data integration hub',
         url: 'data_integration_hub',
+        type: 'standard',
+        keyword: ''
+    },
+    {
+        name: 'dataset',
+        url: 'dataset',
         type: 'standard',
         keyword: ''
     },
@@ -1503,19 +1527,25 @@ export default [
         name: 'steps',
         url: 'steps',
         type: 'standard',
-        keyword: 'flow'
+        keyword: 'flow, process builder'
     },
     {
       name: 'store',
       url: 'store',
       type: 'standard',
-      keyword: 'flow'
+      keyword: ''
     },
     {
       name: 'store group',
       url: 'store_group',
       type: 'standard',
-      keyword: 'flow'
+      keyword: ''
+    },
+    {
+      name: 'story',
+      url: 'story',
+      type: 'standard',
+      keyword: ''
     },
     {
         name: 'strategy',
