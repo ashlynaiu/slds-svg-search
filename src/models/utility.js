@@ -546,6 +546,12 @@ export default [
         keyword: ''
     },
     {
+      name: 'diamond',
+      url: 'diamond',
+      type: 'utility',
+      keyword: ''
+    },
+    {
         name: 'dislike',
         url: 'dislike',
         type: 'utility',
@@ -658,6 +664,18 @@ export default [
         url: 'end_messaging_session',
         type: 'utility',
         keyword: ''
+    },
+    {
+      name: 'engage',
+      url: 'engage',
+      type: 'utility',
+      keyword: ''
+    },
+    {
+      name: 'enter',
+      url: 'enter',
+      type: 'utility',
+      keyword: ''
     },
     {
         name: 'erect window',
@@ -1000,6 +1018,12 @@ export default [
         url: 'light_bulb',
         type: 'utility',
         keyword: ''
+    },
+    {
+      name: 'lightning extension',
+      url: 'lightning_extension',
+      type: 'utility',
+      keyword: ''
     },
     {
       name: 'lightning inspector',
@@ -1656,10 +1680,16 @@ export default [
         keyword: ''
     },
     {
-        name: 'retweet',
-        url: 'retweet',
+      name: 'retweet',
+      url: 'retweet',
+      type: 'utility',
+      keyword: ''
+    },
+    {
+        name: 'retail execution',
+        url: 'retail_execution',
         type: 'utility',
-        keyword: ''
+        keyword: 'industries'
     },
     {
       name: 'ribbon',
@@ -1856,6 +1886,18 @@ export default [
     {
       name: 'skip',
       url: 'skip',
+      type: 'utility',
+      keyword: ''
+    },
+    {
+      name: 'skip back',
+      url: 'skip_back',
+      type: 'utility',
+      keyword: ''
+    },
+    {
+      name: 'skip forward',
+      url: 'skip_forward',
       type: 'utility',
       keyword: ''
     },
@@ -2140,6 +2182,12 @@ export default [
         url: 'trail',
         type: 'utility',
         keyword: 'travel, outdoor'
+    },
+    {
+      name: 'trailhead',
+      url: 'trailhead',
+      type: 'utility',
+      keyword: 'travel, outdoor'
     },
     {
         name: 'travel and places',

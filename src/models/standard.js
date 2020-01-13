@@ -1344,6 +1344,18 @@ export default [
         keyword: 'opportunity, lead'
     },
     {
+      name: 'sales value',
+      url: 'sales_value',
+      type: 'standard',
+      keyword: ''
+    },
+    {
+      name: 'salesforce cms',
+      url: 'salesforce_cms',
+      type: 'standard',
+      keyword: 'customer management system'
+    },
+    {
         name: 'scan card',
         url: 'scan_card',
         type: 'standard',
@@ -1420,6 +1432,12 @@ export default [
         url: 'service_territory_member',
         type: 'standard',
         keyword: ''
+    },
+    {
+      name: 'settings',
+      url: 'settings',
+      type: 'standard',
+      keyword: ''
     },
     {
       name: 'shift',
@@ -1706,6 +1724,12 @@ export default [
     {
       name: 'visualforce page',
       url: 'visualforce_page',
+      type: 'standard',
+      keyword: ''
+    },
+    {
+      name: 'voice call',
+      url: 'voice_call',
       type: 'standard',
       keyword: ''
     },
