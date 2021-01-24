@@ -10,11 +10,11 @@
     "@salesforce-ux/design-system": "^2.11.0",
     "history": "^4.10.1",
     "node-sass-chokidar": "^1.5.0",
-    "npm": "^6.14.6",
+    "npm": "^7.4.3",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "^3.4.0",
+    "react-scripts": "3.4.4",
     "react-scrollable-anchor": "^0.6.0"
   },
   "scripts": {
@@ -26,9 +26,6 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "deploy": "ns ./build --cmd 'list ./content -s'"
-  },
-  "eslintConfig": {
-    "extends": "./node_modules/react-scripts/config/eslint.js"
   },
   "browserslist": {
     "production": [
