@@ -30,6 +30,12 @@ export default [
         keyword: ''
     },
     {
+      name: 'adjust value',
+      url: 'adjust_value',
+      type: 'action',
+      keyword: ''
+    },
+    {
         name: 'remove relationship',
         url: 'remove_relationship',
         type: 'action',

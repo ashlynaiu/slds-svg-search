@@ -18,6 +18,12 @@ export default [
         keyword: ''
     },
     {
+      name: 'activation target',
+      url: 'activation_target',
+      type: 'standard',
+      keyword: ''
+    },
+    {
         name: 'address',
         url: 'address',
         type: 'standard',
@@ -102,10 +108,40 @@ export default [
         keyword: 'book, knowledge'
     },
     {
+      name: 'asset_action',
+      url: 'asset_action',
+      type: 'standard',
+      keyword: ''
+    },
+    {
+      name: 'asset downtime period',
+      url: 'asset_downtime_period',
+      type: 'standard',
+      keyword: ''
+    },
+    {
+      name: 'asset object',
+      url: 'asset_object',
+      type: 'standard',
+      keyword: ''
+    },
+    {
         name: 'asset relationship',
         url: 'asset_relationship',
         type: 'standard',
         keyword: ''
+    },
+    {
+      name: 'asset state period',
+      url: 'asset_state_period',
+      type: 'standard',
+      keyword: ''
+    },
+    {
+      name: 'asset warranty',
+      url: 'asset_warranty',
+      type: 'standard',
+      keyword: ''
     },
     {
         name: 'assignment',
@@ -174,10 +210,16 @@ export default [
       keyword: ''
     },
     {
-        name: 'calibration',
-        url: 'calibration',
+        name: 'call coaching',
+        url: 'call_coaching',
         type: 'standard',
         keyword: ''
+    },
+    {
+      name: 'call',
+      url: 'call',
+      type: 'standard',
+      keyword: ''
     },
     {
         name: 'call history',
@@ -202,6 +244,12 @@ export default [
         url: 'campaign',
         type: 'standard',
         keyword: ''
+    },
+    {
+      name: 'cancel checkout',
+      url: 'cancel_checkout',
+      type: 'standard',
+      keyword: ''
     },
     {
         name: 'canvas',
@@ -252,6 +300,12 @@ export default [
         keyword: ''
     },
     {
+      name: 'case wrap up',
+      url: 'case_wrap_up',
+      type: 'standard',
+      keyword: ''
+    },
+    {
         name: 'case',
         url: 'case',
         type: 'standard',
@@ -300,6 +354,12 @@ export default [
         keyword: ''
     },
     {
+      name: 'checkout',
+      url: 'checkout',
+      type: 'standard',
+      keyword: ''
+    },
+    {
         name: 'choice',
         url: 'choice',
         type: 'standard',
@@ -328,7 +388,13 @@ export default [
       url: 'code_playground',
       type: 'standard',
       keyword: ''
-  },
+    },
+    {
+      name: 'collection',
+      url: 'collection',
+      type: 'standard',
+      keyword: ''
+    },
     {
         name: 'collection variable',
         url: 'collection_variable',
@@ -402,6 +468,12 @@ export default [
         keyword: ''
     },
     {
+      name: 'custom component task',
+      url: 'custom_component_task',
+      type: 'standard',
+      keyword: ''
+    },
+    {
         name: 'customer portal users',
         url: 'customer_portal_users',
         type: 'standard',
@@ -450,6 +522,18 @@ export default [
         keyword: ''
     },
     {
+      name: 'data model',
+      url: 'data_model',
+      type: 'standard',
+      keyword: ''
+    },
+    {
+      name: 'data mapping',
+      url: 'data_mapping',
+      type: 'standard',
+      keyword: ''
+    },
+    {
         name: 'date time',
         url: 'date_time',
         type: 'standard',
@@ -470,6 +554,12 @@ export default [
     {
       name: 'delegated account',
       url: 'delegated_account',
+      type: 'standard',
+      keyword: 'flow'
+    },
+    {
+      name: 'device',
+      url: 'device',
       type: 'standard',
       keyword: 'flow'
     },
@@ -510,6 +600,12 @@ export default [
       keyword: ''
     },
     {
+      name: 'einstein replies',
+      url: 'einstein_replies',
+      type: 'standard',
+      keyword: ''
+    },
+    {
         name: 'email chatter',
         url: 'email_chatter',
         type: 'standard',
@@ -520,6 +616,36 @@ export default [
         url: 'email',
         type: 'standard',
         keyword: ''
+    },
+    {
+      name: 'employee',
+      url: 'employee',
+      type: 'standard',
+      keyword: ''
+    },
+    {
+      name: 'employee job',
+      url: 'employee_job',
+      type: 'standard',
+      keyword: ''
+    },
+    {
+      name: 'employee job position',
+      url: 'employee_job_position',
+      type: 'standard',
+      keyword: ''
+    },
+    {
+      name: 'employee organization',
+      url: 'employee_organization',
+      type: 'standard',
+      keyword: ''
+    },
+    {
+      name: 'employee asset',
+      url: 'employee_asset',
+      type: 'standard',
+      keyword: ''
     },
     {
         name: 'empty',
@@ -588,6 +714,24 @@ export default [
       keyword: 'calendar, day, month, year, meeting'
     },
     {
+      name: 'expense',
+      url: 'expense',
+      type: 'standard',
+      keyword: 'calendar, day, month, year, meeting'
+    },
+    {
+      name: 'expense report',
+      url: 'expense_report',
+      type: 'standard',
+      keyword: 'calendar, day, month, year, meeting'
+    },
+    {
+      name: 'expense report entry',
+      url: 'expense_report_entry',
+      type: 'standard',
+      keyword: 'calendar, day, month, year, meeting'
+    },
+    {
         name: 'feed',
         url: 'feed',
         type: 'standard',
@@ -608,6 +752,18 @@ export default [
     {
       name: 'filter',
       url: 'filter',
+      type: 'standard',
+      keyword: ''
+    },
+    {
+      name: 'filter criteria',
+      url: 'filter_criteria',
+      type: 'standard',
+      keyword: ''
+    },
+    {
+      name: 'filiter criteria rule',
+      url: 'filiter_criteria_rule',
       type: 'standard',
       keyword: ''
     },
@@ -634,6 +790,12 @@ export default [
         url: 'forecasts',
         type: 'standard',
         keyword: ''
+    },
+    {
+      name: 'form',
+      url: 'form',
+      type: 'standard',
+      keyword: 'flow, logic'
     },
     {
         name: 'formula',
@@ -678,8 +840,20 @@ export default [
         keyword: ''
     },
     {
+      name: 'guidance center',
+      url: 'guidance_center',
+      type: 'standard',
+      keyword: ''
+    },
+    {
       name: 'home',
       url: 'home',
+      type: 'standard',
+      keyword: ''
+    },
+    {
+      name: 'holiday operating hours',
+      url: 'holiday_operating_hours',
       type: 'standard',
       keyword: ''
     },
@@ -694,6 +868,12 @@ export default [
         url: 'household',
         type: 'standard',
         keyword: ''
+    },
+    {
+      name: 'immunization',
+      url: 'immunization',
+      type: 'standard',
+      keyword: ''
     },
     {
         name: 'individual',
@@ -738,6 +918,18 @@ export default [
         keyword: 'connected'
     },
     {
+      name: 'job family',
+      url: 'job_family',
+      type: 'standard',
+      keyword: 'connected'
+    },
+    {
+      name: 'job position',
+      url: 'job_position',
+      type: 'standard',
+      keyword: 'connected'
+    },
+    {
       name: 'job profile',
       url: 'job_profile',
       type: 'standard',
@@ -748,6 +940,12 @@ export default [
         url: 'kanban',
         type: 'standard',
         keyword: 'GUS'
+    },
+    {
+      name: 'key dates',
+      url: 'key_dates',
+      type: 'standard',
+      keyword: ''
     },
     {
         name: 'knowledge',
@@ -778,7 +976,7 @@ export default [
       url: 'letterhead',
       type: 'standard',
       keyword: ''
-  },
+    },
     {
         name: 'live chat',
         url: 'live_chat',
@@ -822,6 +1020,12 @@ export default [
         keyword: 'map, directions'
     },
     {
+      name: 'location permit',
+      url: 'location_permit',
+      type: 'standard',
+      keyword: 'map, directions'
+    },
+    {
         name: 'log a call',
         url: 'log_a_call',
         type: 'standard',
@@ -856,6 +1060,12 @@ export default [
         url: 'maintenance_asset',
         type: 'standard',
         keyword: 'group, folder'
+    },
+    {
+      name: 'maintenance work rule',
+      url: 'maintenance_work_rule',
+      type: 'standard',
+      keyword: 'group, folder'
     },
     {
         name: 'marketing actions',
@@ -923,6 +1133,12 @@ export default [
         type: 'standard',
         keyword: ''
     },
+    {
+      name: 'observation component',
+      url: 'observation_component',
+      type: 'standard',
+      keyword: ''
+  },
     {
         name: 'omni supervisor',
         url: 'omni_supervisor',
@@ -1020,6 +1236,12 @@ export default [
         keyword: ''
     },
     {
+      name: 'payment gateway',
+      url: 'payment_gateway',
+      type: 'standard',
+      keyword: ''
+    },
+    {
         name: 'people',
         url: 'people',
         type: 'standard',
@@ -1060,7 +1282,7 @@ export default [
       url: 'planogram',
       type: 'standard',
       keyword: ''
-  },
+    },
     {
         name: 'poll',
         url: 'poll',
@@ -1092,22 +1314,70 @@ export default [
         keyword: ''
     },
     {
+      name: 'practitioner role',
+      url: 'practitioner_role',
+      type: 'standard',
+      keyword: ''
+    },
+    {
         name: 'pricebook',
         url: 'pricebook',
         type: 'standard',
         keyword: ''
     },
     {
-        name: 'process',
-        url: 'process',
-        type: 'standard',
-        keyword: 'flow, builder'
+      name: 'price books',
+      url: 'price_books',
+      type: 'standard',
+      keyword: ''
+    },
+    {
+      name: 'price_book entries',
+      url: 'price_book_entries',
+      type: 'standard',
+      keyword: ''
+    },
+    {
+      name: 'pricing workspace',
+      url: 'pricing_workspace',
+      type: 'standard',
+      keyword: ''
+    },
+    {
+      name: 'procedure',
+      url: 'procedure',
+      type: 'standard',
+      keyword: 'flow, builder'
+    },
+    {
+      name: 'procedure detail',
+      url: 'procedure_detail',
+      type: 'standard',
+      keyword: 'flow, builder'
+    },
+    {
+      name: 'process',
+      url: 'process',
+      type: 'standard',
+      keyword: 'flow, builder'
+    },
+    {
+      name: 'process exception',
+      url: 'process_exception',
+      type: 'standard',
+      keyword: 'flow, builder'
     },
     {
         name: 'product',
         url: 'product',
         type: 'standard',
         keyword: 'price, item, expressed interest'
+    },
+    {
+      name: 'products',
+      url: 'products',
+      type: 'standard',
+      keyword: 'price, item, expressed interest'
     },
     {
         name: 'product consumed',
@@ -1146,10 +1416,34 @@ export default [
         keyword: ''
     },
     {
+      name: 'product service campaign',
+      url: 'product_service_campaign',
+      type: 'standard',
+      keyword: 'switch, rotate'
+    },
+    {
+      name: 'product service campaign item',
+      url: 'product_service_campaign_item',
+      type: 'standard',
+      keyword: 'switch, rotate'
+    },
+    {
         name: 'product transfer',
         url: 'product_transfer',
         type: 'standard',
         keyword: 'switch, rotate'
+    },
+    {
+      name: 'product warranty term',
+      url: 'product_warranty_term',
+      type: 'standard',
+      keyword: 'switch, rotate'
+    },
+    {
+      name: 'product workspace',
+      url: 'product_workspace',
+      type: 'standard',
+      keyword: 'switch, rotate'
     },
     {
         name: 'proposition',
@@ -1218,6 +1512,12 @@ export default [
         keyword: ''
     },
     {
+      name: 'recipe',
+      url: 'recipe',
+      type: 'standard',
+      keyword: ''
+    },
+    {
         name: 'record',
         url: 'record',
         type: 'standard',
@@ -1242,6 +1542,12 @@ export default [
         keyword: ''
     },
     {
+      name: 'record signature task',
+      url: 'record_signature_task',
+      type: 'standard',
+      keyword: ''
+    },
+    {
         name: 'record update',
         url: 'record_update',
         type: 'standard',
@@ -1264,6 +1570,12 @@ export default [
         url: 'relationship',
         type: 'standard',
         keyword: ''
+    },
+    {
+      name: 'reply text',
+      url: 'reply_text',
+      type: 'standard',
+      keyword: ''
     },
     {
         name: 'report',
@@ -1362,16 +1674,58 @@ export default [
         keyword: ''
     },
     {
+      name: 'scheduling constraint',
+      url: 'scheduling_constraint',
+      type: 'standard',
+      keyword: ''
+    },
+    {
+      name: 'schedule objective',
+      url: 'schedule_objective',
+      type: 'standard',
+      keyword: ''
+    },
+    {
+      name: 'scheduling policy',
+      url: 'scheduling_policy',
+      type: 'standard',
+      keyword: ''
+    },
+    {
         name: 'screen',
         url: 'screen',
         type: 'standard',
         keyword: ''
     },
     {
-        name: 'search',
-        url: 'search',
+        name: 'section',
+        url: 'section',
         type: 'standard',
         keyword: ''
+    },
+    {
+      name: 'search',
+      url: 'search',
+      type: 'standard',
+      keyword: ''
+    },
+    {
+      name: 'segments',
+      url: 'segments',
+      type: 'standard',
+      keyword: ''
+    },
+    {
+      name: 'serialized product transaction',
+      url: 'serialized_product_transaction',
+      type: 'standard',
+      keyword: ''
+    },
+    {
+      name: 'serialized product',
+      url: 'serialized_product',
+      type: 'standard',
+      keyword: ''
     },
     {
         name: 'service appointment',
@@ -1410,6 +1764,18 @@ export default [
         keyword: ''
     },
     {
+      name: 'service request',
+      url: 'service_request',
+      type: 'standard',
+      keyword: ''
+    },
+    {
+      name: 'service request detail',
+      url: 'service_request_detail',
+      type: 'standard',
+      keyword: ''
+    },
+    {
         name: 'service resource',
         url: 'service_resource',
         type: 'standard',
@@ -1446,6 +1812,30 @@ export default [
       keyword: ''
     },
     {
+      name: 'shift pattern',
+      url: 'shift_pattern',
+      type: 'standard',
+      keyword: ''
+    },
+    {
+      name: 'shift pattern entry',
+      url: 'shift_pattern_entry',
+      type: 'standard',
+      keyword: ''
+    },
+    {
+      name: 'shift preference',
+      url: 'shift_preference',
+      type: 'standard',
+      keyword: ''
+    },
+    {
+      name: 'shift template',
+      url: 'shift_template',
+      type: 'standard',
+      keyword: ''
+    },
+    {
       name: 'shift_type',
       url: 'shift_type',
       type: 'standard',
@@ -1474,6 +1864,12 @@ export default [
         url: 'skill',
         type: 'standard',
         keyword: ''
+    },
+    {
+      name: 'slider',
+      url: 'slider',
+      type: 'standard',
+      keyword: ''
     },
     {
         name: 'sms',
@@ -1570,6 +1966,12 @@ export default [
         url: 'strategy',
         type: 'standard',
         keyword: ''
+    },
+    {
+      name: 'swarm request',
+      url: 'swarm_request',
+      type: 'standard',
+      keyword: 'flow'
     },
     {
         name: 'survey',
@@ -1680,10 +2082,28 @@ export default [
         keyword: ''
     },
     {
-        name: 'trailhead',
-        url: 'trailhead',
+      name: 'toggle',
+      url: 'toggle',
+      type: 'standard',
+      keyword: ''
+    },
+    {
+        name: 'trailhead alt',
+        url: 'trailhead_alt',
         type: 'standard',
         keyword: ''
+    },
+    {
+      name: 'trailhead',
+      url: 'trailhead',
+      type: 'standard',
+      keyword: ''
+    },
+    {
+      name: 'travel mode',
+      url: 'travel_mode',
+      type: 'standard',
+      keyword: ''
     },
     {
         name: 'unmatched',
@@ -1710,6 +2130,24 @@ export default [
         keyword: ''
     },
     {
+      name: 'variation attribute setup',
+      url: 'variation_attribute_setup',
+      type: 'standard',
+      keyword: ''
+    },
+    {
+      name: 'variation products',
+      url: 'variation_products',
+      type: 'standard',
+      keyword: ''
+    },
+    {
+      name: 'video',
+      url: 'video',
+      type: 'standard',
+      keyword: ''
+    },
+    {
       name: 'visits',
       url: 'visits',
       type: 'standard',
@@ -1734,10 +2172,28 @@ export default [
       keyword: ''
     },
     {
+      name: 'warranty term',
+      url: 'warranty_term',
+      type: 'standard',
+      keyword: ''
+    },
+    {
         name: 'waits',
         url: 'waits',
         type: 'standard',
         keyword: 'flow'
+    },
+    {
+      name: 'webcart',
+      url: 'webcart',
+      type: 'standard',
+      keyword: ''
+    },
+    {
+      name: 'work contract',
+      url: 'work_contract',
+      type: 'standard',
+      keyword: ''
     },
     {
         name: 'work capacity limit',
@@ -1762,6 +2218,36 @@ export default [
         url: 'work_order',
         type: 'standard',
         keyword: ''
+    },
+    {
+      name: 'work plan',
+      url: 'work_plan',
+      type: 'standard',
+      keyword: ''
+    },
+    {
+      name: 'work plan template entry',
+      url: 'work_plan_template_entry',
+      type: 'standard',
+      keyword: ''
+    },
+    {
+      name: 'work plan template',
+      url: 'work_plan_template',
+      type: 'standard',
+      keyword: ''
+    },
+    {
+      name: 'work step template',
+      url: 'work_step_template',
+      type: 'standard',
+      keyword: ''
+    },
+    {
+      name: 'work step',
+      url: 'work_step',
+      type: 'standard',
+      keyword: ''
     },
     {
         name: 'work queue',

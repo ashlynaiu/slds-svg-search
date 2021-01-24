@@ -12,6 +12,12 @@ export default [
         keyword: ''
     },
     {
+      name: 'adjust value',
+      url: 'adjust_value',
+      type: 'utility',
+      keyword: ''
+    },
+    {
         name: 'adduser',
         url: 'adduser',
         type: 'utility',
@@ -102,10 +108,22 @@ export default [
         keyword: ''
     },
     {
-        name: 'answered twice',
-        url: 'answered_twice',
+      name: 'anywhere alert',
+      url: 'anywhere_alert',
+      type: 'utility',
+      keyword: ''
+    },
+    {
+        name: 'anywhere chat',
+        url: 'anywhere_chat',
         type: 'utility',
         keyword: ''
+    },
+    {
+      name: 'answered twice',
+      url: 'answered_twice',
+      type: 'utility',
+      keyword: ''
     },
     {
         name: 'apps',
@@ -120,6 +138,18 @@ export default [
         keyword: 'arrow, down, return, go back, dropdown, drop down'
     },
     {
+      name: 'arrow top',
+      url: 'arrow_top',
+      type: 'utility',
+      keyword: 'arrow, down, return, go back, dropdown, drop down'
+    },
+    {
+      name: 'arrow bottom',
+      url: 'arrow_bottom',
+      type: 'utility',
+      keyword: 'arrow, down, return, go back, dropdown, drop down'
+    },
+    {
         name: 'arrowdown',
         url: 'arrowdown',
         type: 'utility',
@@ -130,6 +160,12 @@ export default [
         url: 'arrowup',
         type: 'utility',
         keyword: 'arrow, up, return, go back'
+    },
+    {
+      name: 'asset warranty',
+      url: 'asset_warranty',
+      type: 'utility',
+      keyword: ''
     },
     {
         name: 'assignment',
@@ -214,6 +250,18 @@ export default [
         url: 'builder',
         type: 'utility',
         keyword: ''
+    },
+    {
+      name: 'bug',
+      url: 'bug',
+      type: 'utility',
+      keyword: ''
+    },
+    {
+      name: 'button choice',
+      url: 'button_choice',
+      type: 'utility',
+      keyword: ''
     },
     {
         name: 'call',
@@ -306,6 +354,12 @@ export default [
         keyword: ''
     },
     {
+      name: 'checkout',
+      url: 'checkout',
+      type: 'utility',
+      keyword: ''
+    },
+    {
         name: 'chevron down',
         url: 'chevrondown',
         type: 'utility',
@@ -364,6 +418,12 @@ export default [
         url: 'collapse_all',
         type: 'utility',
         keyword: ''
+    },
+    {
+      name: 'collection',
+      url: 'collection',
+      type: 'utility',
+      keyword: ''
     },
     {
         name: 'collection variable',
@@ -472,6 +532,12 @@ export default [
         url: 'dash',
         type: 'utility',
         keyword: ''
+    },
+    {
+      name: 'data mapping',
+      url: 'data_mapping',
+      type: 'utility',
+      keyword: ''
     },
     {
         name: 'database',
@@ -696,6 +762,12 @@ export default [
         keyword: 'calendar, day, month, year, meeting'
     },
     {
+      name: 'event ext',
+      url: 'event_ext',
+      type: 'utility',
+      keyword: 'calendar, day, month, year, meeting'
+    },
+    {
         name: 'events',
         url: 'events',
         type: 'utility',
@@ -750,6 +822,18 @@ export default [
         keyword: ''
     },
     {
+      name: 'filter criteria',
+      url: 'filter_criteria',
+      type: 'utility',
+      keyword: ''
+    },
+    {
+      name: 'filter criteria rule',
+      url: 'filter_criteria_rule',
+      type: 'utility',
+      keyword: ''
+    },
+    {
         name: 'filterList',
         url: 'filterList',
         type: 'utility',
@@ -762,10 +846,22 @@ export default [
         keyword: ''
     },
     {
+      name: 'flow alt',
+      url: 'flow_alt',
+      type: 'utility',
+      keyword: ''
+    },
+    {
         name: 'food and drink',
         url: 'food_and_drink',
         type: 'utility',
         keyword: ''
+    },
+    {
+      name: 'form',
+      url: 'form',
+      type: 'utility',
+      keyword: ''
     },
     {
         name: 'formula',
@@ -784,6 +880,12 @@ export default [
         url: 'forward_up',
         type: 'utility',
         keyword: ''
+    },
+    {
+      name: 'freeze column',
+      url: 'freeze_column',
+      type: 'utility',
+      keyword: 'freeze, stop, winter, outdoors'
     },
     {
         name: 'frozen',
@@ -834,6 +936,12 @@ export default [
         keyword: ''
     },
     {
+      name: 'help doc ext',
+      url: 'help_doc_ext',
+      type: 'utility',
+      keyword: ''
+    },
+    {
         name: 'hierarchy',
         url: 'hierarchy',
         type: 'utility',
@@ -854,6 +962,12 @@ export default [
     {
       name: 'high velocity sales',
       url: 'high_velocity_sales',
+      type: 'utility',
+      keyword: ''
+    },
+    {
+      name: 'holiday operating hours',
+      url: 'holiday_operating_hours',
       type: 'utility',
       keyword: ''
     },
@@ -960,10 +1074,28 @@ export default [
         keyword: ''
     },
     {
+      name: 'key',
+      url: 'key',
+      type: 'utility',
+      keyword: ''
+    },
+    {
+      name: 'key_dates',
+      url: 'key_dates',
+      type: 'utility',
+      keyword: ''
+    },
+    {
         name: 'keyboard dismiss',
         url: 'keyboard_dismiss',
         type: 'utility',
         keyword: ''
+    },
+    {
+      name: 'keypad',
+      url: 'keypad',
+      type: 'utility',
+      keyword: ''
     },
     {
         name: 'knowledge base',
@@ -1074,6 +1206,12 @@ export default [
         keyword: ''
     },
     {
+      name: 'location permit',
+      url: 'location_permit',
+      type: 'utility',
+      keyword: ''
+    },
+    {
         name: 'lock',
         url: 'lock',
         type: 'utility',
@@ -1138,6 +1276,36 @@ export default [
         url: 'matrix',
         type: 'utility',
         keyword: ''
+    },
+    {
+      name: 'meet content source',
+      url: 'meet_content_source',
+      type: 'utility',
+      keyword: ''
+    },
+    {
+      name: 'meet focus content',
+      url: 'meet_focus_content',
+      type: 'utility',
+      keyword: ''
+    },
+    {
+      name: 'meet focus equal',
+      url: 'meet_focus_equal',
+      type: 'utility',
+      keyword: ''
+    },
+    {
+      name: 'meet focus presenter',
+      url: 'meet_focus_presenter',
+      type: 'utility',
+      keyword: ''
+    },
+    {
+      name: 'meet present panel',
+      url: 'meet_present_panel',
+      type: 'utility',
+      keyword: ''
     },
     {
         name: 'merge field',
@@ -1266,6 +1434,12 @@ export default [
         keyword: ''
     },
     {
+      name: 'offline briefcase',
+      url: 'offline_briefcase',
+      type: 'utility',
+      keyword: ''
+    },
+    {
         name: 'omni channel',
         url: 'omni_channel',
         type: 'utility',
@@ -1350,10 +1524,34 @@ export default [
         keyword: ''
     },
     {
-        name: 'pause',
-        url: 'pause',
+        name: 'payment gateway',
+        url: 'payment_gateway',
         type: 'utility',
         keyword: ''
+    },
+    {
+      name: 'pause',
+      url: 'pause',
+      type: 'utility',
+      keyword: ''
+    },
+    {
+      name: 'pause alt',
+      url: 'pause_alt',
+      type: 'utility',
+      keyword: ''
+    },
+    {
+      name: 'pdf ext',
+      url: 'pdf_ext',
+      type: 'utility',
+      keyword: ''
+    },
+    {
+      name: 'percent',
+      url: 'percent',
+      type: 'utility',
+      keyword: ''
     },
     {
         name: 'people',
@@ -1410,6 +1608,12 @@ export default [
         keyword: ''
     },
     {
+      name: 'planning poker',
+      url: 'planning_poker',
+      type: 'utility',
+      keyword: ''
+    },
+    {
         name: 'play',
         url: 'play',
         type: 'utility',
@@ -1440,6 +1644,24 @@ export default [
         keyword: ''
     },
     {
+      name: 'price book entries',
+      url: 'price_book_entries',
+      type: 'utility',
+      keyword: ''
+    },
+    {
+      name: 'price books',
+      url: 'price_books',
+      type: 'utility',
+      keyword: ''
+    },
+    {
+      name: 'pricing workspace',
+      url: 'pricing_workspace',
+      type: 'utility',
+      keyword: ''
+    },
+    {
         name: 'print',
         url: 'print',
         type: 'utility',
@@ -1462,6 +1684,36 @@ export default [
         url: 'process',
         type: 'utility',
         keyword: ''
+    },
+    {
+      name: 'product service campaign',
+      url: 'product_service_campaign',
+      type: 'utility',
+      keyword: ''
+    },
+    {
+      name: 'product service campaign item',
+      url: 'product_service_campaign_item',
+      type: 'utility',
+      keyword: ''
+    },
+    {
+      name: 'product warranty term',
+      url: 'product_warranty_term',
+      type: 'utility',
+      keyword: ''
+    },
+    {
+      name: 'product workspace',
+      url: 'product_workspace',
+      type: 'utility',
+      keyword: ''
+    },
+    {
+      name: 'products',
+      url: 'products',
+      type: 'utility',
+      keyword: ''
     },
     {
       name: 'prompt edit',
@@ -1552,6 +1804,12 @@ export default [
         url: 'recurring_exception',
         type: 'utility',
         keyword: ''
+    },
+    {
+      name: 'recipe',
+      url: 'recipe',
+      type: 'utility',
+      keyword: ''
     },
     {
         name: 'record create',
@@ -1758,6 +2016,12 @@ export default [
         keyword: 'flow'
     },
     {
+      name: 'salesforce page',
+      url: 'salesforce_page',
+      type: 'utility',
+      keyword: ''
+    },
+    {
         name: 'salesforce1',
         url: 'salesforce1',
         type: 'utility',
@@ -1782,6 +2046,12 @@ export default [
         keyword: ''
     },
     {
+      name: 'section',
+      url: 'section',
+      type: 'utility',
+      keyword: ''
+    },
+    {
         name: 'send',
         url: 'send',
         type: 'utility',
@@ -1798,6 +2068,18 @@ export default [
         url: 'sentiment_neutral',
         type: 'utility',
         keyword: ''
+    },
+    {
+      name: 'serialized product',
+      url: 'serialized_product',
+      type: 'utility',
+      keyword: ''
+    },
+    {
+      name: 'serialized product transaction',
+      url: 'serialized_product_transaction',
+      type: 'utility',
+      keyword: ''
     },
     {
         name: 'settings',
@@ -1854,6 +2136,18 @@ export default [
         keyword: 'protection, privacy'
     },
     {
+      name: 'shift pattern',
+      url: 'shift_pattern',
+      type: 'utility',
+      keyword: 'component, customization'
+    },
+    {
+      name: 'shift pattern entry',
+      url: 'shift_pattern_entry',
+      type: 'utility',
+      keyword: 'component, customization'
+    },
+    {
       name: 'shift ui',
       url: 'shift_ui',
       type: 'utility',
@@ -1882,6 +2176,12 @@ export default [
         url: 'signpost',
         type: 'utility',
         keyword: ''
+    },
+    {
+      name: 'slider',
+      url: 'slider',
+      type: 'utility',
+      keyword: ''
     },
     {
       name: 'skip',
@@ -2022,6 +2322,12 @@ export default [
         keyword: ''
     },
     {
+      name: 'swarm request',
+      url: 'swarm_request',
+      type: 'utility',
+      keyword: ''
+    },
+    {
         name: 'switch',
         url: 'switch',
         type: 'utility',
@@ -2052,6 +2358,12 @@ export default [
         keyword: ''
     },
     {
+      name: 'table settings',
+      url: 'table_settings',
+      type: 'utility',
+      keyword: ''
+    },
+    {
         name: 'tablet landscape',
         url: 'tablet_landscape',
         type: 'utility',
@@ -2068,6 +2380,12 @@ export default [
         url: 'tabset',
         type: 'utility',
         keyword: ''
+    },
+    {
+      name: 'target',
+      url: 'target',
+      type: 'utility',
+      keyword: ''
     },
     {
         name: 'task',
@@ -2130,6 +2448,12 @@ export default [
         keyword: ''
     },
     {
+      name: 'toggle',
+      url: 'toggle',
+      type: 'utility',
+      keyword: ''
+    },
+    {
         name: 'toggle panel bottom',
         url: 'toggle_panel_bottom',
         type: 'utility',
@@ -2184,8 +2508,26 @@ export default [
         keyword: 'travel, outdoor'
     },
     {
+      name: 'trailblazer ext',
+      url: 'trailblazer_ext',
+      type: 'utility',
+      keyword: 'travel, outdoor'
+    },
+    {
       name: 'trailhead',
       url: 'trailhead',
+      type: 'utility',
+      keyword: 'travel, outdoor'
+    },
+    {
+      name: 'trailhead alt',
+      url: 'trailhead_alt',
+      type: 'utility',
+      keyword: 'travel, outdoor'
+    },
+    {
+      name: 'trailhead ext',
+      url: 'trailhead_ext',
       type: 'utility',
       keyword: 'travel, outdoor'
     },
@@ -2292,6 +2634,18 @@ export default [
         keyword: ''
     },
     {
+      name: 'variation attribute setup',
+      url: 'variation_attribute_setup',
+      type: 'utility',
+      keyword: ''
+    },
+    {
+      name: 'variation products',
+      url: 'variation_products',
+      type: 'utility',
+      keyword: ''
+    },
+    {
         name: 'volume high',
         url: 'volume_high',
         type: 'utility',
@@ -2326,6 +2680,18 @@ export default [
         url: 'warning',
         type: 'utility',
         keyword: 'stop, notification'
+    },
+    {
+      name: 'warranty term',
+      url: 'warranty_term',
+      type: 'utility',
+      keyword: 'stop, notification'
+    },
+    {
+      name: 'watchlist',
+      url: 'watchlist',
+      type: 'utility',
+      keyword: 'stop, notification'
     },
     {
         name: 'weekly view',
